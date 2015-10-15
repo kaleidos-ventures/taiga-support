@@ -13,6 +13,8 @@ __pycache__/
 cache/
 *.egg-info/
 
+*.swp
+
 # virtualenvwrapper oh-my-zsh plugin
 .venv
 
