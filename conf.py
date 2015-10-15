@@ -1098,6 +1098,13 @@ UNSLUGIFY_TITLES = True
 #     # 'site': '@website',         # twitter nick for the website
 #     # 'creator': '@username',     # Username for the content creator / author.
 # }
+TWITTER_CARD = {
+    'use_twitter_cards': True,  # enable Twitter Cards
+    'card': 'summary',          # Card type, you can also use 'summary_large_image',
+                                # see https://dev.twitter.com/cards/types
+    'site': '@taigaio',         # twitter nick for the website
+    'creator': '@taigaio',      # Username for the content creator / author.
+}
 
 # If webassets is installed, bundle JS and CSS into single files to make
 # site loading faster in a HTTP/1.1 environment but is not recommended for
