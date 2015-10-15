@@ -1,0 +1,1 @@
+Nikola[extras]==7.7.2

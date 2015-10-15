@@ -1,0 +1,26 @@
+*.py[co]
+*.db
+*~
+/dist
+*.log
+*.diff
+*.patch
+tmp/
+output/
+build/
+.idea/
+__pycache__/
+cache/
+*.egg-info/
+
+# virtualenvwrapper oh-my-zsh plugin
+.venv
+
+# coverage.py
+.coverage
+
+# pyenv
+.python-version
+
+# GitHub token
+.pypt/gh-token
