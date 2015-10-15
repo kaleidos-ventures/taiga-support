@@ -84,10 +84,10 @@ DEFAULT_LANG = "en"
 # What other languages do you have?
 # The format is {"translationcode" : "path/to/translation" }
 # the path will be used as a prefix for the generated pages location
-TRANSLATIONS = {
-    DEFAULT_LANG: "",
-    "es": "./es",
-}
+#TRANSLATIONS = {
+#    DEFAULT_LANG: "",
+#    "es": "./es",
+#}
 
 # What will translated input files be named like?
 
@@ -97,7 +97,7 @@ TRANSLATIONS = {
 # this pattern is also used for metadata:
 #     something.meta -> something.pl.meta
 
-TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
+#TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 
 # Links for the sidebar / navigation bar.  (translatable)
 # This is a dict.  The keys are languages, and values are tuples.
@@ -127,15 +127,15 @@ TRANSLATIONS_PATTERN = "{path}.{lang}.{ext}"
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         #("/archive.html", "Archive"),
-        ("/categories/", "Tags"),
+        ("/categories/", "Categories"),
         #("/rss.xml", "RSS feed"),
     ),
 
-    "es": (
-        #("/es/archive.html", "Archivo"),
-        ("/es/categories/", "Etiquetas"),
-        #("/es/rss.xml", "Canal RSS"),
-    ),
+    #"es": (
+    #    #("/es/archive.html", "Archivo"),
+    #    ("/es/categories/", "Categorías"),
+    #    #("/es/rss.xml", "Canal RSS"),
+    #),
 }
 
 # Name of the theme to use.
