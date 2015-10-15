@@ -1,0 +1,34 @@
+.. title: What's the difference between public and private projects?
+.. slug: whats-the-difference-between-public-and-private-projects
+.. date: 2015-10-15 18:08:42 UTC+02:00
+.. tags: 
+.. category:  FAQs
+.. order: 80
+.. link: 
+.. description: 
+.. type: text
+
+*For now, all projects on Taiga.io are private. Users will be able to
+select whether they would like their projects to remain private or allow
+them to be viewable publicly.*
+
+Taiga’s community is made up of talented developers, project managers,
+designers working for both startups and Fortune 500 companies. We are
+now developing some very cool functionality that we think our community
+will benefit from. We don’t want to give too much away, but some of the
+features that you can expect include:
+
+-  Being able to search through the projects on taiga
+-  Meeting the development teams
+-  Understanding the scope of their projects
+-  Diving into the details of what they are doing (on a read only basis)
+-  Following and observing particular user stories / tasks.
+
+We are creating a mechanism whereby valuable information can be
+exchanged, specific to the development process.
+
+**Of course, we understand that some users require privacy.** For those,
+Taiga.io continues to offer access to our tool on a free basis via the
+self-install option, or alternatively we will offer them the ability to
+continue using Taiga.io’s hosted platform by subscribing to one of our
+(very affordable) plans.
