@@ -47,5 +47,5 @@ Join us to make sure your language is covered!
 
 .. _Help Taiga to trasnlate content: https://www.transifex.com/organization/taiga-agile-llc/
 
-.. |User Preferences > User Profile| image:: /resources/can-i-use-taiga-in-my-language/change_lang_0.png
-.. |Language selector| image:: /resources/can-i-use-taiga-in-my-language/change_lang_1.png
+.. |User Preferences > User Profile| image:: /resources/faqs/can-i-use-taiga-in-my-language/change_lang_0.png
+.. |Language selector| image:: /resources/faqs/can-i-use-taiga-in-my-language/change_lang_1.png
