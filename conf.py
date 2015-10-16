@@ -21,7 +21,7 @@ BLOG_AUTHOR = "Taiga Agile LLC"  # (translatable)
 BLOG_TITLE = "Taiga Help"  # (translatable)
 # This is the main URL for your site. It will be used
 # in a prominent link. Don't forget the protocol (http/https)!
-SITE_URL = "https://support.taiga.io/"
+SITE_URL = "http://taigaio.github.io/taiga-support/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://support.taiga.io/"
