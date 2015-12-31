@@ -20,7 +20,7 @@ export PATH=":$PATH:$(ruby -e "print Gem.user_dir")/bin"
 sass -v             # should return something like 'Sass 3.4.11 (Selective Steve)'
 ```
 
-- Install webpacki
+- Install Webpack
 ```
 cd taiga-support/webpack
 npm install
@@ -29,9 +29,11 @@ npm install
 
 ### Commands
 
-- ```lektor server -f webpack```
-  Run the dev server.
-- ```lektor build -f webpack```
-  Build the web site.
-- ```lektor clean```
-  Cleans the entire build folder.
+```lektor server -f webpack```
+: Run the dev server.
+
+```lektor build -f webpack```
+: Build the web site.
+
+```lektor clean```
+: Cleans the entire build folder.
