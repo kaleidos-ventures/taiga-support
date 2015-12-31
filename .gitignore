@@ -26,3 +26,9 @@ cache/
 
 # GitHub token
 .pypt/gh-token
+
+# Node
+node_modules/
+
+# Generated files
+gen/

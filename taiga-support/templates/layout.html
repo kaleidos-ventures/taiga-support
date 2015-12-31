@@ -1,0 +1,30 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>{% block title %}Welcome{% endblock %} — Taiga Support</title>
+
+<link rel="stylesheet" href="{{ '/static/gen/styles.css'|asseturl }}">
+<script type=text/javascript src="{{ '/static/gen/app.js'|asseturl }}" charset="utf-8"></script>
+
+<body>
+    <header>
+        <h1>Taiga Support</h1>
+
+        <nav>
+            <ul class="nav navbar-nav">
+                {# <li{% if this._path == '/' %} class="active"{% endif%}><a href="{{ '/'|url }}">Welcome</a></li> #}
+                <li>Technical Docs</li>
+                <li>API Doc</li>
+                <li>Mailing list</li>
+                <li>Taiga</li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page">
+        {% block body %}{% endblock %}
+    </div>
+
+    <footer>
+        &copy; Copyright 2015 by Taiga Agile LLC.
+    </footer>
+</body>

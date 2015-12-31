@@ -1,0 +1,5 @@
+[project]
+name = Taiga Support
+
+[packages]
+lektor-webpack-support = 0.1
