@@ -27,7 +27,7 @@ npm install
 ```
 
 
-### Commands
+#### Commands
 
 ```lektor server -f webpack```
 : Run the dev server.
