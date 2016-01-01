@@ -1,0 +1,5 @@
+{% macro render_category(category, active=none) %}
+	<div{% if category._id == active %} class="active"{% endif %}>
+		<a href="{{ category|url }}">{{ category.name }}</a>
+	</div>
+{% endmacro %}

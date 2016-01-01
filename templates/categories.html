@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+{% from "macros/categories.html" import render_category %}
+
+{% block title %}{{ this.title }}{% endblock %}
+
+{% block body %}
+    <div class="categories-list">
+        {% for category in this.children %}
+            {{ render_category(category) }}
+        {% endfor %}
+    </div>
+{% endblock %}
