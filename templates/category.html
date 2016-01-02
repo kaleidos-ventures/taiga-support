@@ -1,12 +1,10 @@
 {% extends "layout.html" %}
-{% from "macros/articles.html" import render_article %}
+{% from "macros/categories.html" import render_category %}
 
-{% block title %}{{ this.name }}{% endblock %}
+{% block title %}
+    {{ this.title }}
+{% endblock %}
 
 {% block body %}
-    <div class="articles-list">
-        {% for article in this.children %}
-            {{ render_article(article, from_index=true) }}
-        {% endfor %}
-    </div>
+    {{ render_category(this, show_articles=True) }}
 {% endblock %}

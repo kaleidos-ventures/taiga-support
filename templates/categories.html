@@ -4,9 +4,9 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
-    <div class="categories-list">
+    <div class="categories">
         {% for category in this.children %}
-            {{ render_category(category) }}
+            {{ render_category(category, show_articles=True) }}
         {% endfor %}
     </div>
 {% endblock %}

@@ -1,17 +1,7 @@
-{% macro render_article(article, from_index=false) %}
+{% macro render_article(article) %}
     <div class="article">
-        {% if from_index %}
-            <h2><a href="{{ article|url }}">{{ article.title }}</a></h2>
-        {% else %}
-            <h2>{{ article.title }}</h2>
-        {% endif %}
+        <h2>{{ article.title }}</h2>
 
-        <div class="meta">
-            written on {{ article.created_date }}
-        </div>
-
-        <div class="content-md">{{ article.body_markdown }}</div>
-
-        <div class="content-html">{{ article.body_html }}</div>
+        <div class="body">{{ article.body }}</div>
     </div>
 {% endmacro %}
