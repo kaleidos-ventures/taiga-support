@@ -11,4 +11,5 @@ install:
     - cd webpack; npm install
 
 script:
-    - lektor build -f webpack && lektor deploy ghpages
+    - lektor build -f webpack
+    - test "$TRAVIS_PULL_REQUEST" == false && test "$TRAVIS_BRANCH" == master && lektor deploy ghpages
