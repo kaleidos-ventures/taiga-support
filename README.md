@@ -35,5 +35,8 @@ npm install
 ```lektor build -f webpack```
 : Build the web site.
 
+```lektor deploy ghpages```
+: Deploy in GitHub pages (http://taigaio.github.io/taiga-support/).
+
 ```lektor clean```
 : Cleans the entire build folder.
