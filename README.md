@@ -1,4 +1,4 @@
-# Taiga-support
+# Taiga-support [![Build Status](https://travis-ci.org/taigaio/taiga-support.svg?branch=master)](https://travis-ci.org/taigaio/taiga-support)
 
 User suport pages for Taiga. See https://support.taiga.io.
 
@@ -36,7 +36,7 @@ npm install
 : Build the web site.
 
 ```lektor deploy ghpages```
-: Deploy in GitHub pages (http://taigaio.github.io/taiga-support/).
+: [CI Enabled] Deploy in [GitHub pages](http://taigaio.github.io/taiga-support/categories).
 
 ```lektor clean```
 : Cleans the entire build folder.
