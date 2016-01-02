@@ -15,7 +15,7 @@ pip install -r requirements.txt
 
 - SASS (need ruby)
 ```
-gem install sass scss-lint
+gem install sass
 export PATH=":$PATH:$(ruby -e "print Gem.user_dir")/bin"
 sass -v             # should return something like 'Sass 3.4.11 (Selective Steve)'
 ```
