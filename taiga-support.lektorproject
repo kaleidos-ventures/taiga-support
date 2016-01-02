@@ -5,5 +5,5 @@ name = Taiga Support
 lektor-webpack-support = 0.1
 
 [servers.ghpages]
-target = ghpages://taigaio/taiga-support
+target = ghpages+https://taigaio/taiga-support
 
