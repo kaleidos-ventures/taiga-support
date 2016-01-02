@@ -3,12 +3,12 @@ language: python
 python: 2.7
 node_js: "4.1"
 
-before_install:
-    - travis_retry gem install sass
-
 install:
     - travis_retry pip install -r requirements.txt
-    - cd webpack; npm install
+    - . $HOME/.nvm/nvm.sh
+    - nvm install stable
+    - nvm use stable
+    - cd webpack; travis_retry npm install
 
 script:
     - lektor build -f webpack

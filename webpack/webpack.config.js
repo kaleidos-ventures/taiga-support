@@ -2,8 +2,6 @@ var webpack = require('webpack');
 var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
-require('es6-promise').polyfill() // To prevent error in TravisCI
-
 module.exports = {
 	entry: {
     	'app': './js/main.js',
