@@ -1,0 +1,40 @@
+title: HipChat integration
+---
+body:
+
+*HipChat: Bring your team to life.*
+
+First things first, [HipChat](https://www.hipchat.com) is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get out your machete and start cutting into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help with a specific feature, you can always get in touch with our community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+### 1. Configure HipChat
+In the HipChat app select a channel and
+
+1. Click over *Roon Action* icon and select *Integrations...*.
+   ![HipCHat Integration - Step 1](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step1.png "HipCHat Integration - Step 1")
+
+2. Go to *Find New* tab and click in *Build Your Own!* .
+   ![HipCHat Integration - Step 2](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step2.png "HipCHat Integration - Step 2")
+
+3. Type a name for your new integration, for example *"Taiga.io"*, and press *Create* button.
+   ![HipCHat Integration - Step 3](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step3.png "HipCHat Integration - Step 3")
+
+4. Now copy your *Webhook URL* (at the right of *Send messages to this room by posting to this URL*).
+   ![HipCHat Integration - Step 4](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step4.png "HipCHat Integration - Step 4")
+
+
+### 2. Configure Taiga
+
+In your Taiga project:
+
+1. Go to *Admin > Plugins > HipChat*
+   ![HipCHat Integration - Step 5](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step5.png "HipCHat Integration - Step 5")
+
+1. Set the *HipChat Webhook URL* to the copied value in the previous step and save your configuration.
+   ![HipCHat Integration - Step 6](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step6.png "HipCHat Integration - Step 6")
+
+You can test it, if you want, clicking over *Test* button and a test message shall appear in the channel.
+
+---
+order: 20
