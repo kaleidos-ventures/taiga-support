@@ -1,13 +1,20 @@
-{% macro render_category(category, active=none, show_articles=none) %}
+{% macro render_category(category, active=none, show_articles=none, active_article=none) %}
+    {% if category.children %}
 	<div class="category{% if category._id == active %} active{% endif %}">
 		<a href="{{ category|url }}">{{ category.name }}</a>
 
         {% if show_articles and category.children %}
             <ul "articles-list">
                 {% for article in category.children %}
-                    <li><a href="{{ article|url }}">{{ article.title }}</a></li>
+                    <li>
+                        <a href="{{ article|url }}"
+                           {% if article._id == active_article %} class="active{% endif %}">
+                            {{ article.title }}
+                        </a>
+                    </li>
                 {% endfor %}
             </ul>
         {% endif %}
 	</div>
+    {% endif %}
 {% endmacro %}
