@@ -36,7 +36,7 @@ npm install
 : Build the web site.
 
 ```lektor deploy ghpages```
-: [CI Enabled] Deploy in [GitHub pages](http://taigaio.github.io/taiga-support/categories).
+: [CI Enabled] Deploy in [GitHub pages](http://taigaio.github.io/taiga-support/).
 
 ```lektor clean```
 : Cleans the entire build folder.
