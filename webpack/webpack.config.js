@@ -38,6 +38,7 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin('styles.css', { allChunks: true }),
-        new webpack.optimize.UglifyJsPlugin()
+        new webpack.optimize.UglifyJsPlugin(),
+        new webpack.OldWatchingPlugin(),
     ]
 };
