@@ -1,6 +1,20 @@
 {% macro render_article(article) %}
+
     <div class="article">
         <h2>{{ article.title }}</h2>
+
+        <ul class="toc">
+            {% for item in article.body.toc recursive %}
+                <li>
+                    <a href="#{{ item.anchor }}">{{ item.title }}</a>
+                    {% if item.children %}
+                        <ul>
+                            {{ loop(item.children) }}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endfor %}
+        </ul>
 
         <div class="body">{{ article.body }}</div>
     </div>
