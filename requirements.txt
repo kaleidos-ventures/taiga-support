@@ -1,2 +1,2 @@
-Lektor
+Lektor==1.1
 pygments-markdown-lexer
