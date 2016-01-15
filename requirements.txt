@@ -1,2 +1,2 @@
-Lektor==1.1
+git+git://github.com/lektor/lektor
 pygments-markdown-lexer
