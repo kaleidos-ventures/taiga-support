@@ -1,0 +1,96 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>
+    Webhooks
+ — Taiga Support</title>
+
+<link rel="stylesheet" href="../../static/styles.css?h=067087bb">
+<script type=text/javascript src="../../static/app.js?h=56f85b4f" charset="utf-8"></script>
+
+<link rel="stylesheet" href="../../static/pygments.css">
+
+
+<body>
+    <header>
+        <h1>Taiga Support</h1>
+
+        <nav>
+            <ul class="nav navbar-nav">
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="page">
+        
+    
+    
+	<div class="category">
+		<a href="../../integrations/">Integrations</a>
+
+        
+            <ul "articles-list">
+                
+                    <li>
+                        <a href="../../integrations/webhooks/"
+                            class="active">
+                            Webhooks
+                        </a>
+                    </li>
+                
+            </ul>
+        
+	</div>
+    
+
+    
+
+    <div class="article">
+        <h2>Webhooks</h2>
+
+        <ul class="toc">
+            
+                <li>
+                    <a href="#1.-configure-third-party-service">1. Configure Third party service</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#2.-configure-taiga">2. Configure Taiga</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#developing-your-own-integration">Developing your own integration</a>
+                    
+                </li>
+            
+        </ul>
+
+        <div class="body"><p>Taiga comes with an third party easy integration system based on webhooks. Some applications can be integrated with this, and you can configure each one in Taiga:</p>
+<h3 id="1.-configure-third-party-service">1. Configure Third party service</h3><ol>
+<li>Go to your application and search for Taiga webhooks support and enable it.</li>
+<li>Copy the service provide url for the webhook and the secret key.</li>
+</ol>
+<h3 id="2.-configure-taiga">2. Configure Taiga</h3><p>Go to <em>Admin &gt; Integrations &gt; Webhooks</em>
+     <img src="/categories/integrations/webhooks/webhooks-menu.png" alt="Webhooks Menu" title="Webhooks Menu"></p>
+<ol>
+<li><p>Fill the name, secret key and payload url based on the data provided by your service.
+<img src="/categories/integrations/webhooks/webhooks-1.png" alt="Webhooks Configure" title="Webhooks Configure"></p>
+</li>
+<li><p>Save the changes.</p>
+</li>
+<li>You can send a test request to ensure everything is working.
+<img src="/categories/integrations/webhooks/webhooks-2.png" alt="Webhooks Test" title="Webhooks Test"></li>
+</ol>
+<h3 id="developing-your-own-integration">Developing your own integration</h3><p>You may want to integrate your own system with the Taiga webhooks, you can see the technical documentation about <a href="http://taigaio.github.io/taiga-doc/dist/webhooks.html">webhooks system</a></p>
+</div>
+    </div>
+
+
+    </div>
+
+    <footer>
+        &copy; Copyright 2015 by Taiga Agile LLC.
+    </footer>
+</body>
