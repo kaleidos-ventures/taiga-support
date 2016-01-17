@@ -1,0 +1,24 @@
+title: Changing elements status via commit message
+---
+body:
+
+**The status of any issue, task or user story can be changed via commit message**
+
+Just add to your commit message something like:
+
+```
+TG-REF #STATUS-slug
+```
+- **REF**: US/Issue/Task reference of the element you want to modify
+- **STATUS**: New status slug to set, you can find all of them in: US STATUSES
+
+### An example, please!
+
+```
+TG-123 #closed
+```
+In this example, 123 is an issue reference and with this command, the issue will change its status to closed.
+
+
+---
+order: 40
