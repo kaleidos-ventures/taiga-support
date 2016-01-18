@@ -1,0 +1,47 @@
+title: Github Integration
+---
+body:
+
+*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.*
+
+First things first, Github is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help in a specific feature, you can always get in touch with the community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+
+### 1. Configure Taiga
+
+Go to *Admin > Integrations > Github*
+
+1. Fill Secret key or use the auto generated one
+2. Copy the Payload URL field.
+
+
+### 2. Configure Github
+
+Go to your repository
+
+1. Click on *Settings > Webhooks & Services > Add webhook*
+2. On that screen set the payload url with the payload url of this screen.
+3. Secret must be filled with the same content as the secret field of this screen.
+4. Content type must be application/json.
+5. Taiga currently listen for three different kind of events:
+    1. Push events: changing element status via commit message
+    2. Issues: issues created in github appear automatically in Taiga
+    3. Issue comment: issue comments created in github appear automatically in Taiga
+
+Just check "send me everything" or just the events you want Taiga to listen for.
+
+![Github Webhooks](/categories/integrations/github-integration/github-help.png "Github Webhooks")
+
+Here you can find a youtube video describing the whole process:
+
+<iframe width="640" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe>
+
+
+### Changing elements status via commit message
+
+The status of any issue, task or user story can be changed via commit message. You may want to read more [about this feature](https://taiga.io/support/changing-elements-status-via-commit-message/)
+
+---
+order: 20
