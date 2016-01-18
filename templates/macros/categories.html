@@ -1,10 +1,10 @@
 {% macro render_category(category, active=none, show_articles=none, active_article=none) %}
     {% if category.children %}
 	<div class="category{% if category._id == active %} active{% endif %}">
-		<a href="{{ category|url }}">{{ category.name }}</a>
+		<a href="{{ category.children.first()|url }}">{{ category.name }}</a>
 
-        {% if show_articles and category.children %}
-            <ul "articles-list">
+        {% if show_articles %}
+            <ul class="articles-list">
                 {% for article in category.children %}
                     <li>
                         <a href="{{ article|url }}"

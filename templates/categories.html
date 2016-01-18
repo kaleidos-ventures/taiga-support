@@ -6,7 +6,7 @@
 {% block body %}
     <div class="categories">
         {% for category in this.children %}
-            {{ render_category(category, show_articles=True) }}
+            {{ render_category(category) }}
         {% endfor %}
     </div>
 {% endblock %}
