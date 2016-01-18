@@ -8,8 +8,10 @@
 .o { color: #ce5c00; font-weight: bold } /* Operator */
 .x { color: #000000 } /* Other */
 .p { color: #000000; font-weight: bold } /* Punctuation */
+.ch { color: #8f5902; font-style: italic } /* Comment.Hashbang */
 .cm { color: #8f5902; font-style: italic } /* Comment.Multiline */
 .cp { color: #8f5902; font-style: italic } /* Comment.Preproc */
+.cpf { color: #8f5902; font-style: italic } /* Comment.PreprocFile */
 .c1 { color: #8f5902; font-style: italic } /* Comment.Single */
 .cs { color: #8f5902; font-style: italic } /* Comment.Special */
 .gd { color: #a40000 } /* Generic.Deleted */
