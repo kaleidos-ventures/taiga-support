@@ -1,2 +1,3 @@
 git+git://github.com/lektor/lektor
-pygments-markdown-lexer
+git+git://github.com/jhermann/pygments-markdown-lexer
+
