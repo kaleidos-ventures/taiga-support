@@ -14,14 +14,14 @@ Taiga comes with an third party easy integration system based on webhooks. Some 
 ### 2. Configure Taiga
 
 Go to *Admin > Integrations > Webhooks*
-     ![Webhooks Menu](/categories/integrations/webhooks/webhooks-menu.png "Webhooks Menu")
+![Webhooks Menu](webhooks-menu.png "Webhooks Menu")
 
 1. Fill the name, secret key and payload url based on the data provided by your service.
-   ![Webhooks Configure](/categories/integrations/webhooks/webhooks-1.png "Webhooks Configure")
+   ![Webhooks Configure](webhooks-1.png "Webhooks Configure")
 
 2. Save the changes.
 3. You can send a test request to ensure everything is working.
-   ![Webhooks Test](/categories/integrations/webhooks/webhooks-2.png "Webhooks Test")
+   ![Webhooks Test](webhooks-2.png "Webhooks Test")
 
 
 ### Developing your own integration

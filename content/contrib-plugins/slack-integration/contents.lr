@@ -14,16 +14,16 @@ If you need help with a specific feature, you can always get in touch with our c
 Go to your slack app
 
 1. Go to *Configure Integrations*.
-   ![Slack Integration Step 1](/categories/Contrib-plugins/slack-integration/slack-integration-1.png "Slack Integration Step 1")
+   ![Slack Integration Step 1](slack-integration-1.png "Slack Integration Step 1")
 
 2. Add a new "Incoming WebHooks" integration.
-   ![Slack Integration Step 2](/categories/Copy-plugins/slack-integration/slack-integration-2.png "Slack Integration Step 2")
+   ![Slack Integration Step 2](slack-integration-2.png "Slack Integration Step 2")
 
 3. Choose a channel and click *Add Incoming WebHooks Integration*.
-   ![Slack Integration Step 3](/categories/Copy-plugins/slack-integration/slack-integration-3.png "Slack Integration Step 3")
+   ![Slack Integration Step 3](slack-integration-3.png "Slack Integration Step 3")
 
 4. Copy your *Webhook URL*.
-   ![Slack Integration Step 4](/categories/Copy-plugins/slack-integration/slack-integration-4.png "Slack Integration Step 4")
+   ![Slack Integration Step 4](slack-integration-4.png "Slack Integration Step 4")
 
 
 ### 2. Configure Taiga
@@ -31,12 +31,12 @@ Go to your slack app
 In your project in Taiga:
 
 1. Go to *Admin > Contrib plugins > Slack*
-   ![Taiga Slack Menu](/categories/Copy-plugins/slack-integration/taiga-slack-menu.png "Taiga Slack Menu")
+   ![Taiga Slack Menu](taiga-slack-menu.png "Taiga Slack Menu")
 
 2. Set the *Slack webhook url* to the copied value in the previous step.
 
 3. You can also set the Slack channel which your project will post to. Leave the field blank if you wish to post to the default channel.
-   ![Taiga Slack Integration](/categories/Copy-plugins/slack-integration/taiga-slack-integration.png "Taiga Slack Integration")
+   ![Taiga Slack Integration](taiga-slack-integration.png "Taiga Slack Integration")
 
 4. Save your configuration.
 

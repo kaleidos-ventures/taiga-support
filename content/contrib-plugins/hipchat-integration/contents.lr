@@ -12,16 +12,16 @@ If you need help with a specific feature, you can always get in touch with our c
 In the HipChat app select a channel and
 
 1. Click over *Roon Action* icon and select *Integrations...*.
-   ![HipCHat Integration - Step 1](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step1.png "HipCHat Integration - Step 1")
+   ![HipCHat Integration - Step 1](hipchat_integration_step1.png "HipCHat Integration - Step 1")
 
 2. Go to *Find New* tab and click in *Build Your Own!* .
-   ![HipCHat Integration - Step 2](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step2.png "HipCHat Integration - Step 2")
+   ![HipCHat Integration - Step 2](hipchat_integration_step2.png "HipCHat Integration - Step 2")
 
 3. Type a name for your new integration, for example *"Taiga.io"*, and press *Create* button.
-   ![HipCHat Integration - Step 3](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step3.png "HipCHat Integration - Step 3")
+   ![HipCHat Integration - Step 3](hipchat_integration_step3.png "HipCHat Integration - Step 3")
 
 4. Now copy your *Webhook URL* (at the right of *Send messages to this room by posting to this URL*).
-   ![HipCHat Integration - Step 4](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step4.png "HipCHat Integration - Step 4")
+   ![HipCHat Integration - Step 4](hipchat_integration_step4.png "HipCHat Integration - Step 4")
 
 
 ### 2. Configure Taiga
@@ -29,10 +29,10 @@ In the HipChat app select a channel and
 In your Taiga project:
 
 1. Go to *Admin > Plugins > HipChat*
-   ![HipCHat Integration - Step 5](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step5.png "HipCHat Integration - Step 5")
+   ![HipCHat Integration - Step 5](hipchat_integration_step5.png "HipCHat Integration - Step 5")
 
 1. Set the *HipChat Webhook URL* to the copied value in the previous step and save your configuration.
-   ![HipCHat Integration - Step 6](/categories/contrib-plugins/hipchat-integration/hipchat_integration_step6.png "HipCHat Integration - Step 6")
+   ![HipCHat Integration - Step 6](hipchat_integration_step6.png "HipCHat Integration - Step 6")
 
 You can test it, if you want, clicking over *Test* button and a test message shall appear in the channel.
 

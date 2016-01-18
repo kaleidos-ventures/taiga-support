@@ -32,7 +32,7 @@ Go to your repository
 
 Just check "send me everything" or just the events you want Taiga to listen for.
 
-![Github Webhooks](/categories/integrations/github-integration/github-help.png "Github Webhooks")
+![Github Webhooks](github-help.png "Github Webhooks")
 
 Here you can find a youtube video describing the whole process:
 
