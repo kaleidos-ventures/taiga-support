@@ -1,0 +1,40 @@
+title: Bitbucket Integration
+---
+body:
+
+*Bitbucket is a web-based hosting service for projects that use either the Mercurial (since the origin) or Git (since October 2011[1]) revision control systems.*
+
+First things first, Bitbucket is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help in a specific feature, you can always get in touch with the community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+
+### 1. Configure Taiga
+
+Go to *Admin > Integrations > Bitbucket*
+
+1. Fill Secret key or use the auto generated one
+2. Copy the Payload URL field.
+
+
+### 2. Configure Bitbucket
+
+Go to your repository
+
+1. Click on *Settings > Webhooks*
+2. Click on "Add webhook" button
+2. On that form set the url with the payload url of this screen and choose some title (ex. "Taiga.io").
+3. Taiga listen three triggers, you can select all or some of them:
+    - *Repository - Push*: Changing element status via commit message
+    - *Issue - Created*: To clone new issues created in Bitbucket to Taiga
+    - *Issue - Comment created*: To add new comments to related issues
+4. Press *Save* button to create the new webhook.
+
+![Bitbucket Webhooks](bitbucket-help.png "Bitbucket Webhooks")
+
+
+### Changing elements status via commit message
+The status of any issue, task or user story can be changed via commit message. You may want to read more [about this feature](https://taiga.io/support/changing-elements-status-via-commit-message/)
+
+---
+order: 40
