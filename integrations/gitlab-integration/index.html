@@ -1,7 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>
-    Github Integration
+    Gitlab Integration
  — Taiga Support</title>
 
 <link rel="stylesheet" href="../../static/styles.css?h=067087bb">
@@ -40,14 +40,14 @@
                 
                     <li>
                         <a href="../../integrations/github-integration/"
-                            class="active">
+                           ">
                             Github Integration
                         </a>
                     </li>
                 
                     <li>
                         <a href="../../integrations/gitlab-integration/"
-                           ">
+                            class="active">
                             Gitlab Integration
                         </a>
                     </li>
@@ -74,7 +74,7 @@
     
 
     <div class="article">
-        <h2>Github Integration</h2>
+        <h2>Gitlab Integration</h2>
 
         <ul class="toc">
             
@@ -84,7 +84,7 @@
                 </li>
             
                 <li>
-                    <a href="#2.-configure-github">2. Configure Github</a>
+                    <a href="#2.-configure-gitlab">2. Configure GitLab</a>
                     
                 </li>
             
@@ -95,31 +95,27 @@
             
         </ul>
 
-        <div class="body"><p><em>GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.</em></p>
-<p>First things first, Github is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
+        <div class="body"><p><em>GitLab is an incredibly powerful open source code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support. To install, just unpack.</em></p>
+<p>First things first, GitLab is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
 <p>If you need help in a specific feature, you can always get in touch with the community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
-<h3 id="1.-configure-taiga">1. Configure Taiga</h3><p>Go to <em>Admin &gt; Integrations &gt; Github</em></p>
+<h3 id="1.-configure-taiga">1. Configure Taiga</h3><p>Go to <em>Admin &gt; Integrations &gt; GitLab</em></p>
 <ol>
 <li>Fill Secret key or use the auto generated one</li>
 <li>Copy the Payload URL field.</li>
 </ol>
-<h3 id="2.-configure-github">2. Configure Github</h3><p>Go to your repository</p>
+<h3 id="2.-configure-gitlab">2. Configure GitLab</h3><p>Go to your repository</p>
 <ol>
-<li>Click on <em>Settings &gt; Webhooks &amp; Services &gt; Add webhook</em></li>
-<li>On that screen set the payload url with the payload url of this screen.</li>
-<li>Secret must be filled with the same content as the secret field of this screen.</li>
-<li>Content type must be application/json.</li>
-<li>Taiga currently listen for three different kind of events:<ol>
+<li>Click on <em>Settings &gt; Web Hooks</em></li>
+<li>On that screen set the url with the payload url of this screen.</li>
+<li>Taiga currently listen for two different kind of events from Gitlab:<ol>
 <li>Push events: changing element status via commit message</li>
-<li>Issues: issues created in github appear automatically in Taiga</li>
-<li>Issue comment: issue comments created in github appear automatically in Taiga</li>
+<li>Issues: issues created in gitlab appear automatically in Taiga</li>
 </ol>
 </li>
+<li>Click on "Add Web Hook"</li>
 </ol>
-<p>Just check "send me everything" or just the events you want Taiga to listen for.</p>
-<p><img src="../../integrations/github-integration/github-help.png" alt="Github Webhooks" title="Github Webhooks"></p>
-<p>Here you can find a youtube video describing the whole process:</p>
-<p><iframe width="640" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe></p>
+<p>Just check the triggers you want Taiga to listen for.</p>
+<p><img src="../../integrations/gitlab-integration/gitlab-help.png" alt="Gitlab Webhooks" title="Gitlab Webhooks"></p>
 <h3 id="changing-elements-status-via-commit-message">Changing elements status via commit message</h3><p>The status of any issue, task or user story can be changed via commit message. You may want to read more <a href="https://taiga.io/support/changing-elements-status-via-commit-message/">about this feature</a></p>
 </div>
     </div>
