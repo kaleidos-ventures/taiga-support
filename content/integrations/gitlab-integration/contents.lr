@@ -1,0 +1,41 @@
+title: Gitlab Integration
+---
+body:
+
+*GitLab is an incredibly powerful open source code collaboration platform, git repository manager, issue tracker and code reviewer. It integrates with issue trackers, continuous integration services and our Enterprise Edition has phenomenal LDAP and Active Directory support. To install, just unpack.*
+
+First things first, GitLab is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help in a specific feature, you can always get in touch with the community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+
+### 1. Configure Taiga
+
+Go to *Admin > Integrations > GitLab*
+
+1. Fill Secret key or use the auto generated one
+2. Copy the Payload URL field.
+
+
+### 2. Configure GitLab
+
+Go to your repository
+
+1. Click on *Settings > Web Hooks*
+2. On that screen set the url with the payload url of this screen.
+3. Taiga currently listen for two different kind of events from Gitlab:
+    1. Push events: changing element status via commit message
+    2. Issues: issues created in gitlab appear automatically in Taiga
+4.  Click on "Add Web Hook"
+
+Just check the triggers you want Taiga to listen for.
+
+![Gitlab Webhooks](gitlab-help.png "Gitlab Webhooks")
+
+
+### Changing elements status via commit message
+
+The status of any issue, task or user story can be changed via commit message. You may want to read more [about this feature](https://taiga.io/support/changing-elements-status-via-commit-message/)
+
+---
+order: 30
