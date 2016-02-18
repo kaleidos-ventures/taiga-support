@@ -1,6 +1,9 @@
-//@import "dependencies/reset";
+// TAIGA SUPPORT
+
+// Dependencies
+@import "dependencies/reset";
 @import "dependencies/colors";
 
-body {
-    background-color: white;
-}
+// Partials
+@import "partials/base";
+@import "partials/header";

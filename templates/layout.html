@@ -9,18 +9,20 @@
 
 
 <body>
-    <header>
-        <h1>Taiga Support</h1>
+    <header class="header">
+        <div class="header-inside">
+            <h1>TAIGA <span>SUPPORT</span></h1>
 
-        <nav>
-            <ul class="nav navbar-nav">
-                {#
-                <li{% if this._path == '/' %} class="active"{% endif%}>
-                    <a href="{{ '/'|url }}">Welcome</a>
-                </li>
-                #}
-            </ul>
-        </nav>
+            <nav class="header-nav">
+                <ul class="nav navbar-nav">
+                    {#
+                    <li{% if this._path == '/' %} class="active"{% endif%}>
+                        <a href="{{ '/'|url }}">Welcome</a>
+                    </li>
+                    #}
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="page">
