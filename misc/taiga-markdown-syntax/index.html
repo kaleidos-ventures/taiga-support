@@ -11,14 +11,16 @@
 
 
 <body>
-    <header>
-        <h1>Taiga Support</h1>
+    <header class="header">
+        <div class="header-inside">
+            <h1>TAIGA <span>SUPPORT</span></h1>
 
-        <nav>
-            <ul class="nav navbar-nav">
-                
-            </ul>
-        </nav>
+            <nav class="header-nav">
+                <ul class="nav navbar-nav">
+                    
+                </ul>
+            </nav>
+        </div>
     </header>
 
     <div class="page">
@@ -197,66 +199,66 @@
             
         </ul>
 
-        <div class="body"><h2 id="phrase-emphasis">Phrase Emphasis</h2><div class="highlight"><pre><span class="k">**</span><span class="gs">bold</span><span class="k">**</span> <span class="k">__</span><span class="gs">bold</span><span class="k">__</span>
+        <div class="body"><h2 id="phrase-emphasis">Phrase Emphasis</h2><div class="highlight"><pre><span></span><span class="k">**</span><span class="gs">bold</span><span class="k">**</span> <span class="k">__</span><span class="gs">bold</span><span class="k">__</span>
 </pre></div>
 <p><strong>bold</strong> <strong>bold</strong></p>
-<div class="highlight"><pre><span class="k">_</span><span class="ge">italic</span><span class="k">_</span>   <span class="k">*</span><span class="ge">italic</span><span class="k">*</span>
+<div class="highlight"><pre><span></span><span class="k">_</span><span class="ge">italic</span><span class="k">_</span>   <span class="k">*</span><span class="ge">italic</span><span class="k">*</span>
 </pre></div>
 <p><em>italic</em> <em>italic</em></p>
-<div class="highlight"><pre>~~strike~~
+<div class="highlight"><pre><span></span>~~strike~~
 </pre></div>
 <p><del>strike</del></p>
-<h2 id="links">Links</h2><h3 id="inline">Inline</h3><div class="highlight"><pre>An [example](http://url.com/ &quot;Title&quot;)
+<h2 id="links">Links</h2><h3 id="inline">Inline</h3><div class="highlight"><pre><span></span>An [example](http://url.com/ &quot;Title&quot;)
 </pre></div>
 <p>An <a href="http://url.com/" title="Title">example</a></p>
-<h3 id="reference-style-labels">Reference-style labels</h3><div class="highlight"><pre>An [example][id]. Then, anywhere
+<h3 id="reference-style-labels">Reference-style labels</h3><div class="highlight"><pre><span></span>An [example][id]. Then, anywhere
 else in the doc, define the link:
 
   [id]: http://example.com/  &quot;Title&quot;
 </pre></div>
 <p>An <a href="../../static/images/circle1.svg" title="Title">example</a>. Then, anywhere
 else in the doc, define the link:</p>
-<h3 id="url-autolinking">URL autolinking</h3><div class="highlight"><pre>Go to http://example.com
+<h3 id="url-autolinking">URL autolinking</h3><div class="highlight"><pre><span></span>Go to http://example.com
 </pre></div>
 <p>Go to <a href="http://example.com">http://example.com</a></p>
 <h3 id="taiga-user-mentions">Taiga user mentions</h3><p>Use <code>@&lt;username&gt;</code>, for example</p>
-<div class="highlight"><pre>Hello, my name is @imontoya. You killed me father.
+<div class="highlight"><pre><span></span>Hello, my name is @imontoya. You killed me father.
 </pre></div>
 <p>Hello, my name is <a href="https://tree.taiga.io/profile/imontoya" title="íñigo Montoya">@imontoya</a>. You killed me father.</p>
 <h3 id="taiga-uss-tasks-and-issues-references">Taiga USs, Tasks and Issues references</h3><p>Use <code>#&lt;ref&gt;</code>, for example:</p>
-<div class="highlight"><pre>The user story #9.
+<div class="highlight"><pre><span></span>The user story #9.
 The task #13.
 The issue #42.
 </pre></div>
 <p>The user story <a href="https://tree.taiga.io/example-project/us/9" title="Example user story 9">#9</a>.
 The task <a href="https://tree.taiga.io/example-project/tasks/13" title="Example task 13">#13</a>.
 The issue <a href="https://tree.taiga.io/example-project/issue/42" title="Example issue 42">#42</a>.</p>
-<h3 id="taiga-wiki-links">Taiga Wiki links</h3><div class="highlight"><pre>An [example](wiki-page-name-in-slug-format &quot;Page&quot;) of wiki link.
+<h3 id="taiga-wiki-links">Taiga Wiki links</h3><div class="highlight"><pre><span></span>An [example](wiki-page-name-in-slug-format &quot;Page&quot;) of wiki link.
 </pre></div>
 <p>An <a href="https://tree.taiga.io/example-project/wiki/wiki-page-name-in-slug-format" title="Page">example</a> of wiki link.</p>
 <p>Other option will be</p>
-<div class="highlight"><pre>An [[example-one]] or [[example-two|Example 2]] of wiki links.
+<div class="highlight"><pre><span></span>An [[example-one]] or [[example-two|Example 2]] of wiki links.
 </pre></div>
 <p>An <a href="https://tree.taiga.io/example-project/wiki/example-one" title="example-one">example-one</a> or <a href="https://tree.taiga.io/example-project/wiki/example-two" title="Example 2">Example 2</a> of wiki links.</p>
-<h2 id="images">Images</h2><h3 id="inline">Inline</h3><div class="highlight"><pre>![alt text](/static/images/circle1.svg &quot;Title&quot;)
+<h2 id="images">Images</h2><h3 id="inline">Inline</h3><div class="highlight"><pre><span></span>![alt text](/static/images/circle1.svg &quot;Title&quot;)
 </pre></div>
 <p><img src="../../static/images/circle1.svg" alt="alt text" title="Title"></p>
-<h3 id="reference-style">Reference-style</h3><div class="highlight"><pre>![alt text][id]
+<h3 id="reference-style">Reference-style</h3><div class="highlight"><pre><span></span>![alt text][id]
 
 [id]: /static/images/circle1.svg &quot;Title&quot;
 </pre></div>
 <p><img src="../../static/images/circle1.svg" alt="alt text" title="Title"></p>
-<h3 id="emoticons">Emoticons</h3><div class="highlight"><pre>An example emoticon :smile:
+<h3 id="emoticons">Emoticons</h3><div class="highlight"><pre><span></span>An example emoticon :smile:
 </pre></div>
 <p>An example emoticon :smile:</p>
 <p>See a complete list of emoticons at this <a href="http://www.emoji-cheat-sheet.com/">Emoji Cheatsheet</a>{: target="_blank" }</p>
-<h2 id="headers">Headers</h2><h3 id="setext-style">Setext-style</h3><div class="highlight"><pre>    Header 1
+<h2 id="headers">Headers</h2><h3 id="setext-style">Setext-style</h3><div class="highlight"><pre><span></span>    Header 1
     ========
 
     Header 2
    --------
 </pre></div>
-<h3 id="atx-style-closing-s-are-optional">atx-style (closing #'s are optional)</h3><div class="highlight"><pre><span class="k"># </span><span class="gh">Header 1</span><span class="k"> #</span>
+<h3 id="atx-style-closing-s-are-optional">atx-style (closing #'s are optional)</h3><div class="highlight"><pre><span></span><span class="k"># </span><span class="gh">Header 1</span><span class="k"> #</span>
 
 <span class="k">## </span><span class="gh">Header 2</span><span class="k"> ##</span>
 
@@ -314,7 +316,7 @@ The issue <a href="https://tree.taiga.io/example-project/issue/42" title="Exampl
 <li>Cunning</li>
 </ul>
 <h2 id="tables">Tables</h2><p>This is a Tables.</p>
-<div class="highlight"><pre> Header 1  | Header 2
+<div class="highlight"><pre><span></span> Header 1  | Header 2
 ---------- | ----------
 Cell 1.1   | Cell 1.2
 Cell 2.1   | Cell 2.2
@@ -337,7 +339,7 @@ Cell 2.1   | Cell 2.2
 </tbody>
 </table>
 <p>Another example with extra pipes on the ends:</p>
-<div class="highlight"><pre>| Header 1  | Header 2  |
+<div class="highlight"><pre><span></span>| Header 1  | Header 2  |
 |---------- | ----------|
 | Cell 1.1  | Cell 1.2  |
 | Cell 2.1  | Cell 2.2  |
@@ -360,7 +362,7 @@ Cell 2.1   | Cell 2.2
 </tbody>
 </table>
 <p>An example with inline Markdown.</p>
-<div class="highlight"><pre>| Header 1  | Header 2  |
+<div class="highlight"><pre><span></span>| Header 1  | Header 2  |
 |---------- | ----------|
 | <span class="k">*</span><span class="ge">Cell 1.1</span><span class="k">*</span>  | http://cell12.com  |
 | Cell 2.1  | ~~Cell 2.2~~  |
@@ -400,7 +402,7 @@ are used for blockquotes.</p>
 <li>Etc.</li>
 </ul>
 </blockquote>
-<h2 id="code-spans">Code Spans</h2><div class="highlight"><pre><span class="k">`</span><span class="sb">&lt;code&gt;</span><span class="k">`</span> spans are delimited
+<h2 id="code-spans">Code Spans</h2><div class="highlight"><pre><span></span><span class="k">`</span><span class="sb">&lt;code&gt;</span><span class="k">`</span> spans are delimited
 by backticks.
 
 You can include literal backticks
@@ -411,7 +413,7 @@ by backticks.</p>
 <p>You can include literal backticks
 like <code>`this`</code>.</p>
 <h2 id="preformatted-code-blocks">Preformatted Code Blocks</h2><h3 id="auto-highlight-code-block">Auto highlight code block</h3><p>using backticks</p>
-<div class="highlight"><pre> 
+<div class="highlight"><pre><span></span> 
 </pre></div>
 <pre><code>This is
 a text example
@@ -435,7 +437,7 @@ def hello(world):
     pass
 </code></pre>
 <h2 id="horizontal-rules">Horizontal Rules</h2><p>Three or more dashes or asterisks:</p>
-<div class="highlight"><pre>------
+<div class="highlight"><pre><span></span>------
 
 <span class="k">* * *</span>
 
