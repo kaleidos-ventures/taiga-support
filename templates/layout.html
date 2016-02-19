@@ -4,6 +4,8 @@
 
 <link rel="stylesheet" href="/static/styles.css">
 <script type=text/javascript src="{{ '/static/app.js'|asseturl }}" charset="utf-8"></script>
+<!-- GOOGLE FONT -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 
 <link rel="stylesheet" href="{{ get_pygments_stylesheet()|url }}">
 
@@ -11,6 +13,7 @@
 <body>
     <header class="header">
         <div class="header-inside">
+          <img class="taiga-logo" src="/images/icon-taiga-color.png" />
             <h1>TAIGA <span>SUPPORT</span></h1>
 
             <nav class="header-nav">
@@ -24,6 +27,10 @@
             </nav>
         </div>
     </header>
+
+    <div class="main-search">
+      <input class="input-text" type="text" placeholder="Search in Taiga support">
+    </div>
 
     <div class="page">
         {% block body %}{% endblock %}

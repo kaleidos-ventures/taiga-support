@@ -5,7 +5,7 @@
 body {
   background-color: $white;
   color: #grayer;
-  font: 16px 'OpenSans-Regular', Arial, Helvetica, sans-serif;
+  font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
   line-height: 1.5;
   width: 100%;
   -webkit-font-smoothing: antialiased;
@@ -21,21 +21,73 @@ a {
 }
 
 h1, h2, h3, h4 {
-  font-weight: bold;
 }
 
 h1 {
   font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 h2 {
   font-size: 1.750rem;
+  margin-bottom: .85rem;
 }
 
 h3 {
   font-size: 1.5rem;
+  margin-bottom: .7rem;
 }
 
 h4 {
   font-size: 1.250rem;
+  margin-bottom: .55rem;
+}
+
+// Input elements
+
+input,
+select {
+  background-color: $white;
+  box-sizing: border-box;
+  color: $gray;
+  font-family: "Open Sans", sans-serif;
+  font-size: 100%;
+  margin-bottom: 1rem;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  box-sizing: border-box;
+  cursor: pointer;
+  line-height: normal;
+  margin-top: 1px 0 0;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+input[type="file"]:focus,
+input[type="radio"]:focus,
+input[type="checkbox"]:focus {
+  box-shadow: none;
+  outline: none;
+}
+
+// Input text
+
+.input-text {
+  border: none;
+  border: 1px solid darken($whitish, 10%);
+  border-radius: 3px;
+  box-shadow: none;
+  outline: none;
+  padding: .6rem 1rem;;
+
+  &:focus {
+    border-color: $grayer;
+    box-shadow: none;
+  }
+
 }
