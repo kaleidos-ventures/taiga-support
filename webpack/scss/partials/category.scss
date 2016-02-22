@@ -1,0 +1,47 @@
+.category {
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin: 0;
+  min-width: 250px;
+  width: 26%;
+  @include bp(mobile) {
+    margin: 2rem 2rem 0 0;
+  }
+
+  > a {
+    margin-bottom: 1rem;
+
+    &::before {
+      content: "Back to";
+      margin-right: .3rem;
+    }
+
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+
+    li {
+      display: flex;
+
+      a {
+        background-color: $whitish;
+        color: $gray;
+        margin-bottom: .5rem;
+        padding: .5rem .8rem;
+        width: 100%;
+
+        &:hover {
+          background: transparent;
+          color: $grayer;
+        }
+
+      }
+
+    }
+
+  }
+
+}

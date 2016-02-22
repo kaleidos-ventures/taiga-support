@@ -16,14 +16,12 @@
   }
 }
 
-.category {
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  margin: 0;
-  min-width: 250px;
-  width: 26%;
-  @include bp(mobile) {
-    margin: 2rem 2rem 0 0;
+.article {
+  line-height: 2;
+
+  p, li {
+    line-height: 2;
+    margin: 1rem 0;
   }
+
 }
