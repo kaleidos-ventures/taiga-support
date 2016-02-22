@@ -1,7 +1,10 @@
 {% macro render_category(category, active=none, show_articles=none, active_article=none) %}
     {% if category.children %}
 	<div class="category{% if category._id == active %} active{% endif %}">
-		<a href="{{ category.children.first()|url }}">{{ category.name }}</a>
+		<a href="{{ category.children.first()|url }}">
+        <img class="category-icon" src="{{ '/images/icon-taiga-color.png'|asseturl }}" />
+        <span>{{ category.name }}</span>
+    </a>
 
         {% if show_articles %}
             <ul class="articles-list">
