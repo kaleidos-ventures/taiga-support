@@ -27,14 +27,14 @@
       display: flex;
 
       a {
-        background-color: $whitish;
+        border: 2px solid $whitish;
         color: $gray;
         margin-bottom: .5rem;
         padding: .5rem .8rem;
         width: 100%;
 
         &:hover {
-          background: transparent;
+          background: $whitish;
           color: $grayer;
         }
 

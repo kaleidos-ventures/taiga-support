@@ -9,7 +9,7 @@
   max-width: 1200px;
   padding: 1rem;
   @include bp(desktop) {
-    max-width: 80%;
+    max-width: 70%;
   }
 
   .taiga-logo {
@@ -55,7 +55,7 @@
     max-width: 1200px;
     width: 100%;
     @include bp(desktop) {
-      max-width: 80%;
+      max-width: 70%;
     }
   }
 
