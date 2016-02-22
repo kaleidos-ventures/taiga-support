@@ -47,8 +47,32 @@
 
 }
 
-.header-nav {
-  display: flex;
+.main-nav {
+  display: none;
+  margin-left: auto;
+  @include bp(mobile) {
+    display: flex;
+  }
+
+  ul {
+    display: flex;
+
+    li {
+
+      a {
+        color: $gray;
+        margin: 0 .5rem;
+
+        &:hover {
+          color: $primary;
+        }
+
+      }
+
+    }
+
+  }
+
 }
 
 .main-search {

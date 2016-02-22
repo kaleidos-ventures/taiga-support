@@ -3,10 +3,11 @@
   flex-direction: column;
   flex-shrink: 0;
   margin: 0;
-  min-width: 250px;
-  width: 26%;
+  width: 100%;
   @include bp(mobile) {
     margin: 2rem 2rem 0 0;
+    min-width: 250px;
+    width: 26%;
   }
 
   > a {
@@ -38,6 +39,44 @@
           color: $grayer;
         }
 
+      }
+
+    }
+
+  }
+
+}
+
+.categories {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 3% 0;
+  width: 100%;
+
+  .category {
+
+    a {
+      align-items: center;
+      border: 2px solid $whitish;
+      color: $gray;
+      display: flex;
+      font-size: 1.5rem;
+      font-weight: bold;
+      height: 260px;
+      justify-content: center;
+      flex: 1;
+      max-width: 260px;
+      padding: 1rem;
+      text-align: center;
+
+      &:hover {
+        background-color: $whitish;
+        color: $grayer;
+      }
+
+      &::before {
+        content: "";
       }
 
     }
