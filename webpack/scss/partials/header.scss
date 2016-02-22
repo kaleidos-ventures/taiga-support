@@ -12,29 +12,35 @@
     max-width: 70%;
   }
 
-  .taiga-logo {
-    height: 40px;
-    margin-bottom: 0;
-    margin-right: .6rem;
-    margin-top: 0;
-    width: 40px;
-    @include bp(mobile) {
-      height: 60px;
-      margin-right: 1rem;
-      width: 60px;
+  .main-logo {
+    align-items: center;
+    display: flex;
+
+    .taiga-logo {
+      height: 40px;
+      margin-bottom: 0;
+      margin-right: .6rem;
+      margin-top: 0;
+      width: 40px;
+      @include bp(mobile) {
+        height: 60px;
+        margin-right: 1rem;
+        width: 60px;
+      }
+
     }
 
-  }
+    h1 {
+      border: 0;
+      color: $primary;
+      font-weight: normal;
+      margin: 0;
+      padding: 0;
 
-  h1 {
-    border: 0;
-    color: $primary;
-    font-weight: normal;
-    margin: 0;
-    padding: 0;
+      span {
+        color: $gray-light;
+      }
 
-    span {
-      color: $gray-light;
     }
 
   }
