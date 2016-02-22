@@ -1,10 +1,10 @@
 {% extends "layout.html" %}
-{% from "macros/categories.html" import render_category %}
+{% from "macros/categories.html" import render_category_details %}
 
 {% block title %}
     {{ this.title }}
 {% endblock %}
 
 {% block body %}
-    {{ render_category(this, show_articles=True) }}
+    {{ render_category_details(this, show_articles=True) }}
 {% endblock %}

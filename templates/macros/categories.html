@@ -1,22 +1,31 @@
-{% macro render_category(category, active=none, show_articles=none, active_article=none) %}
+{% macro render_category(category) %}
+    {% if category.children %}
+	<div class="category">
+		<a href="{{ category.children.first()|url }}">
+            <img class="category-icon" src="{{ '/images/icon-taiga-color.png'|asseturl }}" />
+            <span>{{ category.name }}</span>
+        </a>
+	</div>
+    {% endif %}
+{% endmacro %}
+
+{% macro render_category_details(category, active=none, show_articles=none, active_article=none) %}
     {% if category.children %}
 	<div class="category{% if category._id == active %} active{% endif %}">
 		<a href="{{ category.children.first()|url }}">
-        <img class="category-icon" src="{{ '/images/icon-taiga-color.png'|asseturl }}" />
-        <span>{{ category.name }}</span>
-    </a>
+            <span>{{ category.name }}</span>
+        </a>
 
         {% if show_articles %}
-            <ul class="articles-list">
-                {% for article in category.children %}
-                    <li>
-                        <a href="{{ article|url }}"
-                           {% if article._id == active_article %} class="active{% endif %}">
-                            {{ article.title }}
-                        </a>
-                    </li>
-                {% endfor %}
-            </ul>
+        <ul class="articles-list">
+            {% for article in category.children %}
+            <li>
+                <a href="{{ article|url }}" {% if article._id == active_article %} class="active{% endif %}">
+                    {{ article.title }}
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
         {% endif %}
 	</div>
     {% endif %}

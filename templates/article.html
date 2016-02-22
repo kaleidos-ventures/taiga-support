@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% from "macros/articles.html" import render_article %}
-{% from "macros/categories.html" import render_category %}
+{% from "macros/categories.html" import render_category_details %}
 
 
 {% block title %}
@@ -8,6 +8,6 @@
 {% endblock %}
 
 {% block body %}
-    {{ render_category(this.parent, show_articles=True, active_article=this._id) }}
+    {{ render_category_details(this.parent, show_articles=True, active_article=this._id) }}
     {{ render_article(this) }}
 {% endblock %}
