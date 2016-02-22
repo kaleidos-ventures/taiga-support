@@ -1,6 +1,7 @@
 <!doctype html>
 <meta charset="utf-8">
 <title>{% block title %}Welcome{% endblock %} — Taiga Support</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <link rel="stylesheet" href="/static/styles.css">
 <script type=text/javascript src="{{ '/static/app.js'|asseturl }}" charset="utf-8"></script>
@@ -36,7 +37,9 @@
         {% block body %}{% endblock %}
     </div>
 
-    <footer>
-        &copy; Copyright 2015 by Taiga Agile LLC.
+    <footer class="footer">
+      <div class="footer-inside">
+        &copy; Copyright 2016 by Taiga Agile LLC.
+      </div>
     </footer>
 </body>

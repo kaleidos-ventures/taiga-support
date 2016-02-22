@@ -1,27 +1,32 @@
 .header {
   border-bottom: 1px solid $whitish;
+}
 
-  .header-inside {
-    align-items: center;
-    display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
-    padding: 1rem;
+.header-inside {
+  align-items: center;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 1rem;
 
-    .taiga-logo {
+  .taiga-logo {
+    height: 40px;
+    margin-right: .6rem;
+    width: 40px;
+    @include bp(mobile) {
       height: 60px;
       margin-right: 1rem;
       width: 60px;
     }
 
-    h1 {
-      color: $primary;
-      margin: 0;
+  }
 
-      span {
-        color: $gray-light;
-      }
+  h1 {
+    color: $primary;
+    margin: 0;
 
+    span {
+      color: $gray-light;
     }
 
   }
@@ -35,7 +40,7 @@
 .main-search {
   background-color: $whitish;
   display: flex;
-  padding: 1rem 0;
+  padding: 1rem;
 
   .input-text {
     margin: 0 auto;

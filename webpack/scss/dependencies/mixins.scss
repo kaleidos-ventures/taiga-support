@@ -1,0 +1,63 @@
+/// Breakpoints responsive mixin ///
+
+@mixin bp($point) {
+
+  $bp-mobile: "(min-width: 720px)";
+  $bp-tablet: "(min-width: 1020px)";
+  $bp-notebook: "(min-width: 1366px)";
+  $bp-desktop: "(min-width: 1680px)";
+
+  @if $point == desktop {
+    @media #{$bp-desktop} { @content; }
+  }
+  @if $point == notebook {
+    @media #{$bp-notebook} { @content; }
+  }
+  @else if $point == tablet {
+    @media #{$bp-tablet} { @content; }
+  }
+  @else if $point == mobile {
+    @media #{$bp-mobile}  { @content; }
+  }
+
+}
+
+/// This mixing allow you to add placeholder colors in all availables browsers
+///
+
+@mixin placeholder {
+  &::-webkit-input-placeholder {
+      @content;
+  }
+
+  &:-moz-placeholder { /* Firefox 18- */
+      @content;
+  }
+
+  &::-moz-placeholder {  /* Firefox 19+ */
+      @content;
+  }
+
+  &:-ms-input-placeholder {
+      @content;
+  }
+}
+
+/// Font-face generator mixin ///
+
+@mixin font-face($style-name, $file, $weight: unquote("normal"), $style: unquote("normal") ) {
+    $filepath: "/assets/fonts/" + $file;
+    @font-face {
+        font-family: "#{$style-name}";
+        src: url($filepath + ".eot");
+        src: url($filepath + ".eot?#iefix") format('embedded-opentype'), url($filepath + ".woff") format('woff'), url($filepath + ".ttf")  format('truetype'), url($filepath + ".svg#" + $style-name + "") format('svg');
+        font-weight: unquote($weight);
+        font-style: unquote($style);
+    }
+}
+
+@mixin text-ellipsis {
+  overflow-x: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

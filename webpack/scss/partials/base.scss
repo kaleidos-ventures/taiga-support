@@ -5,10 +5,13 @@
 body {
   background-color: $white;
   color: #grayer;
-  font: 16px 'Open Sans', Arial, Helvetica, sans-serif;
+  font: 14px 'Open Sans', Arial, Helvetica, sans-serif;
   line-height: 1.5;
   width: 100%;
   -webkit-font-smoothing: antialiased;
+  @include bp(mobile) {
+    font-size: 16px;
+  }
 }
 
 a {
@@ -24,23 +27,35 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: 2rem;
+  font-size: 1.6rem;
   margin-bottom: 1rem;
+  @include bp(mobile) {
+    font-size: 2rem;
+  }
 }
 
 h2 {
-  font-size: 1.750rem;
+  font-size: 1.35rem;
   margin-bottom: .85rem;
+  @include bp(mobile) {
+    font-size: 1.750rem;
+  }
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   margin-bottom: .7rem;
+  @include bp(mobile) {
+    font-size: 1.5rem;
+  }
 }
 
 h4 {
-  font-size: 1.250rem;
+  font-size: 1.1rem;
   margin-bottom: .55rem;
+  @include bp(mobile) {
+    font-size: 1.250rem;
+  }
 }
 
 // Input elements
