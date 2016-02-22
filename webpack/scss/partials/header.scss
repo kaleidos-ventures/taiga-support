@@ -8,10 +8,15 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 1rem;
+  @include bp(desktop) {
+    max-width: 80%;
+  }
 
   .taiga-logo {
     height: 40px;
+    margin-bottom: 0;
     margin-right: .6rem;
+    margin-top: 0;
     width: 40px;
     @include bp(mobile) {
       height: 60px;
@@ -49,6 +54,9 @@
     margin: 0 auto;
     max-width: 1200px;
     width: 100%;
+    @include bp(desktop) {
+      max-width: 80%;
+    }
   }
 
 }

@@ -11,6 +11,9 @@
   @include bp(mobile) {
     flex-direction: row;
   }
+  @include bp(desktop) {
+    max-width: 80%;
+  }
 }
 
 .category {

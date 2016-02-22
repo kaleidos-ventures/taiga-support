@@ -23,11 +23,20 @@ a {
 
 }
 
-.body {
+.article {
+  line-height: 2;
+
   p, li {
     line-height: 2;
     margin: 1rem 0;
   }
+
+}
+
+img {
+  height: auto;
+  margin: 1rem 0;
+  max-width: 100%;
 }
 
 h1, h2, h3, h4 {
