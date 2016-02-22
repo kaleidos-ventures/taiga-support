@@ -51,10 +51,13 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 3% 0;
+  padding: 5% 0;
   width: 100%;
 
   .category {
+    align-items: center;
+    display: flex;
+    margin: 0;
 
     a {
       align-items: center;
@@ -70,6 +73,7 @@
       max-width: 260px;
       padding: 1rem;
       text-align: center;
+      width: 100%;
 
       .category-icon {
         height: 60px;
