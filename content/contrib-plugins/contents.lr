@@ -1,3 +1,6 @@
 name: Contrib Plugins
 ---
+logo:
+![Contrib Plugins logo](logo.png "Contrib Plugins logo")
+---
 order: 120

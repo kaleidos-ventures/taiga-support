@@ -1,3 +1,7 @@
 name: Admin
 ---
+logo:
+![Admin logo](logo.png "Admin logo")
+---
 order: 100
+

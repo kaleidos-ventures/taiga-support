@@ -1,3 +1,6 @@
 name: Misc
 ---
+logo:
+![Misc logo](logo.png "Misc logo")
+---
 order: 130

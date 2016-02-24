@@ -2,7 +2,7 @@
     {% if category.children %}
 	<div class="category">
 		<a href="{{ category.children.first()|url }}">
-            <img class="category-icon" src="{{ '/images/icon-taiga-color.png'|asseturl }}" />
+            {{ category.logo}} {# marcdown filed: <img src="..." alt="..."> #}
             <span>{{ category.name }}</span>
         </a>
 	</div>

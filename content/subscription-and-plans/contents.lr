@@ -1,3 +1,6 @@
 name: Subscription & Plans
 ---
+logo:
+![Subscription & Plans logo](logo.png "Subscription & Plans logo")
+---
 order: 20
