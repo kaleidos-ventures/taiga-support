@@ -1,3 +1,5 @@
+{% from "macros/nav.html" import render_main_nav_menu %}
+
 <!doctype html>
 <meta charset="utf-8">
 
@@ -19,23 +21,7 @@
                 <h1>TAIGA <span>SUPPORT</span></h1>
             </a>
 
-            <nav class="main-nav">
-                <ul>
-                    <li>
-                        <a href="http://taigaio.github.io/taiga-doc/dist/" target="_blank" alt="docs">DOCS</a>
-                    </li>
-                    <li>
-                        <a href="http://taigaio.github.io/taiga-doc/dist/api.html" target="_blank" alt="API">API</a>
-                    </li>
-                    <li>
-                        <a href="http://groups.google.com/d/forum/taigaio" target="_blank" alt="google group">GOOGLE GROUP</a>
-                    </li>
-                    <li>
-                        <a href="http://taiga.io" target="_blank" alt="Taiga">TAIGA</a>
-                    </li>
-                </ul>
-            </nav>
-
+            {{ render_main_nav_menu() }}
         </div>
     </header>
 
@@ -50,26 +36,11 @@
     </div>
 
     <footer class="footer">
-      <div class="footer-inside">
-          <span>&copy; Copyright 2016 by Taiga Agile LLC.</span>
-          <nav class="main-nav">
-              <ul>
-                  <li>
-                      <a href="http://taigaio.github.io/taiga-doc/dist/" target="_blank" alt="docs">DOCS</a>
-                  </li>
-                  <li>
-                      <a href="http://taigaio.github.io/taiga-doc/dist/api.html" target="_blank" alt="API">API</a>
-                  </li>
-                  <li>
-                      <a href="http://groups.google.com/d/forum/taigaio" target="_blank" alt="google group">GOOGLE GROUP</a>
-                  </li>
-                  <li>
-                      <a href="http://taiga.io" target="_blank" alt="Taiga">TAIGA</a>
-                  </li>
-              </ul>
-          </nav>
+        <div class="footer-inside">
+            <span>&copy; Copyright 2014-2016 Taiga Agile LLC.</span>
 
-      </div>
+            {{ render_main_nav_menu() }}
+        </div>
     </footer>
 
 </body>
