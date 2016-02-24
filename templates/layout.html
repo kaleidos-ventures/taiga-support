@@ -11,9 +11,10 @@
 <script type=text/javascript src="{{ '/static/app.js'|asseturl }}" charset="utf-8"></script>
 
 <body>
+
     <header class="header">
         <div class="header-inside">
-            <a class="main-logo" href="/">
+            <a class="main-logo" href="{{ '/'|url }}">
                 <img class="taiga-logo" src="{{ '/images/icon-taiga-color.png'|asseturl }}" />
                 <h1>TAIGA <span>SUPPORT</span></h1>
             </a>
@@ -39,13 +40,13 @@
     </header>
 
     <div class="main-search">
-        <input class="input-text" type="text" placeholder="Search in Taiga support">
+        <input class="input-text" type="text" placeholder="Search in Taiga Support pages">
     </div>
 
     <div class="content">
-      <div class="content-inside">
-        {% block body %}{% endblock %}
-      </div>
+        <div class="content-inside">
+            {% block body %}{% endblock %}
+        </div>
     </div>
 
     <footer class="footer">
@@ -70,4 +71,5 @@
 
       </div>
     </footer>
+
 </body>
