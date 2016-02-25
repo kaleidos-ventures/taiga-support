@@ -8,14 +8,30 @@
   margin: 0 auto;
   max-width: 1200px;
   padding: 1rem;
-  @include bp(mobile) {
-    flex-direction: row;
-  }
   @include bp(desktop) {
     max-width: 70%;
   }
 }
 
+.home-text {
+  padding: 0 1%;
+  text-align: center;
+  @include bp(mobile) {
+    padding: 0 10%;
+  }
+
+  p {
+    margin-bottom: 1rem;
+
+    &.welcome {
+      color: $gray-light;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+
+  }
+
+}
 .article {
   line-height: 2;
 

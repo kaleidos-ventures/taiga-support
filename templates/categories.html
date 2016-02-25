@@ -4,20 +4,23 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
-    {# TODO: Juan I need you magic!!!
-    <p>
-        We hope this support page helps answer any questions you may have. We will be glad
-        to receive your contributions and suggestions both with respect to the content we
-        outline below and we welcome your suggestions of other areas that you feel may need
-        better or more in-depth explanation.
-    </p>
+    <div class="home-text">
+        <p class="welcome">Welcome!</p>
+        
+        <p>
+            We hope this support page helps answer any questions you may have. We will be glad
+            to receive your contributions and suggestions both with respect to the content we
+            outline below and we welcome your suggestions of other areas that you feel may need
+            better or more in-depth explanation.
+        </p>
 
-    <p>
-        If you need to get in touch with us, there are several channels available to you.
-        Please choose the most appropriate by going to <a href="{{ '/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/'|url }}">
-        “How Do I Get in touch with you?"</a> FAQs article. Welcome!
-    </p>
-    #}
+        <p>
+            If you need to get in touch with us, there are several channels available to you.
+            Please choose the most appropriate by going to <a href="{{ '/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/'|url }}">
+            “How Do I Get in touch with you?"</a> FAQs article.
+        </p>
+    </div>
+
     <div class="categories">
         {% for category in this.children %}
             {{ render_category(category) }}

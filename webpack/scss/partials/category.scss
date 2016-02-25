@@ -50,9 +50,13 @@
 .categories {
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   padding: 5% 0;
   width: 100%;
+  @include bp(mobile) {
+    flex-direction: row;
+  }
 
   .category {
     align-items: center;

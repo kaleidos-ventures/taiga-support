@@ -15,10 +15,10 @@ body {
 }
 
 a {
-  color: $primary-light;
+  color: $primary;
 
   &:hover {
-    color: $primary;
+    color: $primary-light;
   }
 
 }
