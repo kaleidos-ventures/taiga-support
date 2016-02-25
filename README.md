@@ -1,6 +1,6 @@
 # Taiga-support [![Build Status](https://travis-ci.org/taigaio/taiga-support.svg?branch=master)](https://travis-ci.org/taigaio/taiga-support)
 
-User suport pages for Taiga. See https://support.taiga.io.
+User suport pages for Taiga.
 
 
 ## For Developers
