@@ -1,10 +1,19 @@
 {% macro render_category(category) %}
     {% if category.children %}
 	<div class="category">
-		<a href="{{ category.children.first()|url }}">
+		<a class="category-link" href="{{ category.children.first()|url }}">
             {{ category.logo}} {# marcdown filed: <img src="..." alt="..."> #}
             <span>{{ category.name }}</span>
-        </a>
+    </a>
+    <ul class="category-excerpt">
+        <li>
+            <a href="#">Lorem ipsum dolor sit amet</a>
+        </li>
+        <li>
+            <a href="#">Lorem ipsum dolor sit amet</a>
+        </li>
+        <li>...</li>
+    </ul>
 	</div>
     {% endif %}
 {% endmacro %}

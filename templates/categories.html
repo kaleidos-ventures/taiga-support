@@ -4,9 +4,10 @@
 {% block title %}{{ this.title }}{% endblock %}
 
 {% block body %}
+<div class="content-home">
     <div class="home-text">
         <p class="welcome">Welcome!</p>
-        
+
         <p>
             We hope this support page helps answer any questions you may have. We will be glad
             to receive your contributions and suggestions both with respect to the content we
@@ -26,4 +27,5 @@
             {{ render_category(category) }}
         {% endfor %}
     </div>
+</div>
 {% endblock %}

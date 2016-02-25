@@ -28,15 +28,36 @@
       display: flex;
 
       a {
-        border: 2px solid $whitish;
         color: $gray;
+        display: flex;
         margin-bottom: .5rem;
         padding: .5rem .8rem;
         width: 100%;
 
+        &::before {
+          background-color: lighten($gray-light, 10%);
+          border-radius: 50%;
+          content: "";
+          flex-shrink: 0;
+          height: 10px;
+          margin: 7px 5px 0 -8px;
+          width: 10px;
+        }
+
         &:hover {
           background: $whitish;
           color: $grayer;
+        }
+
+        &.active {
+          background: $whitish;
+          color: $grayer;
+          font-weight: bold;
+
+          &::before {
+            background-color: $gray;
+          }
+
         }
 
       }
@@ -60,24 +81,27 @@
 
   .category {
     align-items: center;
+    border: 2px solid $whitish;
     display: flex;
-    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    margin: .5rem;
+    padding: 1rem;
+    width: 100%;
+    @include bp(mobile) {
+      max-width: 30%;
+    }
 
-    a {
+    .category-link {
       align-items: center;
-      border: 2px solid $whitish;
       color: $gray;
       display: flex;
       flex-direction: column;
       font-size: 1.5rem;
       font-weight: bold;
-      height: 260px;
-      justify-content: center;
-      flex: 1;
-      max-width: 260px;
+      min-height: 160px;
       padding: 1rem;
       text-align: center;
-      width: 100%;
 
       img {
         height: 60px;
@@ -85,17 +109,26 @@
         width: 60px;
       }
 
-      &:hover {
-        background-color: $whitish;
-        color: $grayer;
-      }
-
       &::before {
         content: "";
       }
 
+      &:hover {
+        color: $grayer;
+      }
+
     }
 
+  }
+
+}
+
+ul.category-excerpt {
+  display: flex;
+  width: 100%;
+
+  li {
+    display: flex;
   }
 
 }
