@@ -10,9 +10,10 @@ Just add to your commit message something like:
 TG-REF #STATUS-slug
 ```
 - **REF**: US/Issue/Task reference of the element you want to modify
-- **STATUS**: New status slug to set, you can find all of them in: US STATUSES
+- **STATUS**: New status slug to set.
 
-### An example, please!
+You can [find and modify status values](https://taiga.io/admin/custom-status/) for any project.
+
 
 ```
 TG-123 #closed
