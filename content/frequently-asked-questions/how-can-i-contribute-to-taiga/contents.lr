@@ -68,3 +68,5 @@ There are two possible ways to contribute to our UI:
 
 ---
 order: 40
+---
+is_featured: true

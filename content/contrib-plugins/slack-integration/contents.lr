@@ -42,3 +42,5 @@ In your project in Taiga:
 
 ---
 order: 30
+---
+is_featured: true

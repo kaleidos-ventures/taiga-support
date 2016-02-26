@@ -1,7 +1,10 @@
 name: Admin
 ---
-logo:
-![Admin logo](logo.png "Admin logo")
+logo: ![Admin logo](logo.png "Admin logo")
 ---
-order: 100
+order:
 
+100
+
+---
+_hidden: no

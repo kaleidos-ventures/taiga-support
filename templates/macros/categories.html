@@ -4,16 +4,15 @@
 		<a class="category-link" href="{{ category.children.first()|url }}">
             {{ category.logo}} {# marcdown filed: <img src="..." alt="..."> #}
             <span>{{ category.name }}</span>
-    </a>
-    <ul class="category-excerpt">
-        <li>
-            <a href="#">Lorem ipsum dolor sit amet</a>
-        </li>
-        <li>
-            <a href="#">Lorem ipsum dolor sit amet</a>
-        </li>
-        <li>...</li>
-    </ul>
+        </a>
+        <ul class="category-excerpt">
+            {% for article in category.children.filter(F.is_featured == true) %}
+            <li>
+                <a href="{{ article|url }}">{{ article.title }}</a>
+            </li>
+            {% endfor %}
+            <li>...and more.</li>
+        </ul>
 	</div>
     {% endif %}
 {% endmacro %}

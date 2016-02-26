@@ -45,3 +45,5 @@ The status of any issue, task or user story can be changed via commit message. Y
 
 ---
 order: 20
+---
+is_featured: true

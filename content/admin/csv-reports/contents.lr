@@ -39,3 +39,5 @@ Remember that you can share the url and regenerate every time you want. And a ve
 
 ---
 order: 30
+---
+is_featured: true

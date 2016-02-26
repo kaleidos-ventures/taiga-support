@@ -38,3 +38,5 @@ You can test it, if you want, clicking over *Test* button and a test message sha
 
 ---
 order: 20
+---
+is_featured: true

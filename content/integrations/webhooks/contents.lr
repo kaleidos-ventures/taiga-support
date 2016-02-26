@@ -30,3 +30,5 @@ You may want to integrate your own system with the Taiga webhooks, you can see t
 
 ---
 order: 10
+---
+is_featured: true
