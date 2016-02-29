@@ -3,11 +3,23 @@
 <!doctype html>
 <meta charset="utf-8">
 
-<title>
-    Custom Fields
- — Taiga Support</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Custom Fields — Taiga Support</title>
+<meta name="description" content="<p>Taiga includes optional custom fields in its administration panel. It will provide teams with a flexible input to fit in their workflow.</p>
+<p>Users with administration permissions will be able to create new custom fields for their project User Stories, Tasks and Issues</p>
+<h3 id="1.-configure-custom-fields">1. Configure Custom Fields</h3><ol>
+<li>Go to one of your Taiga projects.</li>
+<li>Click on <em>admin</em> button. <em>In this example we will focus on User Stories, but this feature is also available on tasks and issues and same steps should be followed to edit them.</em></li>
+<li>Go to <em>Attributes &gt; US</em> and scroll down to the custom fields configuration.</li>
+<li>Fill the name and description of your custom field. Remember your custom field needs a context for other users to understand it correctly.<br>
+<img src="../../admin/custom-fields/customfields01.png" alt="Custom Fields Configuration" title="Custom Fields Configuration"></li>
+<li>Save the changes.</li>
+</ol>
+<h3 id="2.-using-custom-fields">2. Using custom fields</h3><p>Once you created your custom fields, you probably want to use them. Go to you US/Task/Issue and you will find a new area under the description area titled custom fields.</p>
+<p><img src="../../admin/custom-fields/customfields02.png" alt="Custom Fields Edition" title="Custom Fields Edition"></p>
+<p>You can add a content to your custom field, and once is saved, you will always be able to edit it again. To edit its title and description follow the <em>Configure Custom Fields</em> instructions above.</p>
+">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="../../static/styles.css?h=438ebf9d">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> <!-- Google fonts -->
 <link rel="stylesheet" href="../../static/pygments.css"> <!-- Pygment css-->
@@ -57,8 +69,7 @@
     </header>
 
     <div class="main-search">
-    	<div class="gcse-searchbox-only"
-             data-resultsUrl="../../search/"></div>
+    	<div class="gcse-searchbox-only" data-resultsUrl="../../search/" enableAutoComplete="true"></div>
     </div>
 
     <div class="content">
@@ -173,6 +184,7 @@
         </div>
     </footer>
 
+    <!-- Google Custom Search -->
 	<script>
 		(function() {
 			var cx = '010658051760178355211:cbd4t5snspy';

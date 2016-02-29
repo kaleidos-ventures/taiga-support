@@ -3,11 +3,41 @@
 <!doctype html>
 <meta charset="utf-8">
 
-<title>
-    Slack integration
- — Taiga Support</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Slack integration — Taiga Support</title>
+<meta name="description" content="<p><em>Slack is a platform for team communication.</em></p>
+<p>First things first, Slack is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get out your machete and start cutting into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
+<p>If you need help with a specific feature, you can always get in touch with our community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
+<h3 id="1.-configure-slack">1. Configure Slack</h3><p>Go to your slack app</p>
+<ol>
+<li><p>Go to <em>Configure Integrations</em>.
+<img src="../../contrib-plugins/slack-integration/slack-integration-1.png" alt="Slack Integration Step 1" title="Slack Integration Step 1"></p>
+</li>
+<li><p>Add a new "Incoming WebHooks" integration.
+<img src="../../contrib-plugins/slack-integration/slack-integration-2.png" alt="Slack Integration Step 2" title="Slack Integration Step 2"></p>
+</li>
+<li><p>Choose a channel and click <em>Add Incoming WebHooks Integration</em>.
+<img src="../../contrib-plugins/slack-integration/slack-integration-3.png" alt="Slack Integration Step 3" title="Slack Integration Step 3"></p>
+</li>
+<li><p>Copy your <em>Webhook URL</em>.
+<img src="../../contrib-plugins/slack-integration/slack-integration-4.png" alt="Slack Integration Step 4" title="Slack Integration Step 4"></p>
+</li>
+</ol>
+<h3 id="2.-configure-taiga">2. Configure Taiga</h3><p>In your project in Taiga:</p>
+<ol>
+<li><p>Go to <em>Admin &gt; Contrib plugins &gt; Slack</em>
+<img src="../../contrib-plugins/slack-integration/taiga-slack-menu.png" alt="Taiga Slack Menu" title="Taiga Slack Menu"></p>
+</li>
+<li><p>Set the <em>Slack webhook url</em> to the copied value in the previous step.</p>
+</li>
+<li><p>You can also set the Slack channel which your project will post to. Leave the field blank if you wish to post to the default channel.
+<img src="../../contrib-plugins/slack-integration/taiga-slack-integration.png" alt="Taiga Slack Integration" title="Taiga Slack Integration"></p>
+</li>
+<li><p>Save your configuration.</p>
+</li>
+</ol>
+">
 
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link rel="stylesheet" href="../../static/styles.css?h=438ebf9d">
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> <!-- Google fonts -->
 <link rel="stylesheet" href="../../static/pygments.css"> <!-- Pygment css-->
@@ -57,8 +87,7 @@
     </header>
 
     <div class="main-search">
-    	<div class="gcse-searchbox-only"
-             data-resultsUrl="../../search/"></div>
+    	<div class="gcse-searchbox-only" data-resultsUrl="../../search/" enableAutoComplete="true"></div>
     </div>
 
     <div class="content">
@@ -191,6 +220,7 @@
         </div>
     </footer>
 
+    <!-- Google Custom Search -->
 	<script>
 		(function() {
 			var cx = '010658051760178355211:cbd4t5snspy';
