@@ -53,3 +53,21 @@
   }
 
 }
+
+.toc {
+  padding: .6rem 1rem;
+
+  li {
+    align-items: center;
+    display: flex;
+
+    &::before {
+      content: "-";
+      color: $primary;
+      font-weight: bold;
+      margin-right: 1rem;
+    }
+
+  }
+
+}
