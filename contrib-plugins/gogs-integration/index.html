@@ -4,28 +4,37 @@
 <meta charset="utf-8">
 
 <title>Gogs integration — Taiga Support</title>
-<meta name="description" content="<p><em>Gogs is a self-hosted Git service written in Go.</em></p>
-<p>First things first, Gogs is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get your machete and cut right into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
-<p>If you need help with a specific feature, you can always get in touch with our community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
-<h3 id="1.-configure-taiga">1. Configure Taiga</h3><p>Go to <em>Admin &gt; Contrib plugins &gt; Gogs</em></p>
-<p><img src="../../contrib-plugins/gogs-integration/taiga-gogs-menu.png" alt="Taiga Gogs Menu" title="Taiga Gogs Menu"></p>
-<ol>
-<li>Fill in the Secret key or use the one that it is auto generated
-<img src="../../contrib-plugins/gogs-integration/taiga-gogs-integration.png" alt="Taiga Gogs Config" title="Taiga Gogs Config"></li>
-<li>Copy the Payload URL field.</li>
-</ol>
-<h3 id="2.-configure-gogs">2. Configure Gogs</h3><p>Go to your repository</p>
-<ol>
-<li>Click on <em>Settings &gt; Webhooks &gt; Add webhook</em></li>
-<li>On the form set the <em>Payload URL</em> and the <em>Secret</em> with the payload URL and
-Secret key from Taiga.</li>
-<li>Taiga only listen for push events (changing element status via commit
-message) in the case of gogs.
-<img src="../../contrib-plugins/gogs-integration/gogs-webhooks.png" alt="Gogs Webhooks" title="Gogs Webhooks"></li>
-</ol>
-<h3 id="changing-elements-status-via-commit-message">Changing elements status via commit message</h3><p>The status of any issue, task or user story can be changed via commit message.
+<meta name="description" content="*Gogs is a self-hosted Git service written in Go.*
+
+First things first, Gogs is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get your machete and cut right into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help with a specific feature, you can always get in touch with our community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+### 1. Configure Taiga
+Go to *Admin &gt; Contrib plugins &gt; Gogs*
+
+![Taiga Gogs Menu](taiga-gogs-menu.png &#34;Taiga Gogs Menu&#34;)
+
+1. Fill in the Secret key or use the one that it is auto generated
+   ![Taiga Gogs Config](taiga-gogs-integration.png &#34;Taiga Gogs Config&#34;)
+2. Copy the Payload URL field.
+
+### 2. Configure Gogs
+Go to your repository
+
+1. Click on *Settings &gt; Webhooks &gt; Add webhook*
+2. On the form set the *Payload URL* and the *Secret* with the payload URL and
+   Secret key from Taiga.
+3. Taiga only listen for push events (changing element status via commit
+   message) in the case of gogs.
+   ![Gogs Webhooks](gogs-webhooks.png &#34;Gogs Webhooks&#34;)
+
+
+### Changing elements status via commit message
+
+The status of any issue, task or user story can be changed via commit message.
 You may want to read more
-<a href="https://taiga.io/support/changing-elements-status-via-commit-message/">about this feature</a></p>
+[about this feature](https://taiga.io/support/changing-elements-status-via-commit-message/)
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">

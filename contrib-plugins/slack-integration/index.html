@@ -4,37 +4,43 @@
 <meta charset="utf-8">
 
 <title>Slack integration — Taiga Support</title>
-<meta name="description" content="<p><em>Slack is a platform for team communication.</em></p>
-<p>First things first, Slack is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get out your machete and start cutting into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
-<p>If you need help with a specific feature, you can always get in touch with our community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
-<h3 id="1.-configure-slack">1. Configure Slack</h3><p>Go to your slack app</p>
-<ol>
-<li><p>Go to <em>Configure Integrations</em>.
-<img src="../../contrib-plugins/slack-integration/slack-integration-1.png" alt="Slack Integration Step 1" title="Slack Integration Step 1"></p>
-</li>
-<li><p>Add a new "Incoming WebHooks" integration.
-<img src="../../contrib-plugins/slack-integration/slack-integration-2.png" alt="Slack Integration Step 2" title="Slack Integration Step 2"></p>
-</li>
-<li><p>Choose a channel and click <em>Add Incoming WebHooks Integration</em>.
-<img src="../../contrib-plugins/slack-integration/slack-integration-3.png" alt="Slack Integration Step 3" title="Slack Integration Step 3"></p>
-</li>
-<li><p>Copy your <em>Webhook URL</em>.
-<img src="../../contrib-plugins/slack-integration/slack-integration-4.png" alt="Slack Integration Step 4" title="Slack Integration Step 4"></p>
-</li>
-</ol>
-<h3 id="2.-configure-taiga">2. Configure Taiga</h3><p>In your project in Taiga:</p>
-<ol>
-<li><p>Go to <em>Admin &gt; Contrib plugins &gt; Slack</em>
-<img src="../../contrib-plugins/slack-integration/taiga-slack-menu.png" alt="Taiga Slack Menu" title="Taiga Slack Menu"></p>
-</li>
-<li><p>Set the <em>Slack webhook url</em> to the copied value in the previous step.</p>
-</li>
-<li><p>You can also set the Slack channel which your project will post to. Leave the field blank if you wish to post to the default channel.
-<img src="../../contrib-plugins/slack-integration/taiga-slack-integration.png" alt="Taiga Slack Integration" title="Taiga Slack Integration"></p>
-</li>
-<li><p>Save your configuration.</p>
-</li>
-</ol>
+<meta name="description" content="*Slack is a platform for team communication.*
+
+First things first, Slack is a huge platform with lots of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get out your machete and start cutting into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
+
+If you need help with a specific feature, you can always get in touch with our community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+
+
+### 1. Configure Slack
+
+Go to your slack app
+
+1. Go to *Configure Integrations*.
+   ![Slack Integration Step 1](slack-integration-1.png &#34;Slack Integration Step 1&#34;)
+
+2. Add a new &#34;Incoming WebHooks&#34; integration.
+   ![Slack Integration Step 2](slack-integration-2.png &#34;Slack Integration Step 2&#34;)
+
+3. Choose a channel and click *Add Incoming WebHooks Integration*.
+   ![Slack Integration Step 3](slack-integration-3.png &#34;Slack Integration Step 3&#34;)
+
+4. Copy your *Webhook URL*.
+   ![Slack Integration Step 4](slack-integration-4.png &#34;Slack Integration Step 4&#34;)
+
+
+### 2. Configure Taiga
+
+In your project in Taiga:
+
+1. Go to *Admin &gt; Contrib plugins &gt; Slack*
+   ![Taiga Slack Menu](taiga-slack-menu.png &#34;Taiga Slack Menu&#34;)
+
+2. Set the *Slack webhook url* to the copied value in the previous step.
+
+3. You can also set the Slack channel which your project will post to. Leave the field blank if you wish to post to the default channel.
+   ![Taiga Slack Integration](taiga-slack-integration.png &#34;Taiga Slack Integration&#34;)
+
+4. Save your configuration.
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
