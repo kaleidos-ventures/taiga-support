@@ -39,9 +39,9 @@
           border-radius: 50%;
           content: "";
           flex-shrink: 0;
-          height: 10px;
-          margin: 7px 5px 0 -8px;
-          width: 10px;
+          height: 8px;
+          margin: 8px 6px 0 -8px;
+          width: 8px;
         }
 
         &:hover {
@@ -84,7 +84,7 @@
     border: 2px solid $whitish;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     margin: .5rem;
     padding: 1rem;
     width: 100%;
@@ -129,6 +129,12 @@ ul.category-excerpt {
 
   li {
     display: flex;
+    font-size: .9rem;
+
+    &.more {
+      color: $gray-light;
+    }
+
   }
 
 }
