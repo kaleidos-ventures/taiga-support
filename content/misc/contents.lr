@@ -1,6 +1,6 @@
 name: Misc
 ---
 logo:
-![Misc logo](logo.png "Misc logo")
+![Misc logo](logo.svg "Misc logo")
 ---
 order: 130

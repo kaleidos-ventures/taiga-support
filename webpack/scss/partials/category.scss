@@ -105,7 +105,8 @@
 
       img {
         height: 60px;
-        margin-top: -20px;
+        margin-top: -5px;
+        opacity: .2;
         width: 60px;
       }
 
@@ -115,6 +116,11 @@
 
       &:hover {
         color: $grayer;
+
+        img {
+          opacity: .7;
+        }
+
       }
 
     }
