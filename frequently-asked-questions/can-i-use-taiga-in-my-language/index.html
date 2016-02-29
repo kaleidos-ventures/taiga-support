@@ -57,7 +57,8 @@
     </header>
 
     <div class="main-search">
-        <input class="input-text" type="text" placeholder="Search in Taiga Support pages">
+    	<div class="gcse-searchbox-only"
+             data-resultsUrl="../../search/"></div>
     </div>
 
     <div class="content">
@@ -232,4 +233,16 @@ title="See more information on Transifex.com"><img border="0" src="https://www.t
         </div>
     </footer>
 
+	<script>
+		(function() {
+			var cx = '010658051760178355211:cbd4t5snspy';
+			var gcse = document.createElement('script');
+			gcse.type = 'text/javascript';
+			gcse.async = true;
+			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+				'//cse.google.com/cse.js?cx=' + cx;
+			var s = document.getElementsByTagName('script')[0];
+			s.parentNode.insertBefore(gcse, s);
+		})();
+    </script>
 </body>
