@@ -1,5 +1,6 @@
 [project]
 name = Taiga Support
+url = http://taigaio.github.io/taiga-support
 
 [packages]
 lektor-webpack-support = 0.1
