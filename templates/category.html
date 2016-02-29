@@ -1,9 +1,8 @@
 {% extends "layout.html" %}
 {% from "macros/categories.html" import render_category_details %}
 
-{% block title %}
-    {{ this.title }}
-{% endblock %}
+{% block meta_title %}{{ this.name }} Category{% endblock %}
+{% block meta_description %}{{ this.body }}{% endblock %}
 
 {% block body %}
     {{ render_category_details(this, show_articles=True) }}
