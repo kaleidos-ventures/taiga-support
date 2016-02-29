@@ -2,7 +2,7 @@
 {% from "macros/categories.html" import render_category_details %}
 
 {% block meta_title %}{{ this.name }} Category{% endblock %}
-{% block meta_description %}{{ this.body }}{% endblock %}
+{% block meta_description %}{{ this.body.source }}{% endblock %}
 
 {% block body %}
     {{ render_category_details(this, show_articles=True) }}
