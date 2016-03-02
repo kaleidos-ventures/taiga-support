@@ -6,8 +6,6 @@ By default, projects on Taiga are designated as **“private“**. Private proje
 
 > **IMPORTANT**: Once you change a project status from “public” to “private” only members of that project will be granted access. However, despite the change from "public" to "private" you may find that the project has already been indexed by online search engines such as Google and appear in search queries. The listing in search engines will disappear when the search engine re-indexes the Taiga site. In our experience this happens every 24 to 48 hours.
 
-Taiga's community is made up of talented developers, project managers, designers and others working on interesting projects at companies ranging from small startups to Fortune 500 companies. Numerous public sector and government entities from around the world are also using Taiga to manage their projects.
-
 By making your project “public”, you enjoy the following advantages:
 
 - Projects that are public are completely free and are not counted when we calculate the price tier applicable to a project owner who also has private projects.
