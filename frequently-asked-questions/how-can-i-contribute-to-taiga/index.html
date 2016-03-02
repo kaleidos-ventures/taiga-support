@@ -4,69 +4,118 @@
 <meta charset="utf-8">
 
 <title>How can I contribute to Taiga? — Taiga Support</title>
-<meta name="description" content="*A great way of improving Taiga is to getting involved in its development. Since Taiga is an Open Source project, we welcome contributions of many ways. We are a growing community with people interested in many ways of incorporating Taiga to suit their needs. We are eager to learn of any approaches you may have to enhance Taiga&#39;s usability and feature set.*
+<meta name="description" content="We will be very happy to help us to improve Taiga,there are many different ways to contribute to Taiga&#39;s development, just find the one that best fits with your skills. Here are the guidelines we&#39;d like you to follow.
 
-### Where to start
+## Our Code of Conduct
 
-There are many different ways to contribute to Taiga&#39;s development, just find the one that best fits with your skills. Examples of contributions we would love to receive include:
-
-- **Code patches**
-- **Documentation improvements**
-- **Translations **
-- **Bug reports**
-- **Patch reviews**
-- **UI enhancements **
-
-Big features are also welcome but if you want to see your contributions included in Taiga codebase we strongly recommend you start by initiating a chat though our [mailing list](http://groups.google.co.uk/d/forum/taigaio){target=&#34;_blank&#34;}
+Help us keep the Taiga Community open and inclusive. Please read and follow our [Code of Conduct][CoC].
 
 
-### License
+## Our License
 
-Every code patch accepted in taiga codebase is licensed under [AGPL v3.0](http://www.gnu.org/licenses/agpl-3.0.html){target=&#34;_blank&#34;}. You should must be careful to not include any code that can not be licensed under this license. 
+Every code patch accepted in Taiga codebase is licensed under [AGPL v3.0][AGPL v3.0]. You must be careful to not include any code that can not be licensed under this license.
 
-Please read carefully [our license](https://github.com/taigaio/taiga-front/blob/master/LICENSE){target=&#34;_blank&#34;} and ask us if you have any questions.
-
-
-### Bug reports
-
-If you find a bug in Taiga you can always report a bug on [github issues](https://github.com/taigaio/taiga-front/issues){target=&#34;_blank&#34;} and one of our fellow Taiga developers will search, find and hunt it as soon as possible.
-
-Please, before reporting an issue write down how can we reproduce it, your operating system, your browser and version, and if it&#39;s possible, a screenshot. Sometimes it take less time to fix a bug if the developer know how to find it and we will solve your problem as fast as possible.
+Please read carefully [our license][Taiga license] and ask us if you have any questions.
 
 
-### Documentation improvements
+## Setup problems
 
-We are gathering lots of information from our users to build and enhance our documentation. If you are the documentation to install or develop with Taiga and find any mistakes, omissions or confused sequences, it is enormously helpful to report it. Or better still, if you believe you can author additions, please make a pull-request to taiga project.
+If you follow our [setup guide][taiga Dev/Setup documentation] and you have some problem, please tell with us in our [mailing list][Taiga Mailing List].
+
+
+## Sent us your feedback or questions
+
+If you want to send us your feedback or have some questions about how to use Taiga, please direct these to our [mailing list][Taiga Mailing List]. If it&#39;s related to our SaaS https://taiga.io please write us to our support email [support@taiga.io][Support email].
+
+Remember that you can find some help in our [support pages][Taiga User documentation].
+
+
+## Did you find an issue or bug?
+
+If you find an issue using the app (UX or UI bug) or reading our source code and it&#39;s not on our [Bug list][Taiga Bug list] at Taiga.io, please report it:
+
+- in our [mailing list][Taiga Mailing List]
+- in the issue section of the appropriate repository at [GitHub](Taiga in GitHub).
+- send us a mail to [support@taiga.io][Support email] if is a bug related to [tree.taiga.io][Taiga.io].
+- send a mail to [security@taiga.io][Security email] if is a **security bug**.
+
+Even better: you can submit a Pull Request with a fix.
+
+Please, before reporting a bug write down
+
+- explain why this is a bug for you
+- how can we reproduce it
+- your operating System
+- your browser and version
+- if it&#39;s possible, a screenshot
+
+Sometimes it takes less time to fix a bug if the developer knows how to find it and we will solve your problem as fast as possible.
+
+**Localization Issue:** Taiga use Transifex to manage the i18n files so don&#39;t submit a pull request to those files (except `-en.json`), to fix it just access our team of translators, set up an account in the [Taiga Transifex project][Taiga in Transifex] and start contributing.
+
+
+## Propose some feature or enhancement
+
+You can propose a new enhancement to our [mailing list][Taiga Mailing List] or review and upvote in the existing [list of enhancements][Taiga Enhancement list] in Taiga.io.
+
+If you would like to implement it by yourselve consider what kind of change it is:
+
+### Small Changes
+
+It can be crafted and submitted to the [GitHub Repositories][Taiga in GitHub] as a Pull Request.
+
+### Major Changes
+
+Before contributing with a major change to Taiga it should be discussed first with the Taiga Team so that we can better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project. Please, contact us in the [mailing list][Taiga mailing list] or via [support@taiga.io][Support email].
+
+We have defined a concrete workflow for this changes:
+
+1. **User Story**: Send us a complete description of the functionality you&#39;d like to develope, how it should work, for which profiles, as if you were writing a User Story. Please include some ideas of what would be a definition of Done of the User Story. The team will review it, decide whether or not it could make it into Taiga Core. If not, you can always write a plugin.
+2. **Mentorship**: If accepted, Taiga team will help you, and a person from the team will be your contact in the development process. The Story will be visible in the [Taiga Kanban][Taiga Kanban]
+3. **User Experience**: The functionality will require some wireframes or ideas to be developed correctly. A good UX its an essential part of Taiga success. You should create a user experience proposal and the Taiga UX team will help you.
+4. **Design**: The design should respect the Taiga style. Try to reproduce other areas of the site. The taiga design team will review this proposal as well.
+5. **Development**: The last step is the development. Remember to add unit and integration test in `taiga-back` code and unit and e2e test for `taiga-front` part. We have the API well documented too in [taiga-doc][Taiga Dev/Setup documentatio].
+6. **Pull request**: Remember to add a good description and screenshots are welcome too. Once the pull request is done, someone else from the team will review the code to ensure that if fits in the good practices and styles. If it does, the PR will be merged and will be on the next Taiga release.
+
+If you think you are not able to do one or more of the parts of the process, your contribution is still welcome, but we cannot ensure that it will make it soon into the Taiga core anytime soon. It will depend on our priority backlog.
+
+Thanks a lot! It is really great that we could make Taiga better with the help of the community.
+
+### Contrib plugins
+
+Taiga support contrib plugins to add or overwrite some functionalities. You can find some example in [our organization at GitHub][Taiga in GitHub].
+
+## Improve the documentation
+
+We are gathering lots of information from our users to build and enhance our documentation. If you use the documentation to install or develop with Taiga and find any mistakes, omissions or confused sequences, it is enormously helpful to report it. Or better still, if you believe you can author additions, please make a pull-request to taiga project.
 
 Currently, we have authored three main documentation hubs:
 
-- **API Docs**: Our API documentation and reference for developing from Taiga API.
-- **Installation Guide**: If you need to install Taiga on your own server, this is the place to find some guides.
-- **Taiga Support**: This page is intended to be the support reference page. If you find any mistake, please report it.
+- [Taiga Setup/Dev documentation][Taiga Dev/Setup documentation repo]: If you need to install Taiga on your own server, this is the place to find some guides or our API documentation and reference for developing from Taiga API.
+- [Taiga User documentation][Taiga User documentation repo]: This page is intended to be the support reference page for the users. If you find any mistake, please report or fix it.
 
 
-### Translation
+[Taiga.io]: https://taiga.io
 
-We are ready now to accept your help translating Taiga. It&#39;s easy (and fun!) just access to our team of translators with the link below, set up an account in Transifex and start contributing. Join us to make sure your language is covered!
+[CoC]: https://github.com/taigaio/code-of-conduct/blob/master/CODE_OF_CONDUCT.md
+[AGPL v3.0]: http://www.gnu.org/licenses/agpl-3.0.html
+[Taiga license]: https://github.com/taigaio/taiga-back/blob/master/LICENSiE
 
-**[Help Taiga to trasnlate content](https://www.transifex.com/signup/ &#34;Help Taiga to trasnlatecontent&#34;)**
+[Taiga Mailing List]: http://groups.google.co.uk/d/forum/taigaio
+[Support email]: mailto:support@taiga.io
+[Security email]: mailto:security@taiga.io
 
+[Taiga in Transifex]: https://www.transifex.com/organization/taiga-agile-llc/
+[Taiga in GitHub]: https://github.com/taigaio
 
-### Code patches
+[Taiga kanban]: https://tree.taiga.io/project/taiga/kanban
+[Taiga Bug list]: https://tree.taiga.io/project/taiga/issues?statuses=1,2&amp;orderBy=-created_date&amp;page=1&amp;types=1
+[Taiga Enhancement list]: https://tree.taiga.io/project/taiga/issues?statuses=1,2&amp;orderBy=-total_voters&amp;page=1&amp;status=1,2&amp;types=6
 
-Taiga will always be glad to receive code patches to update, fix or improve its code.
-
-If you know how to improve our code base or you found a bug, a security vulnerabilities a performance issue and you think you can solve, we will be very happy to accept your pull-request. If your code requires considerable changes, we recommend you first  talk to us directly. We will find the best way to help.
-
-
-### UI enhancements
-
-Taiga is made for developers and designers. We care enormously about UI because usability and design are both critical aspects of the Taiga experience.
-
-There are two possible ways to contribute to our UI:
-- **Bugs**: If you find a bug regarding front-end, please report it as previously indicated in the Bug reports section or send a pull-request as indicated in the Code Patches section.
-- **Enhancements**: If its a design or UX bug or enhancement we will love to receive your feedback. Please send us your enhancement, with the reason and, if it&#39;s possible, an example. Our design and UX team will review your enhancement and fix it as soon as possible. We recommend you to use our [mailing list](http://groups.google.co.uk/d/forum/taigaio){target=&#34;_blank&#34;} so we can have a lot of different opinions and debate.
-- **Language Localization**: We are eager to offer localized versions of Taiga. Some members of the community have already volunteered to work to provide a variety of languages. We are working to implement some changes to allow for this and expect to accept these requests in the near future.
+[Taiga Dev/Setup documentation]: http://taigaio.github.io/taiga-doc/dist/
+[Taiga Dev/Setup documentation repo]: https://github.com/taigaio/taiga-doc
+[Taiga User documentation]: https://taiga.io/support/
+[Taiga User documentation repo]: https://github.com/taigaio/taiga-support
 ">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -208,74 +257,107 @@ There are two possible ways to contribute to our UI:
         <ul class="toc">
             
                 <li>
-                    <a href="#where-to-start">Where to start</a>
+                    <a href="#our-code-of-conduct">Our Code of Conduct</a>
                     
                 </li>
             
                 <li>
-                    <a href="#license">License</a>
+                    <a href="#our-license">Our License</a>
                     
                 </li>
             
                 <li>
-                    <a href="#bug-reports">Bug reports</a>
+                    <a href="#setup-problems">Setup problems</a>
                     
                 </li>
             
                 <li>
-                    <a href="#documentation-improvements">Documentation improvements</a>
+                    <a href="#sent-us-your-feedback-or-questions">Sent us your feedback or questions</a>
                     
                 </li>
             
                 <li>
-                    <a href="#translation">Translation</a>
+                    <a href="#did-you-find-an-issue-or-bug?">Did you find an issue or bug?</a>
                     
                 </li>
             
                 <li>
-                    <a href="#code-patches">Code patches</a>
+                    <a href="#propose-some-feature-or-enhancement">Propose some feature or enhancement</a>
+                    
+                        <ul>
+                            
+                <li>
+                    <a href="#small-changes">Small Changes</a>
                     
                 </li>
             
                 <li>
-                    <a href="#ui-enhancements">UI enhancements</a>
+                    <a href="#major-changes">Major Changes</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#contrib-plugins">Contrib plugins</a>
+                    
+                </li>
+            
+                        </ul>
+                    
+                </li>
+            
+                <li>
+                    <a href="#improve-the-documentation">Improve the documentation</a>
                     
                 </li>
             
         </ul>
 
-        <div class="body"><p><em>A great way of improving Taiga is to getting involved in its development. Since Taiga is an Open Source project, we welcome contributions of many ways. We are a growing community with people interested in many ways of incorporating Taiga to suit their needs. We are eager to learn of any approaches you may have to enhance Taiga's usability and feature set.</em></p>
-<h3 id="where-to-start">Where to start</h3><p>There are many different ways to contribute to Taiga's development, just find the one that best fits with your skills. Examples of contributions we would love to receive include:</p>
+        <div class="body"><p>We will be very happy to help us to improve Taiga,there are many different ways to contribute to Taiga's development, just find the one that best fits with your skills. Here are the guidelines we'd like you to follow.</p>
+<h2 id="our-code-of-conduct">Our Code of Conduct</h2><p>Help us keep the Taiga Community open and inclusive. Please read and follow our <a href="https://github.com/taigaio/code-of-conduct/blob/master/CODE_OF_CONDUCT.md">Code of Conduct</a>.</p>
+<h2 id="our-license">Our License</h2><p>Every code patch accepted in Taiga codebase is licensed under <a href="http://www.gnu.org/licenses/agpl-3.0.html">AGPL v3.0</a>. You must be careful to not include any code that can not be licensed under this license.</p>
+<p>Please read carefully <a href="https://github.com/taigaio/taiga-back/blob/master/LICENSiE">our license</a> and ask us if you have any questions.</p>
+<h2 id="setup-problems">Setup problems</h2><p>If you follow our <a href="http://taigaio.github.io/taiga-doc/dist/">setup guide</a> and you have some problem, please tell with us in our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a>.</p>
+<h2 id="sent-us-your-feedback-or-questions">Sent us your feedback or questions</h2><p>If you want to send us your feedback or have some questions about how to use Taiga, please direct these to our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a>. If it's related to our SaaS <a href="https://taiga.io">https://taiga.io</a> please write us to our support email <a href="mailto:support@taiga.io">support@taiga.io</a>.</p>
+<p>Remember that you can find some help in our <a href="https://taiga.io/support/">support pages</a>.</p>
+<h2 id="did-you-find-an-issue-or-bug?">Did you find an issue or bug?</h2><p>If you find an issue using the app (UX or UI bug) or reading our source code and it's not on our <a href="https://tree.taiga.io/project/taiga/issues?statuses=1,2&amp;orderBy=-created_date&amp;page=1&amp;types=1">Bug list</a> at Taiga.io, please report it:</p>
 <ul>
-<li><strong>Code patches</strong></li>
-<li><strong>Documentation improvements</strong></li>
-<li><strong>Translations </strong></li>
-<li><strong>Bug reports</strong></li>
-<li><strong>Patch reviews</strong></li>
-<li><strong>UI enhancements </strong></li>
+<li>in our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a></li>
+<li>in the issue section of the appropriate repository at <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/Taiga in GitHub">GitHub</a>.</li>
+<li>send us a mail to <a href="mailto:support@taiga.io">support@taiga.io</a> if is a bug related to <a href="https://taiga.io">tree.taiga.io</a>.</li>
+<li>send a mail to <a href="mailto:security@taiga.io">security@taiga.io</a> if is a <strong>security bug</strong>.</li>
 </ul>
-<p>Big features are also welcome but if you want to see your contributions included in Taiga codebase we strongly recommend you start by initiating a chat though our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a>{target="_blank"}</p>
-<h3 id="license">License</h3><p>Every code patch accepted in taiga codebase is licensed under <a href="http://www.gnu.org/licenses/agpl-3.0.html">AGPL v3.0</a>{target="_blank"}. You should must be careful to not include any code that can not be licensed under this license.</p>
-<p>Please read carefully <a href="https://github.com/taigaio/taiga-front/blob/master/LICENSE">our license</a>{target="_blank"} and ask us if you have any questions.</p>
-<h3 id="bug-reports">Bug reports</h3><p>If you find a bug in Taiga you can always report a bug on <a href="https://github.com/taigaio/taiga-front/issues">github issues</a>{target="_blank"} and one of our fellow Taiga developers will search, find and hunt it as soon as possible.</p>
-<p>Please, before reporting an issue write down how can we reproduce it, your operating system, your browser and version, and if it's possible, a screenshot. Sometimes it take less time to fix a bug if the developer know how to find it and we will solve your problem as fast as possible.</p>
-<h3 id="documentation-improvements">Documentation improvements</h3><p>We are gathering lots of information from our users to build and enhance our documentation. If you are the documentation to install or develop with Taiga and find any mistakes, omissions or confused sequences, it is enormously helpful to report it. Or better still, if you believe you can author additions, please make a pull-request to taiga project.</p>
+<p>Even better: you can submit a Pull Request with a fix.</p>
+<p>Please, before reporting a bug write down</p>
+<ul>
+<li>explain why this is a bug for you</li>
+<li>how can we reproduce it</li>
+<li>your operating System</li>
+<li>your browser and version</li>
+<li>if it's possible, a screenshot</li>
+</ul>
+<p>Sometimes it takes less time to fix a bug if the developer knows how to find it and we will solve your problem as fast as possible.</p>
+<p><strong>Localization Issue:</strong> Taiga use Transifex to manage the i18n files so don't submit a pull request to those files (except <code>-en.json</code>), to fix it just access our team of translators, set up an account in the <a href="https://www.transifex.com/organization/taiga-agile-llc/">Taiga Transifex project</a> and start contributing.</p>
+<h2 id="propose-some-feature-or-enhancement">Propose some feature or enhancement</h2><p>You can propose a new enhancement to our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a> or review and upvote in the existing <a href="https://tree.taiga.io/project/taiga/issues?statuses=1,2&amp;orderBy=-total_voters&amp;page=1&amp;status=1,2&amp;types=6">list of enhancements</a> in Taiga.io.</p>
+<p>If you would like to implement it by yourselve consider what kind of change it is:</p>
+<h3 id="small-changes">Small Changes</h3><p>It can be crafted and submitted to the <a href="https://github.com/taigaio">GitHub Repositories</a> as a Pull Request.</p>
+<h3 id="major-changes">Major Changes</h3><p>Before contributing with a major change to Taiga it should be discussed first with the Taiga Team so that we can better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project. Please, contact us in the <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a> or via <a href="mailto:support@taiga.io">support@taiga.io</a>.</p>
+<p>We have defined a concrete workflow for this changes:</p>
+<ol>
+<li><strong>User Story</strong>: Send us a complete description of the functionality you'd like to develope, how it should work, for which profiles, as if you were writing a User Story. Please include some ideas of what would be a definition of Done of the User Story. The team will review it, decide whether or not it could make it into Taiga Core. If not, you can always write a plugin.</li>
+<li><strong>Mentorship</strong>: If accepted, Taiga team will help you, and a person from the team will be your contact in the development process. The Story will be visible in the <a href="https://tree.taiga.io/project/taiga/kanban">Taiga Kanban</a></li>
+<li><strong>User Experience</strong>: The functionality will require some wireframes or ideas to be developed correctly. A good UX its an essential part of Taiga success. You should create a user experience proposal and the Taiga UX team will help you.</li>
+<li><strong>Design</strong>: The design should respect the Taiga style. Try to reproduce other areas of the site. The taiga design team will review this proposal as well.</li>
+<li><strong>Development</strong>: The last step is the development. Remember to add unit and integration test in <code>taiga-back</code> code and unit and e2e test for <code>taiga-front</code> part. We have the API well documented too in [taiga-doc][Taiga Dev/Setup documentatio].</li>
+<li><strong>Pull request</strong>: Remember to add a good description and screenshots are welcome too. Once the pull request is done, someone else from the team will review the code to ensure that if fits in the good practices and styles. If it does, the PR will be merged and will be on the next Taiga release.</li>
+</ol>
+<p>If you think you are not able to do one or more of the parts of the process, your contribution is still welcome, but we cannot ensure that it will make it soon into the Taiga core anytime soon. It will depend on our priority backlog.</p>
+<p>Thanks a lot! It is really great that we could make Taiga better with the help of the community.</p>
+<h3 id="contrib-plugins">Contrib plugins</h3><p>Taiga support contrib plugins to add or overwrite some functionalities. You can find some example in <a href="https://github.com/taigaio">our organization at GitHub</a>.</p>
+<h2 id="improve-the-documentation">Improve the documentation</h2><p>We are gathering lots of information from our users to build and enhance our documentation. If you use the documentation to install or develop with Taiga and find any mistakes, omissions or confused sequences, it is enormously helpful to report it. Or better still, if you believe you can author additions, please make a pull-request to taiga project.</p>
 <p>Currently, we have authored three main documentation hubs:</p>
 <ul>
-<li><strong>API Docs</strong>: Our API documentation and reference for developing from Taiga API.</li>
-<li><strong>Installation Guide</strong>: If you need to install Taiga on your own server, this is the place to find some guides.</li>
-<li><strong>Taiga Support</strong>: This page is intended to be the support reference page. If you find any mistake, please report it.</li>
-</ul>
-<h3 id="translation">Translation</h3><p>We are ready now to accept your help translating Taiga. It's easy (and fun!) just access to our team of translators with the link below, set up an account in Transifex and start contributing. Join us to make sure your language is covered!</p>
-<p><strong><a href="https://www.transifex.com/signup/" title="Help Taiga to trasnlatecontent">Help Taiga to trasnlate content</a></strong></p>
-<h3 id="code-patches">Code patches</h3><p>Taiga will always be glad to receive code patches to update, fix or improve its code.</p>
-<p>If you know how to improve our code base or you found a bug, a security vulnerabilities a performance issue and you think you can solve, we will be very happy to accept your pull-request. If your code requires considerable changes, we recommend you first  talk to us directly. We will find the best way to help.</p>
-<h3 id="ui-enhancements">UI enhancements</h3><p>Taiga is made for developers and designers. We care enormously about UI because usability and design are both critical aspects of the Taiga experience.</p>
-<p>There are two possible ways to contribute to our UI:</p>
-<ul>
-<li><strong>Bugs</strong>: If you find a bug regarding front-end, please report it as previously indicated in the Bug reports section or send a pull-request as indicated in the Code Patches section.</li>
-<li><strong>Enhancements</strong>: If its a design or UX bug or enhancement we will love to receive your feedback. Please send us your enhancement, with the reason and, if it's possible, an example. Our design and UX team will review your enhancement and fix it as soon as possible. We recommend you to use our <a href="http://groups.google.co.uk/d/forum/taigaio">mailing list</a>{target="_blank"} so we can have a lot of different opinions and debate.</li>
-<li><strong>Language Localization</strong>: We are eager to offer localized versions of Taiga. Some members of the community have already volunteered to work to provide a variety of languages. We are working to implement some changes to allow for this and expect to accept these requests in the near future.</li>
+<li><a href="https://github.com/taigaio/taiga-doc">Taiga Setup/Dev documentation</a>: If you need to install Taiga on your own server, this is the place to find some guides or our API documentation and reference for developing from Taiga API.</li>
+<li><a href="https://github.com/taigaio/taiga-support">Taiga User documentation</a>: This page is intended to be the support reference page for the users. If you find any mistake, please report or fix it.</li>
 </ul>
 </div>
     </div>
