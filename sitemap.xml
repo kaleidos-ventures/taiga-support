@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url><loc>http://taigaio.github.io/taiga-support/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/search/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/who-is-taiga-for/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/why-should-i-use-taigaio-and-not-insert-name-of-one-of-the-many-worthy-alternatives/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/</loc></url>
@@ -13,31 +11,17 @@
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/whats-the-difference-between-public-and-private-projects/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/important-information-about-the-taiga-license/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/frequently-asked-questions/can-i-use-taiga-in-my-language/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/subscription-and-plans/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/subscription-and-plans/payment-process-faqs/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/backlog/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/taskboard/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/kanban/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/issues/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/tasks/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/wiki/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/team/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/admin/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/admin/custom-fields/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/admin/csv-reports/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/admin/import-export-projects/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/integrations/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/integrations/webhooks/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/integrations/github-integration/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/integrations/gitlab-integration/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/integrations/bitbucket-integration/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/integrations/changing-elements-status-via-commit-message/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/contrib-plugins/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/contrib-plugins/gogs-integration/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/contrib-plugins/hipchat-integration/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/contrib-plugins/slack-integration/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/misc/</loc></url>
     <url><loc>http://taigaio.github.io/taiga-support/misc/taiga-markdown-syntax/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/community/</loc></url>
-    <url><loc>http://taigaio.github.io/taiga-support/style-guide/</loc></url>
 </urlset>
