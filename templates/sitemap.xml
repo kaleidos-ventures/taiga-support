@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     {%- for page in [site.root] if page != this recursive %}
+        {%- if page._model not in ['category', 'none'] %}
     <url><loc>{{ page|url(external=true) }}</loc></url>
-    {{- loop(page.children) }}
+        {%- endif %}
+        {{- loop(page.children) }}
     {%- endfor %}
 </urlset>
