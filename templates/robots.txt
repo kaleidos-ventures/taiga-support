@@ -1,0 +1,7 @@
+User-agent: *
+Disallow:
+sitemap: {{ '/sitemap.xml'|url(external=true) }}
+
+# You rush a miracle man, you get rotten miracles.
+#
+#                            -- Miracle Max --
