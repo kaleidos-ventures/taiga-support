@@ -80,50 +80,15 @@
   display: flex;
   padding: 1rem;
 
-  #___gcse_0 {
-    display: flex;
-    width: 100%;
-    .gsc-control-searchbox-only {
-      display: flex;
-      width: 100%;
-      .gsc-search-box {
-        display: flex;
-        width: 100%;
-        .gsc-search-box {
-          display: flex;
-          width: 100%;
-          tbody {
-            display: flex;
-            width: 100%;
-            tr {
-              display: flex;
-              width: 100%;
-              td.gsc-input {
-                display: flex;
-                width: 100%;
-                input {
-                  border-radius: 5px;
-                  box-shadow: border-box;
-                  margin: 0 auto;
-                  padding: .5rem .9rem;
-                  max-width: 1200px;
-                  width: 100%;
-                  @include bp(desktop) {
-                    max-width: 70%;
-                  }
-                }
-              }
-              td.gsc-search-button {
-                display: none;
-              }
-              td.gsc-clear-button {
-                display: none;
-              }
-            }
-          }
-        }
-      }
+  .input-text {
+    margin: 0 auto;
+    max-width: 1200px;
+    @include bp(desktop) {
+      max-width: 70%;
     }
   }
 
+  .search-button {
+    display: none;
+  }
 }

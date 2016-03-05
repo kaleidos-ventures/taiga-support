@@ -7,11 +7,17 @@
 <meta name="description" content="{% block meta_description %}User support pages for Taiga, Taiga is a project management platform for agile developers & designers and project managers who want a beautiful tool that makes work truly enjoyable.{% endblock %}">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="{{ '/static/styles.css'|asseturl }}">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> <!-- Google fonts -->
-<link rel="stylesheet" href="{{ get_pygments_stylesheet()|url }}"> <!-- Pygment css-->
 
+<!-- Style -->
+<link rel="stylesheet" href="{{ '/static/styles.css'|asseturl }}">
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- Pygment style -->
+<link rel="stylesheet" href="{{ get_pygments_stylesheet()|url }}"> <!-- Pygment css-->
+<!-- Javascript -->
 <script type=text/javascript src="{{ '/static/app.js'|asseturl }}" charset="utf-8"></script>
+
+{% block extra_top %}{% endblock %}
 
 <body>
 
@@ -27,7 +33,10 @@
     </header>
 
     <div class="main-search">
-    	<div class="gcse-searchbox-only" data-resultsUrl="{{ '/search'|url }}" enableAutoComplete="true"></div>
+        <form method="get" action="{{ '/search'|url }}">
+            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
+            <input class="search-button" type="submit" value="Search">
+        </form>
     </div>
 
     <div class="content">
@@ -44,17 +53,5 @@
         </div>
     </footer>
 
-    <!-- Google Custom Search -->
-	<script>
-		(function() {
-			var cx = '010658051760178355211:cbd4t5snspy';
-			var gcse = document.createElement('script');
-			gcse.type = 'text/javascript';
-			gcse.async = true;
-			gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-				'//cse.google.com/cse.js?cx=' + cx;
-			var s = document.getElementsByTagName('script')[0];
-			s.parentNode.insertBefore(gcse, s);
-		})();
-    </script>
+    {% block extra_down %}{% endblock %}
 </body>
