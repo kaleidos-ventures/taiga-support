@@ -7,11 +7,17 @@
 <meta name="description" content="Page to show search results.Taiga is a project management platform for agile dev  elopers & designers and project managers who want a beautiful tool that makes work truly enjoyable.">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="../static/styles.css?h=ef294d1a">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'> <!-- Google fonts -->
-<link rel="stylesheet" href="../static/pygments.css"> <!-- Pygment css-->
 
+<!-- Style -->
+<link rel="stylesheet" href="../static/styles.css?h=27e5aba3">
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- Pygment style -->
+<link rel="stylesheet" href="../static/pygments.css"> <!-- Pygment css-->
+<!-- Javascript -->
 <script type=text/javascript src="../static/app.js?h=56f85b4f" charset="utf-8"></script>
+
+
 
 <body>
 
@@ -56,7 +62,10 @@
     </header>
 
     <div class="main-search">
-    	<div class="gcse-searchbox-only" data-resultsUrl="../search/" enableAutoComplete="true"></div>
+        <form method="get" action="../search/">
+            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
+            <input class="search-button" type="submit" value="Search">
+        </form>
     </div>
 
     <div class="content">
@@ -104,6 +113,7 @@
         </div>
     </footer>
 
+    
     <!-- Google Custom Search -->
 	<script>
 		(function() {
@@ -117,4 +127,5 @@
 			s.parentNode.insertBefore(gcse, s);
 		})();
     </script>
+
 </body>
