@@ -5,6 +5,13 @@ User suport pages for Taiga.
 
 ## For Developers
 
+You need:
+
+ - python 2.7
+ - node >= 5.0
+ - ruby
+
+
 #### Setup
 
 - Install Lektor
