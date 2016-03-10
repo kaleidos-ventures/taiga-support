@@ -2,9 +2,4 @@ name: Admin
 ---
 logo: ![Admin logo](logo.svg "Admin logo")
 ---
-order:
-
-100
-
----
-_hidden: no
+order: 100

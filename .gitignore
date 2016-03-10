@@ -32,3 +32,6 @@ node_modules/
 
 # Generated files
 gen/
+
+# Static files generated
+assets/static/
