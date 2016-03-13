@@ -32,7 +32,9 @@ sass -v             # should return something like 'Sass 3.4.11 (Selective Steve
 cd taiga-support/webpack
 npm install
 ```
+#### Envs
 
+- [Test Env - GitHub Pages](http://taigaio.github.io/taiga-support/)
 
 #### Commands
 
@@ -43,7 +45,7 @@ npm install
 : Build the web site.
 
 ```lektor deploy ghpages```
-: [CI Enabled] Deploy in [GitHub pages](http://taigaio.github.io/taiga-support/).
+: [CI Enabled] Deploy in GitHub Pages.
 
 ```lektor clean```
 : Cleans the entire build folder.
