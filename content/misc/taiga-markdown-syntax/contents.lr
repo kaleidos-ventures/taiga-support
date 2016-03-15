@@ -31,13 +31,11 @@ An [example](http://url.com/ "Title")
 
 ### Reference-style labels
 ```markdown
-An [example][id]. Then, anywhere
-else in the doc, define the link:
+An [example][id]. Then, anywhere else in the doc, define the link:
 
   [id]: http://example.com/  "Title"
 ```
-An [example][id]. Then, anywhere
-else in the doc, define the link:
+An [example][id]. Then, anywhere else in the doc, define the link:
 
   [id]: http://example.com/  "Title"
 
@@ -69,9 +67,9 @@ The task #13.
 The issue #42.
 ```
 
-The user story [#9](https://tree.taiga.io/example-project/us/9 "Example user story 9").
-The task [#13](https://tree.taiga.io/example-project/tasks/13 "Example task 13").
-The issue [#42](https://tree.taiga.io/example-project/issue/42 "Example issue 42").
+The user story [#9](https://tree.taiga.io/example-project/us/9 "Example user story 9").  
+The task [#13](https://tree.taiga.io/example-project/tasks/13 "Example task 13").  
+The issue [#42](https://tree.taiga.io/example-project/issue/42 "Example issue 42").  
 
 ### Taiga Wiki links
 ```markdown
@@ -91,9 +89,9 @@ Images
 
 ### Inline
 ```markdown
-![alt text](/static/images/circle1.svg "Title")
+![alt text](circle1.svg "Title")
 ```
-![alt text](/static/images/circle1.svg "Title")
+![alt text](circle1.svg "Title")
 
 ### Reference-style
 ```markdown
@@ -103,7 +101,7 @@ Images
 ```
 ![alt text][id]
 
-[id]: /static/images/circle1.svg "Title"
+[id]: circle1.svg "Title"
 
 ### Emoticons
 
@@ -112,7 +110,7 @@ An example emoticon :smile:
 ```
 An example emoticon :smile:
 
-See a complete list of emoticons at this [Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/){: target="_blank" }
+See a complete list of emoticons at this [Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/).
 
 Headers
 -------
@@ -124,7 +122,7 @@ Headers
     ========
 
     Header 2
-    --------
+     --------
 ```
 
 ### atx-style (closing #'s are optional)
@@ -288,13 +286,13 @@ Preformatted Code Blocks
 
 ### Auto highlight code block
 
-using backticks
+using backticks (```)
 
 ```markdown
-    ```
+    ` ` `
     This is
     a text example
-    ```
+    ` ` `
 ```
 
 ```
@@ -305,10 +303,10 @@ a text example
 ### Specified highlight code block
 
 ```markdown
-    ```python
+    ` ` ` python
     def hello(world):
        pass
-    ```
+    ` ` `
 ```
 
 ```python
