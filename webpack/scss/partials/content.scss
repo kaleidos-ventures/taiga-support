@@ -54,20 +54,24 @@
 
 }
 
-.toc {
-  padding: .6rem 1rem;
-
-  li {
-    align-items: center;
-    display: flex;
-
-    &::before {
-      content: "-";
-      color: $primary;
-      font-weight: bold;
-      margin-right: 1rem;
-    }
-
-  }
-
-}
+// .toc {
+//   padding: .6rem 1rem;
+//
+//   li {
+//     display: flex;
+//
+//     &::before {
+//       background-color: $primary;
+//       border-radius: 50%;
+//       content: "";
+//       font-weight: bold;
+//       flex-shrink: 0;
+//       height: 6px;
+//       margin-right: 1rem;
+//       margin-top: 10px;
+//       width: 6px;
+//     }
+//
+//   }
+//
+// }
