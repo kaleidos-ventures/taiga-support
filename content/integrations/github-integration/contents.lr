@@ -36,7 +36,7 @@ Just check "send me everything" or just the events you want Taiga to listen for.
 
 Here you can find a youtube video describing the whole process:
 
-<iframe width="640" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe>
 
 
 ### Changing elements status via commit message
