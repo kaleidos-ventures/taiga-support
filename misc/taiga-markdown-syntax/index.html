@@ -33,7 +33,7 @@ An [example](http://url.com/ &#34;Title&#34;)
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Style -->
-<link rel="stylesheet" href="../../static/styles.css?h=3ce6dc3c">
+<link rel="stylesheet" href="../../static/styles.css?h=4622aeb5">
 <!-- Google fonts -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- Pygment style -->
@@ -259,6 +259,11 @@ An [example](http://url.com/ &#34;Title&#34;)
                     
                 </li>
             
+                <li>
+                    <a href="#specified-highlight-code-block">Specified highlight code block</a>
+                    
+                </li>
+            
                         </ul>
                     
                 </li>
@@ -282,13 +287,11 @@ An [example](http://url.com/ &#34;Title&#34;)
 <h2 id="links">Links</h2><h3 id="inline">Inline</h3><div class="highlight"><pre><span></span>An [example](http://url.com/ &quot;Title&quot;)
 </pre></div>
 <p>An <a href="http://url.com/" title="Title">example</a></p>
-<h3 id="reference-style-labels">Reference-style labels</h3><div class="highlight"><pre><span></span>An [example][id]. Then, anywhere
-else in the doc, define the link:
+<h3 id="reference-style-labels">Reference-style labels</h3><div class="highlight"><pre><span></span>An [example][id]. Then, anywhere else in the doc, define the link:
 
   [id]: http://example.com/  &quot;Title&quot;
 </pre></div>
-<p>An <a href="../../static/images/circle1.svg" title="Title">example</a>. Then, anywhere
-else in the doc, define the link:</p>
+<p>An <a href="../../misc/taiga-markdown-syntax/circle1.svg" title="Title">example</a>. Then, anywhere else in the doc, define the link:</p>
 <h3 id="url-autolinking">URL autolinking</h3><div class="highlight"><pre><span></span>Go to http://example.com
 </pre></div>
 <p>Go to <a href="http://example.com">http://example.com</a></p>
@@ -301,8 +304,8 @@ else in the doc, define the link:</p>
 The task #13.
 The issue #42.
 </pre></div>
-<p>The user story <a href="https://tree.taiga.io/example-project/us/9" title="Example user story 9">#9</a>.
-The task <a href="https://tree.taiga.io/example-project/tasks/13" title="Example task 13">#13</a>.
+<p>The user story <a href="https://tree.taiga.io/example-project/us/9" title="Example user story 9">#9</a>.<br>
+The task <a href="https://tree.taiga.io/example-project/tasks/13" title="Example task 13">#13</a>.<br>
 The issue <a href="https://tree.taiga.io/example-project/issue/42" title="Example issue 42">#42</a>.</p>
 <h3 id="taiga-wiki-links">Taiga Wiki links</h3><div class="highlight"><pre><span></span>An [example](wiki-page-name-in-slug-format &quot;Page&quot;) of wiki link.
 </pre></div>
@@ -311,23 +314,23 @@ The issue <a href="https://tree.taiga.io/example-project/issue/42" title="Exampl
 <div class="highlight"><pre><span></span>An [[example-one]] or [[example-two|Example 2]] of wiki links.
 </pre></div>
 <p>An <a href="https://tree.taiga.io/example-project/wiki/example-one" title="example-one">example-one</a> or <a href="https://tree.taiga.io/example-project/wiki/example-two" title="Example 2">Example 2</a> of wiki links.</p>
-<h2 id="images">Images</h2><h3 id="inline">Inline</h3><div class="highlight"><pre><span></span>![alt text](/static/images/circle1.svg &quot;Title&quot;)
+<h2 id="images">Images</h2><h3 id="inline">Inline</h3><div class="highlight"><pre><span></span>![alt text](circle1.svg &quot;Title&quot;)
 </pre></div>
-<p><img src="../../static/images/circle1.svg" alt="alt text" title="Title"></p>
+<p><img src="../../misc/taiga-markdown-syntax/circle1.svg" alt="alt text" title="Title"></p>
 <h3 id="reference-style">Reference-style</h3><div class="highlight"><pre><span></span>![alt text][id]
 
 [id]: /static/images/circle1.svg &quot;Title&quot;
 </pre></div>
-<p><img src="../../static/images/circle1.svg" alt="alt text" title="Title"></p>
+<p><img src="../../misc/taiga-markdown-syntax/circle1.svg" alt="alt text" title="Title"></p>
 <h3 id="emoticons">Emoticons</h3><div class="highlight"><pre><span></span>An example emoticon :smile:
 </pre></div>
 <p>An example emoticon :smile:</p>
-<p>See a complete list of emoticons at this <a href="http://www.emoji-cheat-sheet.com/">Emoji Cheatsheet</a>{: target="_blank" }</p>
+<p>See a complete list of emoticons at this <a href="http://www.emoji-cheat-sheet.com/">Emoji Cheatsheet</a>.</p>
 <h2 id="headers">Headers</h2><h3 id="setext-style">Setext-style</h3><div class="highlight"><pre><span></span>    Header 1
     ========
 
     Header 2
-   --------
+    --------
 </pre></div>
 <h3 id="atx-style-closing-s-are-optional">atx-style (closing #'s are optional)</h3><div class="highlight"><pre><span></span><span class="k"># </span><span class="gh">Header 1</span><span class="k"> #</span>
 
@@ -483,30 +486,23 @@ like <span class="k">``</span><span class="sb"> </span><span class="err">`</span
 by backticks.</p>
 <p>You can include literal backticks
 like <code>`this`</code>.</p>
-<h2 id="preformatted-code-blocks">Preformatted Code Blocks</h2><h3 id="auto-highlight-code-block">Auto highlight code block</h3><p>using backticks</p>
-<div class="highlight"><pre><span></span> 
+<h2 id="preformatted-code-blocks">Preformatted Code Blocks</h2><h3 id="auto-highlight-code-block">Auto highlight code block</h3><p>using backticks (```)</p>
+<div class="highlight"><pre><span></span>    <span class="k">`</span><span class="sb"> </span><span class="k">`</span> <span class="k">`</span><span class="sb"></span>
+<span class="sb">    This is</span>
+<span class="sb">    a text example</span>
+<span class="sb">    </span><span class="k">`</span> <span class="k">`</span><span class="sb"> </span><span class="k">`</span>
 </pre></div>
 <pre><code>This is
 a text example
-```
 </code></pre>
-<pre><code>
-</code></pre>
-<p>This is
-a text example</p>
-<pre><code>
-### Specified highlight code block
-
-```markdown
-    ```python
-    def hello(world):
-       pass
-</code></pre>
-<pre><code>
-```python
-def hello(world):
-    pass
-</code></pre>
+<h3 id="specified-highlight-code-block">Specified highlight code block</h3><div class="highlight"><pre><span></span>    <span class="k">`</span><span class="sb"> </span><span class="k">`</span> <span class="k">`</span><span class="sb"> python</span>
+<span class="sb">    def hello(world):</span>
+<span class="sb">       pass</span>
+<span class="sb">    </span><span class="k">`</span> <span class="k">`</span><span class="sb"> </span><span class="k">`</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">hello</span><span class="p">(</span><span class="n">world</span><span class="p">):</span>
+    <span class="k">pass</span>
+</pre></div>
 <h2 id="horizontal-rules">Horizontal Rules</h2><p>Three or more dashes or asterisks:</p>
 <div class="highlight"><pre><span></span>------
 
