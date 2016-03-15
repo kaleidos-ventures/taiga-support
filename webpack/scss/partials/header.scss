@@ -80,9 +80,16 @@
   display: flex;
   padding: 1rem;
 
+  form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
   .input-text {
     margin: 0 auto;
     max-width: 1200px;
+    width: 100%;
     @include bp(desktop) {
       max-width: 70%;
     }

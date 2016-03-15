@@ -85,11 +85,12 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: .5rem;
+    margin: .5rem 0;
     padding: 1rem;
     width: 100%;
     @include bp(mobile) {
       max-width: 30%;
+      margin: .5rem;
     }
 
     .category-link {
@@ -137,8 +138,21 @@ ul.category-excerpt {
     display: flex;
     font-size: .9rem;
 
+    a {
+      display: flex;
+      justify-content: center;
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+
     &.more {
       color: $gray-light;
+      display: flex;
+      justify-content: center;
+      text-align: center;
     }
 
   }
