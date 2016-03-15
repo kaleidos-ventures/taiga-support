@@ -17,12 +17,14 @@
     {% endif %}
 {% endmacro %}
 
-{% macro render_category_details(category, active=none, show_articles=none, active_article=none) %}
+{% macro render_category_details(category, show_articles=none, active_article=none) %}
     {% if category.children %}
-	<div class="category{% if category._id == active %} active{% endif %}">
-		<a href="{{ category.children.first()|url }}">
-            <span>{{ category.name }}</span>
-        </a>
+	<div class="category">
+        <div class="breadcrumb">
+            <a href={{ '/'|url}}>Home</a>
+            ›
+    		<a href="{{ category.children.first()|url }}">{{ category.name }}</a>
+        </div>
 
         {% if show_articles %}
         <ul class="articles-list">

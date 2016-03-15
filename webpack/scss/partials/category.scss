@@ -10,14 +10,8 @@
     width: 26%;
   }
 
-  > a {
+  > .breadcrumb {
     margin-bottom: 1rem;
-
-    &::before {
-      content: "Back to";
-      margin-right: .3rem;
-    }
-
   }
 
   ul {
