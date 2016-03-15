@@ -4,6 +4,8 @@ body:
 
 **The status of any issue, task or user story can be changed via commit message**
 
+### How?
+
 Just add to your commit message something like:
 
 ```
