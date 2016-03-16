@@ -1,0 +1,16 @@
+_model: categories
+---
+content:
+
+<p class="welcome">Bienvenidos!</p>
+
+<p>
+    Esperamos que esta página de soporte ayuda a responder a cualquier pregunta que
+    puedas tener. Estaremos encantados de recibir tus aportaciones con nuevos contenidos
+    o sugerencias sobre el ya existente.
+</p>
+
+<p>
+    Si necesitas contactar con el equipo de Taiga existen muchos canales para ello.
+    Por favor elige el mas apropiado para ti en <a href="../es/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/">"¿Cómo puedo estar en contacto?"</a>.
+</p>

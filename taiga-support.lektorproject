@@ -2,6 +2,16 @@
 name = Taiga Support
 url = http://taigaio.github.io/taiga-support
 
+[alternatives.en]
+name = English
+primary = yes
+locale = en_US
+
+[alternatives.es]
+name = Spanish
+url_prefix = /es/
+locale = es
+
 [packages]
 lektor-webpack-support = 0.1
 lektor-markdown-highlighter = 0.1
