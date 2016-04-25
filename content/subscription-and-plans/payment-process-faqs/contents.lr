@@ -26,23 +26,8 @@ A. Yes! You can delete projects. We recommend you export the project and save it
 ### Q. Do imported projects count towards my plan?
 A. Yes. Any imported projects counts towards your plan as would a newly created project. Please be aware that we do not guarantee that a project created with a previous version of Taiga will be importable to the most current version of Taiga. You may have to install it to your own instance running the version of Taiga last used by the exported project, and then upgrade that instance to the latest version of Taiga.
 
-### Q. How many users can be members of a single private project?
-A. By default, private projects allow up to a total of 25 members per project. If you want to increase the number of users, you can buy user upgrade packs in increments of 20 users. (?)
-
-### Q. What if I bugh a user upgrade pack for a given project and I no longer have more than 25 users in a given project, can I downgrade to the default 25 users?
-A. Yes. You can downgrade at any time. When you are ready to make a change, just select the new plan to which you want to subscribe. We will ensure that you qualify for the new plan (i.e. that you don't have more than 25 users) and we will process the change. You will see the change reflected in the next billing cycle.
-
 ### Q. Can I chose a currency different from the USD?
 A. For now, we only accept US$ Dollars.
-
-### Q. How and when will paid plans be introduced:
-A. Payment plans don't kick in until May 1st, so from Feb to May enjoy FREE unlimited private projects on us! Here's what you need to know:
-
-- **Step 1: Select the plan that best suits you and enter payment information**
-  On March 31st, Project Owners with private projects will receive an email indicating the payment plan that would best apply to them (based on the number of projects on their account) together with a link where payment information can be entered. If you are not a Project Owner, you don't need to worry about any of this! Even after payment information is entered, nothing will be charged until May 1st.  Take advantage of the month of April to decide what plan works best for you.
-
-  - **Step 2: Subscription starts!**
-    On April 30th Project Owners who have entered their payment information and subscribed to a plan will be billed for the first month's service (May). Project Owners with private projects who have not subscribed to a plan will find that their projects will be inaccessible. To gain access, Project Owners can either subscribe to a plan that corresponds to the number of active projects or downgrade to a lower plan by deleting certain projects or designating their projects as “public.”
 
 ---
 order: 10

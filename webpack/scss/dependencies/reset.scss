@@ -131,22 +131,22 @@ table {
 }
 
 select {
-  -webkit-appearance:none
+    -webkit-appearance:none
 }
 
 // Input firefox
 
 input {
- &:invalid, &:-moz-submit-invalid, &:required, &:optional, &:-moz-placeholder {
-   box-shadow: none;
- }
+    &:invalid, &:-moz-submit-invalid, &:required, &:optional, &:-moz-placeholder {
+        box-shadow: none;
+    }
 }
 input[type=number]::-webkit-outer-spin-button,
 input[type=number]::-webkit-inner-spin-button {
-   -webkit-appearance: none;
-   margin: 0;
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 input[type=number] {
-   -moz-appearance:textfield;
+    -moz-appearance:textfield;
 }

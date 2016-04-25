@@ -1,101 +1,101 @@
 .header {
-  border-bottom: 1px solid $whitish;
+    border-bottom: 1px solid $whitish;
 }
 
 .header-inside {
-  align-items: center;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 1rem;
-  @include bp(desktop) {
-    max-width: 70%;
-  }
-
-  .main-logo {
     align-items: center;
     display: flex;
-
-    .taiga-logo {
-      height: 40px;
-      margin-bottom: 0;
-      margin-right: .6rem;
-      margin-top: 0;
-      width: 40px;
-      @include bp(mobile) {
-        height: 60px;
-        margin-right: 1rem;
-        width: 60px;
-      }
-
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+    @include bp(desktop) {
+        max-width: 70%;
     }
 
-    h1 {
-      border: 0;
-      color: $primary;
-      font-weight: normal;
-      margin: 0;
-      padding: 0;
+    .main-logo {
+        align-items: center;
+        display: flex;
 
-      span {
-        color: $gray-light;
-      }
+        .taiga-logo {
+            height: 40px;
+            margin-bottom: 0;
+            margin-right: .6rem;
+            margin-top: 0;
+            width: 40px;
+            @include bp(mobile) {
+                height: 60px;
+                margin-right: 1rem;
+                width: 60px;
+            }
+
+        }
+
+        h1 {
+            border: 0;
+            color: $primary;
+            font-weight: normal;
+            margin: 0;
+            padding: 0;
+
+            span {
+                color: $gray-light;
+            }
+
+        }
 
     }
-
-  }
 
 }
 
 .main-nav {
-  display: none;
-  margin-left: auto;
-  @include bp(mobile) {
-    display: flex;
-  }
-
-  ul {
-    display: flex;
-
-    li {
-
-      a {
-        color: $gray;
-        margin: 0 .5rem;
-
-        &:hover {
-          color: $primary;
-        }
-
-      }
-
+    display: none;
+    margin-left: auto;
+    @include bp(mobile) {
+        display: flex;
     }
 
-  }
+    ul {
+        display: flex;
+
+        li {
+
+            a {
+                color: $gray;
+                margin: 0 .5rem;
+
+                &:hover {
+                    color: $primary;
+                }
+
+            }
+
+        }
+
+    }
 
 }
 
 .main-search {
-  background-color: $whitish;
-  display: flex;
-  padding: 1rem;
-
-  form {
+    background-color: $whitish;
     display: flex;
-    justify-content: center;
-    width: 100%;
-  }
+    padding: 1rem;
 
-  .input-text {
-    margin: 0 auto;
-    max-width: 1200px;
-    width: 100%;
-    @include bp(desktop) {
-      max-width: 70%;
+    form {
+        display: flex;
+        justify-content: center;
+        width: 100%;
     }
-  }
 
-  .search-button {
-    display: none;
-  }
+    .input-text {
+        margin: 0 auto;
+        max-width: 1200px;
+        width: 100%;
+        @include bp(desktop) {
+            max-width: 70%;
+        }
+    }
+
+    .search-button {
+        display: none;
+    }
 }

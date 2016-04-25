@@ -1,19 +1,19 @@
 .footer {
-  background: $whitish;
-  color: $gray;
+    background: $whitish;
+    color: $gray;
 }
 
 .footer-inside {
-  align-items: center;
-  display: flex;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 2rem 1rem;
-  @include bp(desktop) {
-    max-width: 70%;
-  }
+    align-items: center;
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 2rem 1rem;
+    @include bp(desktop) {
+        max-width: 70%;
+    }
 }
 
 .footer-nav {
-  display: flex;
+    display: flex;
 }

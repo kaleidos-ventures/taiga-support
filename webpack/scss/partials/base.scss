@@ -1,92 +1,92 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-  background-color: $white;
-  color: $grayer;
-  font: 14px 'Open Sans', Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  width: 100%;
-  -webkit-font-smoothing: antialiased;
-  @include bp(mobile) {
-    font-size: 16px;
-  }
+    background-color: $white;
+    color: $grayer;
+    font: 14px 'Open Sans', Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    @include bp(mobile) {
+        font-size: 16px;
+    }
 }
 
 a {
-  color: $primary;
+    color: $primary;
 
-  &:hover {
-    color: $primary-light;
-  }
+    &:hover {
+        color: $primary-light;
+    }
 
 }
 
 img {
-  height: auto;
-  margin: 1rem 0;
-  max-width: 100%;
+    height: auto;
+    margin: 1rem 0;
+    max-width: 100%;
 }
 
 h1, h2, h3, h4 {
-  border-bottom: 1px solid lighten($gray-light, 15%);
-  padding: .8rem 0;
-  font-weight: bold;
+    border-bottom: 1px solid lighten($gray-light, 15%);
+    padding: .8rem 0;
+    font-weight: bold;
 }
 
 h1 {
-  font-size: 1.6rem;
-  margin-bottom: 1rem;
-  @include bp(mobile) {
-    font-size: 2rem;
-  }
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    @include bp(mobile) {
+        font-size: 2rem;
+    }
 }
 
 h2 {
-  font-size: 1.35rem;
-  margin-bottom: .85rem;
-  @include bp(mobile) {
-    font-size: 1.65rem;
-  }
+    font-size: 1.35rem;
+    margin-bottom: .85rem;
+    @include bp(mobile) {
+        font-size: 1.65rem;
+    }
 }
 
 h3 {
-  font-size: 1.2rem;
-  margin-bottom: .7rem;
-  @include bp(mobile) {
-    font-size: 1.4rem;
-  }
+    font-size: 1.2rem;
+    margin-bottom: .7rem;
+    @include bp(mobile) {
+        font-size: 1.4rem;
+    }
 }
 
 h4 {
-  font-size: 1.1rem;
-  margin-bottom: .55rem;
-  @include bp(mobile) {
-    font-size: 1.250rem;
-  }
+    font-size: 1.1rem;
+    margin-bottom: .55rem;
+    @include bp(mobile) {
+        font-size: 1.250rem;
+    }
 }
 
 // Input elements
 
 input,
 select {
-  background-color: $white;
-  box-sizing: border-box;
-  color: $gray;
-  font-family: "Open Sans", sans-serif;
-  font-size: 100%;
-  margin-bottom: 1rem;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+    background-color: $white;
+    box-sizing: border-box;
+    color: $gray;
+    font-family: "Open Sans", sans-serif;
+    font-size: 100%;
+    margin-bottom: 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
-  box-sizing: border-box;
-  cursor: pointer;
-  line-height: normal;
-  margin-top: 1px 0 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    line-height: normal;
+    margin-top: 1px 0 0;
 }
 
 input:focus,
@@ -95,23 +95,23 @@ textarea:focus,
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
-  box-shadow: none;
-  outline: none;
+    box-shadow: none;
+    outline: none;
 }
 
 // Input text
 
 .input-text {
-  border: none;
-  border: 1px solid darken($whitish, 10%);
-  border-radius: 3px;
-  box-shadow: none;
-  outline: none;
-  padding: .6rem 1rem;;
-
-  &:focus {
-    border-color: $grayer;
+    border: none;
+    border: 1px solid darken($whitish, 10%);
+    border-radius: 3px;
     box-shadow: none;
-  }
+    outline: none;
+    padding: .6rem 1rem;;
+
+    &:focus {
+        border-color: $grayer;
+        box-shadow: none;
+    }
 
 }

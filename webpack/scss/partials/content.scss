@@ -1,112 +1,112 @@
 .content-home {
-  flex-direction: column;
+    flex-direction: column;
 }
 
 .content-inside {
-  align-items: flex-start;
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  max-width: 1200px;
-  padding: 1rem;
-  @include bp(desktop) {
-    max-width: 70%;
-  }
-  @include bp(mobile) {
-    flex-direction: row;
-  }
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 1rem;
+    @include bp(desktop) {
+        max-width: 70%;
+    }
+    @include bp(mobile) {
+        flex-direction: row;
+    }
 }
 
 .home-text {
-  padding: 0 1%;
-  text-align: center;
-  @include bp(mobile) {
-    padding: 0 10%;
-  }
-
-  p {
-    margin-bottom: 1rem;
-
-    &.welcome {
-      color: $gray-light;
-      font-size: 2rem;
-      font-weight: bold;
+    padding: 0 1%;
+    text-align: center;
+    @include bp(mobile) {
+        padding: 0 10%;
     }
 
-  }
+    p {
+        margin-bottom: 1rem;
+
+        &.welcome {
+            color: $gray-light;
+            font-size: 2rem;
+            font-weight: bold;
+        }
+
+    }
 
 }
 .article {
-  line-height: 2;
-
-  p, li {
     line-height: 2;
-    margin: 1rem 0;
-  }
+
+    p, li {
+        line-height: 2;
+        margin: 1rem 0;
+    }
 
 }
 
 .body {
 
-  h3 {
-    margin-top: 1.7rem;
-  }
+    h3 {
+        margin-top: 1.7rem;
+    }
 
 }
 
 .toc {
-  padding: .6rem 1rem;
+    padding: .6rem 1rem;
 
-  li {
-    display: flex;
-    flex-direction: column;
-
-    a {
-      font-weight: bold;
-    }
-
-    > ul {
-      margin-left: 25px;
-
-      li {
+    li {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
 
         a {
-          font-weight: normal;
+            font-weight: bold;
         }
 
-        &::before {
-          background-color: $primary;
-          border-radius: 50%;
-          content: "";
-          font-weight: bold;
-          flex-shrink: 0;
-          height: 6px;
-          margin-right: 1rem;
-          margin-top: 10px;
-          width: 6px;
+        > ul {
+            margin-left: 25px;
+
+            li {
+                display: flex;
+                flex-direction: row;
+
+                a {
+                    font-weight: normal;
+                }
+
+                &::before {
+                    background-color: $primary;
+                    border-radius: 50%;
+                    content: "";
+                    font-weight: bold;
+                    flex-shrink: 0;
+                    height: 6px;
+                    margin-right: 1rem;
+                    margin-top: 10px;
+                    width: 6px;
+                }
+
+            }
+
         }
 
-      }
 
     }
-
-
-  }
 
 }
 
 // Code syntax
 pre {
-  background-color: #27333c;
-  border-radius: 2px;
-  color: #f8f8f2;
-  font-family: 'courier new', 'monospace';
-  font-size: 13px;
-  letter-spacing: 0.015em;
-  line-height: 120%;
-  margin-bottom: 1rem;
-  padding: 0.5em;
+    background-color: #27333c;
+    border-radius: 2px;
+    color: #f8f8f2;
+    font-family: 'courier new', 'monospace';
+    font-size: 13px;
+    letter-spacing: 0.015em;
+    line-height: 120%;
+    margin-bottom: 1rem;
+    padding: 0.5em;
 }
 
