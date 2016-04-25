@@ -10,6 +10,7 @@ You need:
  - python 2.7
  - node >= 5.0
  - ruby
+ - virtualenvwraper
 
 
 #### Setup
