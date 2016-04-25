@@ -1,0 +1,87 @@
+.article {
+    strong {
+        font-weight: bold;
+    }
+    em {
+        font-style: italic;
+    }
+    del {
+        text-decoration: line-through;
+    }
+    ol,
+    ul {
+        list-style: disc;
+        list-style-position: outside;
+        margin-bottom: 2rem;
+        margin-left: 2rem;
+        li {
+            margin-bottom: .5rem;
+        }
+        ol,
+        ul {
+            margin-left: 2rem;
+        }
+    }
+    ol {
+        list-style-type: upper-roman;
+    }
+    ul {
+        list-style-type: disc;
+    }
+    table,
+    td,
+    th {
+        border-bottom: 1px solid $grayer;
+    }
+    table {
+        border: 1px solid $grayer;
+        border-collapse: collapse;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 2rem;
+    }
+    td,
+    th {
+        padding: 0.5rem;
+    }
+    tr {
+        &:nth-child(even) {
+            background-color: $whitish;
+        }
+    }
+    th {
+        background-color: $primary;
+        border: 1px solid $primary-dark;
+        color: $whitish;
+        font-weight: bold;
+        border: none;
+    }
+    blockquote {
+        background: $whitish;
+        border-left: 1rem solid $gray-light;
+        margin: 1.5rem 1rem;
+        padding: .5rem 1rem 2rem 1rem;
+        quotes: "\201C""\201D""\2018""\2019";
+        &:before {
+            color: $gray-light;
+            content: open-quote;
+            font-size: 5rem;
+            line-height: 4rem;
+            margin-right: 0.25rem;
+            vertical-align: -.4rem;
+        }
+        p {
+            display: inline;
+        }
+    }
+    p {
+        margin-bottom: 1.5rem;
+        line-height: 1.5;
+        code {
+            background: #27333c;
+            font-family: monospace;
+            color: $whitish;
+            padding: .2rem .5rem;
+        }
+    }
+}
