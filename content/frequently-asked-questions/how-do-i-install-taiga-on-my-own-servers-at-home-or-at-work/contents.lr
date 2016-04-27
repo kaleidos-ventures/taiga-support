@@ -4,24 +4,41 @@ body:
 
 *Taiga was designed to be as accessible as possible, and can be set up on your own server. To make self-hosting very flexible, you have the following options:*
 
+## Setup Taiga
+
 ### Developer Mode
+
 It's a manual process. You configure some services and it's fast a simple. This is ideal for those who want to play with Taiga in their own local environment.
 
-Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/#_setup_development_environment)
+Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/#_setup_development_environment "See Taiga Documentation for Devs & SysAdmins > Setup development environment")
+
 
 ### Production mode
+
 This is also a manual installation. The process is a bit slower and more complex, but will result in a solid, robust installation that can be used comfortably on a development server for internal use. As a system administrator you will need to have the knowledge to implement a variety of tools required by the system
 
-Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/#_setup_production_environment)
+Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/#_setup_production_environment "See Taiga Documentation for Devs & SysAdmins > Setup production environment")
+
 
 ### Using Taiga-scripts
+
 To simplify self-hosted installation we also created an automated version of the developer installation mode using taiga-scripts. The process should go smoothly, but If something does go wrong during this automated process, you will need to fix errors by following the manual deploy process.
 
-Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/setup-alternatives.html#setup-taiga-scripts)
+Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/setup-alternatives.html#setup-taiga-scripts "See Taiga Documentation for Devs & SysAdmins > Setup alternatives: taiga-scripts")
+
 
 ### Using Taiga-vagrant
-[Vagrant](https://www.vagrantup.com/about.html) is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the "works on my machine" excuse a relic of the past.
 
-If you are a fan of Vagrant, you can use this method.  Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/setup-alternatives.html#setup-taiga-vagrant)
+[Vagrant](https://www.vagrantup.com/about.html "Learm about Vagrant") is a tool for building complete development environments. With an easy-to-use workflow and focus on automation, Vagrant lowers development environment setup time, increases development/production parity, and makes the "works on my machine" excuse a relic of the past.
+
+If you are a fan of Vagrant, you can use this method.  Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/setup-alternatives.html#setup-taiga-vagrant "See Taiga Documentation for Devs & SysAdmins > Setup alternatives: taiga-vagrant")
+
+
+## Upgrade Taiga
+
+You can keep you Taiga up to date like us in taiga.io, you only should follow the common instructions to upgrade and be caraful with the special steps according to a concrete version.
+
+Check out our documentation about [how to upgrade Taiga](http://taigaio.github.io/taiga-doc/dist/upgrades.html "See Taiga Documentation for Devs & SysAdmins > How to upgrade Taiga")
+
 ---
 order: 60
