@@ -5,17 +5,20 @@ body:
 First, here's a [great list of all other great tools](https://www.quora.com/What-are-some-alternatives-to-Pivotal-Tracker) you might consider - let's see if they post a list like this in their FAQ.
 
 
+### Why should I use Taiga.io?
+
 But here's why Taiga.io might be right for you:
 
-  - **Reason 1**: It was initially built by a group of developers for their personal use to track and manage the projects they work on. They built it because they are a testy bunch, obsessed with perfection. They tried other tools, but there was always something not quite right. Often it was the small things that really bugged them.
-  - **Reason 2**: Taiga.io is Open Source!  "So, who cares", you might say. Well, here's the thing… the people who write Open Source software tend to be the coolest, most talented and creative bunch around. They selflessly (and sometimes for ego) build things like, oh, say… Android, or BitCoin… and other lesser known things like the MLPNeuralNet to run fast multilayer perceptron neural network libraries… So at Taiga we have those guys, and gals. But here's the thing, they all help each other, So what you get with Taiga is our team AND hundreds, nay thousands, nay millions - of other talented folks eager and ready to make Taiga the best tool in its class. It's all about Community.
-  - **Reason 3**: Taiga.io is oh so pretty, and witty and bright. We just love the way the the cursor slips and slides across the graceful screens. The experience is, dare we say - almost sensual. Hey we weren't the first to say it, one of our users even said we are "sexy, sexy, sexy!"…
-   [@CommonLedger tweet about Taiga](https://twitter.com/nzcach/status/522212153692925952)
-  - **Reason 4**: Moolah…. Most people who use Taiga.io will never dip into their pockets to use it. Don't you just love great software delivered for zilch? If you're a startup - that's our way of contributing to your hopes and dreams. All we ask in exchange is that your project be publicly viewable (read only of course.) The idea is that we can learn from each other's work, and discover great projects while we're at it.
+- **Reason 1**: It was initially built by a group of developers for their personal use to track and manage the projects they work on. They built it because they are a testy bunch, obsessed with perfection. They tried other tools, but there was always something not quite right. Often it was the small things that really bugged them.
+- **Reason 2**: Taiga.io is Open Source!  "So, who cares", you might say. Well, here's the thing… the people who write Open Source software tend to be the coolest, most talented and creative bunch around. They selflessly (and sometimes for ego) build things like, oh, say… Android, or BitCoin… and other lesser known things like the MLPNeuralNet to run fast multilayer perceptron neural network libraries… So at Taiga we have those guys, and gals. But here's the thing, they all help each other, So what you get with Taiga is our team AND hundreds, nay thousands, nay millions - of other talented folks eager and ready to make Taiga the best tool in its class. It's all about Community.
+- **Reason 3**: Taiga.io is oh so pretty, and witty and bright. We just love the way the the cursor slips and slides across the graceful screens. The experience is, dare we say - almost sensual. Hey we weren't the first to say it, one of our users even said we are "sexy, sexy, sexy!"... [@CommonLedger tweet about Taiga](https://twitter.com/nzcach/status/522212153692925952)
+- **Reason 4**: Moolah... Most people who use Taiga.io will never dip into their pockets to use it. Don't you just love great software delivered for zilch? If you're a startup - that's our way of contributing to your hopes and dreams. All we ask in exchange is that your project be publicly viewable (read only of course.) The idea is that we can learn from each other's work, and discover great projects while we're at it.
 
 There will be a small subset of users, those who don't want their work to be visible. Those are the folks who will pay a very reasonable fee for Taiga, ranging anywhere between $3 - $50 month depending on the number of projects. Needless to say we also love these privacy-hounds as they will help keep our lights on.
 
+
 ### What if I stop loving you? Can I take my stuff (data) and go?
+
 Sure you can. We are still working on the Taiga.io export feature. Soon you will be able to export your project, package it, and take it elsewhere, or import it to any other Taiga instance, managed by you or by another service provider.
 
 Same is true for Project importing. As soon as we have that feature enabled, you will be able to import projects to our Taiga self-hosted instance.
