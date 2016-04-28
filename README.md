@@ -35,7 +35,8 @@ npm install
 ```
 #### Envs
 
-- [Test Env - GitHub Pages](http://taigaio.github.io/taiga-support/)
+- Test Env: [https://taigaio.github.io/taiga-support/](https://taigaio.github.io/taiga-support/)
+- Production Env: [https://tree.taiga.io/support/](https://tree.taiga.io/support/)
 
 #### Commands
 
