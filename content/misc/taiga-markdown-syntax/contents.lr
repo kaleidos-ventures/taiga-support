@@ -108,7 +108,7 @@ Images
 ```markdown
 An example emoticon :smile:
 ```
-An example emoticon :smile:
+An example emoticon ![:smile:](smile.png ":smile:")
 
 See a complete list of emoticons at this [Emoji Cheatsheet](http://www.emoji-cheat-sheet.com/).
 
