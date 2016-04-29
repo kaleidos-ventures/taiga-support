@@ -2,7 +2,7 @@
     {% if category.children %}
 	<div class="category">
 		<a class="category-link" href="{{ category.children.first()|url }}">
-            {{ category.logo}} {# marcdown filed: <img src="..." alt="..."> #}
+            {{ category.logo}} {# markdown filed: <img src="..." alt="..."> #}
             <span>{{ category.name }}</span>
         </a>
         <ul class="category-excerpt">
