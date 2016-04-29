@@ -8,6 +8,13 @@ A. Project administrators are responsible for payment. If your projects on Taiga
 ### Q. I am a member of more than 2 private projects. Do I have to pay anything?
 A. No. Only the project administrator who created more 2 or more private projects has to subscribe to a paid plan. You will not have to pay regardless of the number of private projects to which you are invited.
 
+### Q. My project is blocked!
+A. We are sorry to hear that. The reason any project would be blocked is because the owner of that project did not subscribe in time to an appropriate paid plan. The project hasn’t been deleted at all, it is simply not accessible for the time being.
+
+If you happen to be the project’s owner, Taiga would already suggest how to proceed or you can simply go to your [subscription settings page](https://tree.taiga.io/user-settings/contrib/subscriptions "subscription settings page"). If you encounter any problem simply contact [support@taiga.io](mailto:support@taiga.io) and we will give you instructions to follow so you can subscribe to a paid plan.
+
+If you are not the project’s owner, we suggest you contact him or her. Please tell him or her to follow the instructions on Taiga to subscribe to a paid plan. Your project will immediately be available again.
+
 ### Q. Are there any restrictions to upgrading and downgrading plans?
 A. No. You can upgrade and downgrade at any time. When you are ready to make a change, just select the new plan to which you want to subscribe. We will ensure that you qualify for the new plan (i.e. that if you select the 2-5 private project plan, you don't have 6 projects) and we will process the change. You will see the change reflected in the next billing cycle.
 
