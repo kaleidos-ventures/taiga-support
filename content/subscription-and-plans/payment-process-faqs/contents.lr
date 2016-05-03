@@ -55,8 +55,8 @@ A. For a private plan to count, you have to have created it yourself, or ownersh
 ### Q. What happens if I create more private projects than allowed by my plan?
 A. You will be prompted to subscribe to an upgraded plan if you outgrow the private projects allowed by your current plan.
 
-### Q. Can I delete projects and then downgrade to a lower plan?
-A. Yes! You can delete projects. We recommend you export the project and save it locally before deleting them on Taiga in case you ever need to access it again.
+### Q. Can I downgrade to a lower plan?
+A. Yes! You can delete projects or make them public to fit in a lower plan. We recommend you export the project and save it locally before deleting them on Taiga in case you ever need to access it again.
 
 ### Q. Do imported projects count towards my plan?
 A. Yes. Any imported projects counts towards your plan as would a newly created project. Please be aware that we do not guarantee that a project created with a previous version of Taiga will be importable to the most current version of Taiga. You may have to install it to your own instance running the version of Taiga last used by the exported project, and then upgrade that instance to the latest version of Taiga.
