@@ -19,6 +19,30 @@
     }
 }
 
+.articles-list {
+    list-style-type: disc;
+    color: $gray-light;
+    list-style-position: inside;
+    font-weight: bold;
+    li {
+
+    }
+    a {
+        display: block;
+        color: $gray;
+        font-weight: normal;
+        padding: .5rem .25rem;
+        &:hover {
+            background: $whitish;
+        }
+        &.active {
+            font-weight: bold;
+            background: $whitish;
+            color: $gray;
+        }
+    }
+}
+
 .categories {
     display: flex;
     flex-wrap: wrap;
