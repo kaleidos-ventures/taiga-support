@@ -56,7 +56,7 @@ Sometimes it takes less time to fix a bug if the developer knows how to find it 
 
 You can propose a new enhancement to our [mailing list][Taiga Mailing List] or review and upvote in the existing [list of enhancements][Taiga Enhancement list] in Taiga.io.
 
-If you would like to implement it by yourselve consider what kind of change it is:
+If you would like to implement it by yourself consider what kind of change it is:
 
 ### Small Changes
 
@@ -68,12 +68,12 @@ Before contributing with a major change to Taiga it should be discussed first wi
 
 We have defined a concrete workflow for this changes:
 
-1. **User Story**: Send us a complete description of the functionality you'd like to develope, how it should work, for which profiles, as if you were writing a User Story. Please include some ideas of what would be a definition of Done of the User Story. The team will review it, decide whether or not it could make it into Taiga Core. If not, you can always write a plugin.
+1. **User Story**: Send us a complete description of the functionality you'd like to develop, how it should work, for which profiles, as if you were writing a User Story. Please include some ideas of what would be a definition of Done of the User Story. The team will review it, decide whether or not it could make it into Taiga Core. If not, you can always write a plugin.
 2. **Mentorship**: If accepted, Taiga team will help you, and a person from the team will be your contact in the development process. The Story will be visible in the [Taiga Kanban][Taiga Kanban]
 3. **User Experience**: The functionality will require some wireframes or ideas to be developed correctly. A good UX its an essential part of Taiga success. You should create a user experience proposal and the Taiga UX team will help you.
 4. **Design**: The design should respect the Taiga style. Try to reproduce other areas of the site. The taiga design team will review this proposal as well.
-5. **Development**: The last step is the development. Remember to add unit and integration test in `taiga-back` code and unit and e2e test for `taiga-front` part. We have the API well documented too in [taiga-doc][Taiga Dev/Setup documentatio].
-6. **Pull request**: Remember to add a good description and screenshots are welcome too. Once the pull request is done, someone else from the team will review the code to ensure that if fits in the good practices and styles. If it does, the PR will be merged and will be on the next Taiga release.
+5. **Development**: The last step is the development. Remember to add unit and integration test in `taiga-back` code and unit and e2e test for `taiga-front` part. We have the API well documented too in [taiga-doc][Taiga Dev/Setup documentation].
+6. **Pull request**: Remember to add a good description and screenshots are welcome too. Once the pull request is done, someone else from the team will review the code to ensure that it fits with the good practices and styles. If it does, the PR will be merged and will be on the next Taiga release.
 
 If you think you are not able to do one or more of the parts of the process, your contribution is still welcome, but we cannot ensure that it will make it soon into the Taiga core anytime soon. It will depend on our priority backlog.
 
@@ -117,4 +117,3 @@ Currently, we have authored three main documentation hubs:
 
 ---
 order: 40
-
