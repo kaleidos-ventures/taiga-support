@@ -1,0 +1,11 @@
+title: Doomline
+---
+body:
+
+### Q. Who has to pay to use Taiga?
+A. Project administrators are responsible for payment. If your projects on Taiga.io are ALL free or if you have installed Taiga on your own servers, you pay nothing (Though please fee free to make donations to us via paypal.) If you have just one private project, you also pay nothing. Paid plans begin to apply once you are the administrator of 2 or more private projects.
+
+---
+order: 10
+---
+is_featured: true

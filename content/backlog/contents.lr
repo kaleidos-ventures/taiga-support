@@ -1,3 +1,6 @@
 name: Backlog
 ---
-order: 30
+logo:
+![Backlog icon](backlog.svg "Backlog icon")
+---
+order: 10
