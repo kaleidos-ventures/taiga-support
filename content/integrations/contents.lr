@@ -1,6 +1,3 @@
 name: Integrations
 ---
-logo:
-![Integrations logo](logo.svg "Integrations logo")
----
 order: 110

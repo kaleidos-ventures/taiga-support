@@ -1,6 +1,3 @@
 name: Contrib Plugins
 ---
-logo:
-![Contrib Plugins logo](logo.svg "Contrib Plugins logo")
----
 order: 120

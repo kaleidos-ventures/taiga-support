@@ -1,8 +1,12 @@
 {% macro render_category(category) %}
+    {% set image = category.attachments.get("icon.svg") %}
+
     {% if category.children %}
 	<div class="category">
 		<a class="category-link" href="{{ category.children.first()|url }}">
-            {{ category.logo}} {# markdown filed: <img src="..." alt="..."> #}
+            {% if image %}
+            <img src="{{ image|url }}" alt="{{ category.name }}" >
+            {% endif %}
             <span>{{ category.name }}</span>
         </a>
         <ul class="category-excerpt">
@@ -15,6 +19,7 @@
         </ul>
 	</div>
     {% endif %}
+
 {% endmacro %}
 
 {% macro render_category_details(category, show_articles=none, active_article=none) %}
