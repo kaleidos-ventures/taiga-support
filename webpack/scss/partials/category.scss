@@ -1,6 +1,4 @@
 .category {
-    display: flex;
-    flex-direction: column;
     flex-shrink: 0;
     margin: 0;
     width: 100%;
@@ -13,53 +11,12 @@
     > .breadcrumb {
         margin-bottom: 1rem;
     }
-
-    ul {
-        display: flex;
-        flex-direction: column;
-
-        li {
-            display: flex;
-
-            a {
-                color: $gray;
-                display: flex;
-                margin-bottom: .5rem;
-                padding: .5rem .8rem;
-                width: 100%;
-
-                &::before {
-                    background-color: lighten($gray-light, 10%);
-                    border-radius: 50%;
-                    content: "";
-                    flex-shrink: 0;
-                    height: 8px;
-                    margin: 8px 6px 0 -8px;
-                    width: 8px;
-                }
-
-                &:hover {
-                    background: $whitish;
-                    color: $grayer;
-                }
-
-                &.active {
-                    background: $whitish;
-                    color: $grayer;
-                    font-weight: bold;
-
-                    &::before {
-                        background-color: $gray;
-                    }
-
-                }
-
-            }
-
-        }
-
+    a {
+        color: $gray;
+        margin-bottom: .5rem;
+        padding: .5rem .8rem;
+        width: 100%;
     }
-
 }
 
 .categories {
@@ -125,31 +82,20 @@
 
 }
 
-ul.category-excerpt {
-    display: flex;
+.category-excerpt {
     width: 100%;
-
     li {
-        display: flex;
         font-size: .9rem;
-
-        a {
-            display: flex;
-            justify-content: center;
-            text-align: center;
-
-            &::before {
-                display: none;
-            }
-        }
-
         &.more {
             color: $gray-light;
-            display: flex;
-            justify-content: center;
             text-align: center;
         }
-
     }
-
+    a {
+        display: block;
+        text-align: center;
+        &:hover {
+            background: $whitish;
+        }
+    }
 }
