@@ -44,6 +44,11 @@ Docker-ization of Taiga.io components for self-hosting
 - https://github.com/nesv/taiga-docker
 - Nick Saika [@nesv](https://github.com/nesv)
 
+###taiga-docker (curiosityio)
+Dockerized Taiga.io
+- https://github.com/curiosityio/taiga-docker
+- Curiosity IO [@curiosityio](https://github.com/curiosityio)
+
 ###fabric8-taiga
 Docker images used by fabric8 apps to run a hosted instace of taiga.
 - https://github.com/fabric8io/fabric8-taiga
