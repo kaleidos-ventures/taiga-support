@@ -46,46 +46,6 @@
 
 }
 
-.toc {
-    padding: .6rem 1rem;
-    li {
-        a {
-            font-weight: bold;
-        }
-
-        > ul {
-            margin-bottom: 0;
-            margin-left: 25px;
-
-            li {
-                display: flex;
-                flex-direction: row;
-
-                a {
-                    font-weight: normal;
-                }
-
-                &::before {
-                    background-color: $primary;
-                    border-radius: 50%;
-                    content: "";
-                    font-weight: bold;
-                    flex-shrink: 0;
-                    height: 6px;
-                    margin-right: 1rem;
-                    margin-top: 10px;
-                    width: 6px;
-                }
-
-            }
-
-        }
-
-
-    }
-
-}
-
 // Code syntax
 pre {
     background-color: #27333c;

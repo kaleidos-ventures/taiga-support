@@ -25,23 +25,25 @@ a {
 
 
 h1, h2, h3, h4 {
-    border-bottom: 1px solid lighten($gray-light, 15%);
     padding: .8rem 0;
     font-weight: bold;
-    margin-top: 3rem;
 }
 
 h1 {
+    border-bottom: 1px solid lighten($gray-light, 15%);
     font-size: 1.6rem;
     margin-bottom: 1rem;
+    margin-top: 3rem;
     @include bp(mobile) {
         font-size: 2rem;
     }
 }
 
 h2 {
+    border-bottom: 1px solid lighten($gray-light, 15%);
     font-size: 1.35rem;
     margin-bottom: .85rem;
+    margin-top: 2rem;
     @include bp(mobile) {
         font-size: 1.65rem;
     }
@@ -50,6 +52,7 @@ h2 {
 h3 {
     font-size: 1.2rem;
     margin-bottom: .7rem;
+    margin-top: 1rem;
     @include bp(mobile) {
         font-size: 1.4rem;
     }
@@ -58,6 +61,7 @@ h3 {
 h4 {
     font-size: 1.1rem;
     margin-bottom: .55rem;
+    margin-top: .5rem;
     @include bp(mobile) {
         font-size: 1.250rem;
     }
