@@ -6,12 +6,12 @@ Here you will find the projects that are being developed around Taiga to improve
 
 ## Ansible
 
-###ansible-taiga
+###ansible-taiga (JScott)
 Ansible for Taiga
 - https://github.com/JScott/ansible-taiga
 - Justin Scott [@JScott](https://github.com/JScott)
 
-###ansible-taiga
+###ansible-taiga (Colstrom)
 Ansible Role for Taiga
 - https://github.com/colstrom/ansible-taiga
 - Chris Olstrom [@colstrom](https://github.com/colstrom)
@@ -24,22 +24,22 @@ A deployer tool for Taiga.io project - RHEL and CentOS systems.
 
 ## Docker
 
-###taiga-docker
+###taiga-docker (ipedrazas)
 Docker scripts to run your own Taiga
 - https://github.com/ipedrazas/taiga-docker
 - Ivan Pedrazas [@ipedrazas](https://github.com/ipedrazas)
 
-###taiga-docker
+###taiga-docker (htdvisser)
 Taiga project management platform for Docker
 - https://github.com/htdvisser/taiga-docker
 - Hylke Visser [@htdvisser](https://github.com/htdvisser)
 
-###taiga-docker
+###taiga-docker (nsdont)
 Taiga docker
 - https://github.com/nsdont/taiga-docker
 - JinWei,Zhong [@nsdont](https://github.com/nsdont)
 
-###taiga-docker
+###taiga-docker (nesv)
 Docker-ization of Taiga.io components for self-hosting
 - https://github.com/nesv/taiga-docker
 - Nick Saika [@nesv](https://github.com/nesv)
