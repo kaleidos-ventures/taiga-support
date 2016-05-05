@@ -1,0 +1,222 @@
+title: Community Contributions
+---
+body:
+
+Here you will find the projects that are being developed around Taiga to improve the ecosystem. If your project is not here, please [contact us](https://tree.taiga.io/support/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/)
+
+## Ansible
+
+###ansible-taiga
+Ansible for Taiga
+- https://github.com/JScott/ansible-taiga
+- Justin Scott [@JScott](https://github.com/JScott)
+
+###ansible-taiga
+Ansible Role for Taiga
+- https://github.com/colstrom/ansible-taiga
+- Chris Olstrom [@colstrom](https://github.com/colstrom)
+
+###taiga-deployer
+A deployer tool for Taiga.io project - RHEL and CentOS systems.
+- https://github.com/padajuan/taiga-deployer
+- Juan Manuel Parrilla [@padajuan](https://github.com/padajuan)
+
+
+## Docker
+
+###taiga-docker
+Docker scripts to run your own Taiga
+- https://github.com/ipedrazas/taiga-docker
+- Ivan Pedrazas [@ipedrazas](https://github.com/ipedrazas)
+
+###taiga-docker
+Taiga project management platform for Docker
+- https://github.com/htdvisser/taiga-docker
+- Hylke Visser [@htdvisser](https://github.com/htdvisser)
+
+###taiga-docker
+Taiga docker
+- https://github.com/nsdont/taiga-docker
+- JinWei,Zhong [@nsdont](https://github.com/nsdont)
+
+###taiga-docker
+Docker-ization of Taiga.io components for self-hosting
+- https://github.com/nesv/taiga-docker
+- Nick Saika [@nesv](https://github.com/nesv)
+
+###fabric8-taiga
+Docker images used by fabric8 apps to run a hosted instace of taiga.
+- https://github.com/fabric8io/fabric8-taiga
+- fabric8 [@fabric8](https://github.com/fabric8io)
+- http://fabric8.io
+
+###zeppelin-taiga
+The Docker image for the taiga app on CloudFleet HQ
+- https://github.com/cloudfleet/zeppelin-taiga
+- cloudfleet [@cloudfleet](https://github.com/cloudfleet)
+- https://cloudfleet.io/
+
+###Taiga-Script-Docker
+A docker taiga (https://taiga.io/) build based on taiga-script(https://github.com/taigaio/taiga-scripts) -ith no "so many containers I loose my mind" nonsense
+- https://github.com/Annakan/Taiga-Script-Docker
+- Annakan [@Annakan](https://github.com/Annakan)
+
+###accollo
+A minimalistic and easily configurable taiga.io Docker image.
+- https://github.com/tubia/accollo
+- Tubia [@tubia](https://github.com/tubia/)
+
+###docker-taiga
+Docker container for Taiga
+- https://github.com/benhutchins/docker-taiga
+- Benjamin Hutchins [@benhutchin](https://github.com/benhutchins)
+- https://hub.docker.com/r/benhutchins/taiga/
+
+
+## Chef
+
+###taiga-cookbook
+Installs and configures Taiga, a open source agile project management platform.
+- https://github.com/johnbellone/taiga-cookbook
+- John Bellone [@johnbellone](https://github.com/johnbellone)
+
+## Emacs
+
+###taiga-api-emacs
+Taiga API client library in Emacs Lisp
+- https://github.com/ryuslash/taiga-api-emacs
+- Tom Willemse [@ryuslash](https://github.com/ryuslash)
+
+## NODEJS
+
+###taiga-njs
+NodeJS Implementation of Taiga API
+- https://github.com/sachioross/taiga-njs
+- Douglas Ross [@sachioross](https://github.com/sachioross)
+
+###node-taiga
+nodejs api wrapper
+- https://github.com/luisrudge/node-taiga
+- Luís Rudge [@luisrudge](https://github.com/luisrudge)
+
+## Python
+
+###python-taiga
+A Python module for communicating with the Taiga API
+* https://github.com/nephila/python-taiga
+* Nephila [@nephila](https://github.com/nephila)
+
+##Migrations
+
+###Trega
+Migrator from Trello to Taiga
+- https://github.com/victorliun/trega
+- Victor Liu [@victorliun](https://github.com/victorliun)
+
+### Plugins
+
+####taiga-contrib-google-auth
+Taiga plugin for Google login
+- https://github.com/agolden/taiga-contrib-google-auth
+- agolden [@agolden](https://github.com/agolden)
+
+####taiga-contrib-fas-openid-auth
+FAS Openid Auth plugin for taiga
+- https://github.com/fedora-infra/taiga-contrib-fas-openid-auth
+- Fedora Infrastructure [@fedora-infra](https://github.com/fedora-infra)
+
+###taiga-contrib-ldap-aut
+Taiga plugin for LDAP authentication
+- https://github.com/ensky/taiga-contrib-ldap-auth
+- Ensky [@ensky](https://github.com/ensky)
+
+
+### Dropbox
+
+####taiga-contrib-dropbox
+This is a plugin for Taiga aiming at letting the user upload files on Dropbox.
+- https://github.com/alexanderstyre/taiga-contrib-dropbox
+- alexanderstyre [@alexanderstyre](https://github.com/alexanderstyre)
+
+##Dashboard
+
+###taiga-dashboard
+Alpha dash for Taiga project (Bitergia stats dashboard)
+- https://github.com/acs/taiga-dashboard
+- Alvaro del Castillo [@acs](https://github.com/acs/taiga-dashboard)
+
+###taiga_utils
+A minimal dashboard for Taiga
+- https://github.com/robmegna/taiga_utils
+- robmegna [@robmegna](https://github.com/robmegna)
+
+
+###taiga-mt
+Taiga MT is designed for manager to manage the whole projects in taiga.
+- https://github.com/rawbean/taiga-mt
+- Robin Zhang [@rawbean](https://github.com/rawbean)\
+
+##Mobile
+
+###taiga-mobile
+A nifty little app for interacting with Taiga (ALPHA version)
+- https://github.com/zach-capalbo/taiga-mobile
+- Zachary Capalbo [@zach-capalbo](https://github.com/zach-capalbo)
+
+##Estimation
+
+###taiga-scrum-poker
+Poker planing with Taiga
+- https://github.com/danielbeeke/taiga-scrum-poker
+- Daniel Beeke [@danielbeeke](https://github.com/danielbeeke)
+
+###taiga-flow
+Strategic planning. Visualize user flows from user stories in Taiga and calculate the total estimated points
+- https://github.com/studio-fonkel/taiga-flow
+- Studio Fonkel [@studio-fonkel](https://github.com/studio-fonkel)
+
+## Themes
+
+###nephila-taiga-theme
+Official Nephila's theme for Taiga (https://taiga.io/)
+- https://github.com/nephila/nephila-taiga-theme
+- Nephila [@nephila](https://github.com/nephila)
+
+## Documentation
+
+###Taiga.pm
+Tutorial on how to use Taiga
+- http://taiga.pm/
+- TaigaPM [@TaigaPM](https://twitter.com/TaigaPM)
+
+## Integrations with Taiga
+
+###taiga-email
+Mail to Issue pipe for the mail server
+* https://github.com/paultag/taiga-email
+* PaulTagliamonte [@paultag](https://github.com/paultag)
+
+###taiga-scripts
+A set of bash scripts that interact with the Taiga agile project management platform (taiga.io)
+* https://github.com/richbl/taiga-scripts
+* Rich [@richbl](https://github.com/richbl)
+
+###Taiga.io Tasks (for jetbrains)
+* Enable use of taiga.io as an IntelliJ task server. (Use with IntelliJ IDEA, RubyMine, WebStorm, PhpStorm, PyCharm, AppCode, MPS, Android Studio, 0xDBE, CLion)
+* https://plugins.jetbrains.com/plugin/7804
+* trevor at busybusy.com [@trevorjones141](https://twitter.com/trevorjones141)
+
+###sentry-taiga
+Creates issues in Taiga from Sentry exceptions
+* https://github.com/rochsystems/sentry-taiga/
+* Roch Systems [@rochsystems](https://github.com/rochsystems)
+
+## Hooks
+
+###hooks
+RESTful server that receives hooks from taiga.io
+* https://github.com/bedell/hooks
+* bedell [@bedell](https://github.com/bedell)
+
+---
+order: 20
