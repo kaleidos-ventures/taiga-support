@@ -220,3 +220,5 @@ RESTful server that receives hooks from taiga.io
 
 ---
 order: 20
+---
+is_featured: true
