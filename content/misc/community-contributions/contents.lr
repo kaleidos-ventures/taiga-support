@@ -125,7 +125,7 @@ FAS Openid Auth plugin for taiga
 - https://github.com/fedora-infra/taiga-contrib-fas-openid-auth
 - Fedora Infrastructure [@fedora-infra](https://github.com/fedora-infra)
 
-###taiga-contrib-ldap-aut
+###taiga-contrib-ldap-auth
 Taiga plugin for LDAP authentication
 - https://github.com/ensky/taiga-contrib-ldap-auth
 - Ensky [@ensky](https://github.com/ensky)
