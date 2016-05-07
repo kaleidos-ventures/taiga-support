@@ -6,11 +6,6 @@
         list-style-position: outside;
         list-style: disc;
         color: $primary;
-        li {
-            list-style-position: outside;
-            list-style: disc;
-            margin-left: 2rem;
-        }
         a {
             font-weight: bold;
         }
@@ -47,12 +42,14 @@
     }
     li {
         font-size: inherit;
+        margin-left: 1.25rem;
     }
     ul {
         list-style-type: disc;
         margin-left: 1.25rem;
     }
     ol {
+        list-style-type: decimal;
         margin-left: 1.25rem;
     }
     ol ol,
