@@ -1,0 +1,25 @@
+title: Custom Status
+---
+body:
+
+Taiga comes with a number of predefined statuses for User Stories, Tasks and Issues.
+
+Users with administration permissions will be able to create or modify statuses for their project's User Stories, Tasks and Issues
+
+
+### 1. Configure Custom Status
+
+1. Go to one of your Taiga projects.
+2. Click on *admin* button. _In this example we will focus on User Stories, but this feature is also available on tasks and issues and same steps should be followed to edit them._
+3. Go to *Attributes > Status* - scroll to the 'US STATUSES' section.
+4. Either click on the *edit* icon to modify a status, or click *Add new status* to create a new one.
+5. Save the changes.
+
+### 2. Using Custom Status
+
+You can set the status on any of your US/Tasks/Issues as required.
+
+You can change the status of a US/Task/Issue using [commit messages](https://taiga.io/support/changing-elements-status-via-commit-message/).
+
+---
+order: 15
