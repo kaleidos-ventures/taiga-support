@@ -2,26 +2,57 @@ title: Webhooks
 ---
 body:
 
-Taiga comes with an third party easy integration system based on webhooks. Some applications can be integrated with this, and you can configure each one in Taiga:
+Taiga comes with an third party easy integration system based on webhooks. Some applications can be integrated with this, and you can configure each one in Taiga.
+
+### What is a webhook:
+
+> A WebHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing WebHooks will POST a message to a URL when certain things happen.
+
+In other words a weebhoks is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.
+
+Taiga emit a webhook when
+
+- an sprint is created, updated or deleted.
+- a user story is created, updated or deleted.
+- a task is created, updated or deleted.
+- an issue is created, updated or deleted.
+- a wiki page is created, updated or deleted.
 
 
-### 1. Configure Third party service
+### First: Configure the third party service
 
-1. Go to your application and search for Taiga webhooks support and enable it.
-2. Copy the service provide url for the webhook and the secret key.
+The first of all is to be sure that the sevice supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
 
+1. Go to your service and search support about how to enable Taiga webhooks and do it.
+2. After enabled it you need to Copy the *payload url* for the webhook and the *secret key*.
+   - The *payload url* is the service endpoint that will receive the information sent by Taiga.
+   - A *secret key* is an string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.
 
-### 2. Configure Taiga
+![Webhook integration for GetBadges](webhooks-integration-getbadges.png "Webhook integration for GetBadges")
 
-Go to *Admin > Integrations > Webhooks*
-![Webhooks Menu](webhooks-menu.png "Webhooks Menu")
+### Second: Configure weebhoks in Taiga
 
-1. Fill the name, secret key and payload url based on the data provided by your service.
-   ![Webhooks Configure](webhooks-1.png "Webhooks Configure")
+1. Go to *Admin > Integrations > Webhooks*.
 
-2. Save the changes.
-3. You can send a test request to ensure everything is working.
-   ![Webhooks Test](webhooks-2.png "Webhooks Test")
+   ![Webhooks Menu](webhooks-1.png "Webhooks Panel")
+
+2. Fill the *name*, *secret key* and *payload url* based on the data provided by your service.
+
+   ![Add a new webhooks](webhooks-2.png "Add a new webhooks")
+
+3. Save the changes and the webhook will be create.
+
+   ![Webhook created](webhooks-3.png "Webhook created")
+
+After create a webhook you allways can edit or delete it. But you can test if it works properly too.
+
+![Actions over a created webhook](webhooks-4.png "Actions over a created webhook")
+
+And you can view the history of the calls done.
+
+![Webhook history entries list ](webhooks-5.png "Webhook history entries list")
+
+![Webhook history entry detail](webhooks-6.png "Webhook history entry  details")
 
 
 ### Developing your own integration
