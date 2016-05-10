@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 
 <title>Changing elements status via commit message — Taiga Support</title>
-<meta name="description" content="**The status of any issue, task or user story can be changed via commit message**
+<meta name="description" content="The status of any issue, task or user story can be changed via commit message.
 
 ### How?
 
@@ -14,12 +14,12 @@ Just add to your commit message something like:
 TG-REF #STATUS-slug
 ```
 - **REF**: US/Issue/Task reference of the element you want to modify
-- **STATUS**: ...">
+- **STATUS**: New...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <!-- Style -->
-<link rel="stylesheet" href="../../static/styles.css?h=6fd02726">
+<link rel="stylesheet" href="../../static/styles.css?h=0036b08d">
 <!-- Google fonts -->
 <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
 <!-- Pygment style -->
@@ -132,34 +132,22 @@ TG-REF #STATUS-slug
 
     <div class="article">
         <h2>Changing elements status via commit message</h2>
-        
-        
-        <ul class="toc">
-            
-                <li>
-                    <a href="#how?">How?</a>
-                    
-                </li>
-            
-                <li>
-                    <a href="#an-example-please">An example, please!</a>
-                    
-                </li>
-            
-        </ul>
+
         
 
-        <div class="body"><p><strong>The status of any issue, task or user story can be changed via commit message</strong></p>
+        <div class="body"><p>The status of any issue, task or user story can be changed via commit message.</p>
 <h3 id="how?">How?</h3><p>Just add to your commit message something like:</p>
 <pre><code>TG-REF #STATUS-slug
 </code></pre>
 <ul>
 <li><strong>REF</strong>: US/Issue/Task reference of the element you want to modify</li>
-<li><strong>STATUS</strong>: New status slug to set, you can find all of them in: US STATUSES</li>
+<li><strong>STATUS</strong>: New status slug to set.</li>
 </ul>
 <h3 id="an-example-please">An example, please!</h3><pre><code>TG-123 #closed
 </code></pre>
-<p>In this example, 123 is an issue reference and with this command, the issue will change its status to closed.</p>
+<p>In this example, <em>123</em> is an issue reference and with this command, the issue will change its status to <em>closed</em>.</p>
+<h3 id="and-where-re-the-available-statuses-defined?">And where're the available statuses defined?</h3><p>If you are the project admin you can manage the statuses atribute in the admin pane: <strong>Admin &gt; Attributes &gt; Status</strong>. You can find all of them for stories, tasks and issues</p>
+<p><img src="../../integrations/changing-elements-status-via-commit-message/statuses_panel.png" alt="Admin &gt; Attributes &gt; Status" title="Manage Statuses inn the project admin panel"></p>
 </div>
     </div>
 
