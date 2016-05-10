@@ -2,8 +2,8 @@
 
     <div class="article">
         <h2>{{ article.title }}</h2>
-        
-        {% if article.body.toc %}
+
+        {% if article.show_toc and article.body.toc %}
         <ul class="toc">
             {% for item in article.body.toc recursive %}
                 <li>
