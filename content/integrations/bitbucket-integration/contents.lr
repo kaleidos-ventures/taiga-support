@@ -27,9 +27,9 @@ Currently Bitbucket offers some limitations in its webHooks system that must be 
 - Bitbucket doesn't encrypt the messages so all the information is transferred in clear. Taiga only can confirm the origin checking the IPs in the request. Bitbucket can change their [IP ranges](https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks "Bitbucket IP ranges") of their servers when they want so with every change you have to update your configuration in Taiga to prevent errors.
 - Webhooks mesages can olnly contains a maximum of 5 commits (up to 5 of the most recent ommits pushed) according to the [Bitbucket documentation](https://confluence.atlassian.com/bitbucket/event-payloads-740262817.html#EventPayloads-Push "iDocumentation: Event Payloads - Repository Events: Push").
 
-> Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
->
-> If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
+!! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
+<br /><br />
+If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
 
 
 ### First: Configure the integration module in Taiga

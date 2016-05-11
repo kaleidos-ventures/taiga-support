@@ -25,9 +25,9 @@ Currently GitLab offers a limitation in its webhooks system that must be conside
 
 - GitLab doesn't encrypt the messages so all the information is transferred in clear. Taiga only can confirm the origin checking the IPs in the request.
 
-> Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
->
-> If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
+!! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
+<br /><br />
+If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
 
 
 ### First: Configure the integration module in Taiga

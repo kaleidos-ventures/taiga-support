@@ -22,11 +22,9 @@ In Taiga an issue is connected with a GitHub issue if it was creted by the GitHu
 - *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.
 - "Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in GitHub.
 
-
-> Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
->
-> If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
-
+!! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
+<br /><br />
+If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
 
 ### First: Configure the integration module in Taiga
 
