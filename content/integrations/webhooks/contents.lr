@@ -2,7 +2,7 @@ title: Webhooks
 ---
 body:
 
-Taiga comes with an third party easy integration system based on webhooks. Some applications can be integrated with this, and you can configure each one in Taiga.
+Taiga comes with an easy third party integration system based on webhooks. Some applications can be integrated with it, and you can configure each one in Taiga.
 
 ### What is a webhook:
 
@@ -12,7 +12,7 @@ In other words a weebhoks is a way for an app to provide other applications with
 
 Taiga emit a webhook when
 
-- an sprint is created, updated or deleted.
+- a sprint is created, updated or deleted.
 - a user story is created, updated or deleted.
 - a task is created, updated or deleted.
 - an issue is created, updated or deleted.
@@ -21,16 +21,16 @@ Taiga emit a webhook when
 
 ### First: Configure the third party service
 
-The first of all is to be sure that the sevice supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
+The first of all is to be sure that the service supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
 
 1. Go to your service and search support about how to enable Taiga webhooks and do it.
 2. After enabled it you need to Copy the *payload url* for the webhook and the *secret key*.
    - The *payload url* is the service endpoint that will receive the information sent by Taiga.
-   - A *secret key* is an string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.
+   - A *secret key* is a string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.
 
 ![Webhook integration for GetBadges](webhooks-integration-getbadges.png "Webhook integration for GetBadges")
 
-### Second: Configure weebhoks in Taiga
+### Second: Configure webhooks in Taiga
 
 1. Go to *Admin > Integrations > Webhooks*.
 
@@ -40,11 +40,11 @@ The first of all is to be sure that the sevice supports the Taiga weebhoks and i
 
    ![Add a new webhooks](webhooks-2.png "Add a new webhooks")
 
-3. Save the changes and the webhook will be create.
+3. Save the changes and the webhook will be created.
 
    ![Webhook created](webhooks-3.png "Webhook created")
 
-After create a webhook you allways can edit or delete it. But you can test if it works properly too.
+After creating a webhook you'll be able to edit, delete, or test if it works properly.
 
 ![Actions over a created webhook](webhooks-4.png "Actions over a created webhook")
 
@@ -57,7 +57,7 @@ And you can view the history of the calls done.
 
 ### Developing your own integration
 
-You may want to integrate your own system with the Taiga webhooks, you can see the technical documentation about [webhooks system](http://taigaio.github.io/taiga-doc/dist/webhooks.html)
+If you want to integrate your own system with the Taiga webhooks, you can see the technical documentation about [webhooks system](http://taigaio.github.io/taiga-doc/dist/webhooks.html)
 
 ---
 order: 10
