@@ -11,7 +11,7 @@ Right now you can connect a GitHub repository with one Taiga project and generat
 
 - *Change the status of an story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
 - *Create issues* on Taiga when they are created on GitHub*.
-- *Add comment to the connected issues on Taiga when they are created on GitHub*.
+- *Add comments to the connected issues on Taiga when they are created on GitHub*.
 
 In Taiga an issue is connected with a GitHub issue if it was creted by the GitHub integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in GitHub.
 

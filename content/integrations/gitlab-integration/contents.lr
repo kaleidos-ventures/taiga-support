@@ -10,7 +10,7 @@ Right now you can connect a GitLab repository with one Taiga project and generat
 
 - *Change the status of an story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
 - *Create issues* on Taiga when they are created on GitLab*.
-- *Add comment to the connected issues on Taiga when they are created on GitLab*.
+- *Add comments to the connected issues on Taiga when they are created on GitLab*.
 
 In Taiga an issue is connected with a GitLab issue if it was creted by the GitLab integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in GitLab.
 
