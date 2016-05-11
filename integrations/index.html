@@ -93,7 +93,7 @@
             
             <li>
                 <a href="../integrations/github-integration/" ">
-                    Github Integration
+                    GitHub Integration
                 </a>
             </li>
             
@@ -139,7 +139,7 @@
                 </li>
             
                 <li>
-                    <a href="#second:-configure-weebhoks-in-taiga">Second: Configure weebhoks in Taiga</a>
+                    <a href="#second:-configure-webhooks-in-taiga">Second: Configure webhooks in Taiga</a>
                     
                 </li>
             
@@ -151,45 +151,45 @@
         </ul>
         
 
-        <div class="body"><p>Taiga comes with an third party easy integration system based on webhooks. Some applications can be integrated with this, and you can configure each one in Taiga.</p>
+        <div class="body"><p>Taiga comes with an easy third party integration system based on webhooks. Some applications can be integrated with it, and you can configure each one in Taiga.</p>
 <h3 id="what-is-a-webhook:">What is a webhook:</h3><blockquote><p>A WebHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing WebHooks will POST a message to a URL when certain things happen.</p>
 </blockquote>
 <p>In other words a weebhoks is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.</p>
 <p>Taiga emit a webhook when</p>
 <ul>
-<li>an sprint is created, updated or deleted.</li>
+<li>a sprint is created, updated or deleted.</li>
 <li>a user story is created, updated or deleted.</li>
 <li>a task is created, updated or deleted.</li>
 <li>an issue is created, updated or deleted.</li>
 <li>a wiki page is created, updated or deleted.</li>
 </ul>
-<h3 id="first:-configure-the-third-party-service">First: Configure the third party service</h3><p>The first of all is to be sure that the sevice supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:</p>
+<h3 id="first:-configure-the-third-party-service">First: Configure the third party service</h3><p>The first of all is to be sure that the service supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:</p>
 <ol>
 <li>Go to your service and search support about how to enable Taiga webhooks and do it.</li>
 <li>After enabled it you need to Copy the <em>payload url</em> for the webhook and the <em>secret key</em>.<ul>
 <li>The <em>payload url</em> is the service endpoint that will receive the information sent by Taiga.</li>
-<li>A <em>secret key</em> is an string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.</li>
+<li>A <em>secret key</em> is a string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.</li>
 </ul>
 </li>
 </ol>
 <p><img src="../integrations/webhooks/webhooks-integration-getbadges.png" alt="Webhook integration for GetBadges" title="Webhook integration for GetBadges"></p>
-<h3 id="second:-configure-weebhoks-in-taiga">Second: Configure weebhoks in Taiga</h3><ol>
+<h3 id="second:-configure-webhooks-in-taiga">Second: Configure webhooks in Taiga</h3><ol>
 <li><p>Go to <em>Admin &gt; Integrations &gt; Webhooks</em>.</p>
 <p><img src="../integrations/webhooks/webhooks-1.png" alt="Webhooks Menu" title="Webhooks Panel"></p>
 </li>
 <li><p>Fill the <em>name</em>, <em>secret key</em> and <em>payload url</em> based on the data provided by your service.</p>
 <p><img src="../integrations/webhooks/webhooks-2.png" alt="Add a new webhooks" title="Add a new webhooks"></p>
 </li>
-<li><p>Save the changes and the webhook will be create.</p>
+<li><p>Save the changes and the webhook will be created.</p>
 <p><img src="../integrations/webhooks/webhooks-3.png" alt="Webhook created" title="Webhook created"></p>
 </li>
 </ol>
-<p>After create a webhook you allways can edit or delete it. But you can test if it works properly too.</p>
+<p>After creating a webhook you'll be able to edit, delete, or test if it works properly.</p>
 <p><img src="../integrations/webhooks/webhooks-4.png" alt="Actions over a created webhook" title="Actions over a created webhook"></p>
 <p>And you can view the history of the calls done.</p>
 <p><img src="../integrations/webhooks/webhooks-5.png" alt="Webhook history entries list " title="Webhook history entries list"></p>
 <p><img src="../integrations/webhooks/webhooks-6.png" alt="Webhook history entry detail" title="Webhook history entry  details"></p>
-<h3 id="developing-your-own-integration">Developing your own integration</h3><p>You may want to integrate your own system with the Taiga webhooks, you can see the technical documentation about <a href="http://taigaio.github.io/taiga-doc/dist/webhooks.html">webhooks system</a></p>
+<h3 id="developing-your-own-integration">Developing your own integration</h3><p>If you want to integrate your own system with the Taiga webhooks, you can see the technical documentation about <a href="http://taigaio.github.io/taiga-doc/dist/webhooks.html">webhooks system</a></p>
 </div>
     </div>
 

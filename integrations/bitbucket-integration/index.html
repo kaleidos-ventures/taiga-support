@@ -4,9 +4,12 @@
 <meta charset="utf-8">
 
 <title>Bitbucket Integration — Taiga Support</title>
-<meta name="description" content="*Bitbucket is a web-based hosting service for projects that use either the Mercurial (since the origin) or Git (since October 2011[1]) revision control systems.*
+<meta name="description" content="*Bitbucket is a web-based hosting service for projects that use either the Mercurial (since the origin) or Git (since October 2011) revision control systems.*
 
-First things first, Bitbucket is a huge platform with a lot of features. Integration will ...">
+
+### What currently can we do?
+
+Right now you can connect a Bitbucket repository with one Tai...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -93,7 +96,7 @@ First things first, Bitbucket is a huge platform with a lot of features. Integra
             
             <li>
                 <a href="../../integrations/github-integration/" ">
-                    Github Integration
+                    GitHub Integration
                 </a>
             </li>
             
@@ -129,46 +132,69 @@ First things first, Bitbucket is a huge platform with a lot of features. Integra
         <ul class="toc">
             
                 <li>
-                    <a href="#1.-configure-taiga">1. Configure Taiga</a>
+                    <a href="#what-currently-can-we-do?">What currently can we do?</a>
                     
                 </li>
             
                 <li>
-                    <a href="#2.-configure-bitbucket">2. Configure Bitbucket</a>
+                    <a href="#and-what-can-t-we-do?">And what can't we do?</a>
                     
                 </li>
             
                 <li>
-                    <a href="#changing-elements-status-via-commit-message">Changing elements status via commit message</a>
+                    <a href="#first:-configure-the-integration-module-in-taiga">First: Configure the integration module in Taiga</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#second:-configure-webhooks-in-your-bitbucket-repository">Second: Configure Webhooks in your Bitbucket repository</a>
                     
                 </li>
             
         </ul>
         
 
-        <div class="body"><p><em>Bitbucket is a web-based hosting service for projects that use either the Mercurial (since the origin) or Git (since October 2011[1]) revision control systems.</em></p>
-<p>First things first, Bitbucket is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
-<p>If you need help in a specific feature, you can always get in touch with the community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
-<h3 id="1.-configure-taiga">1. Configure Taiga</h3><p>Go to <em>Admin &gt; Integrations &gt; Bitbucket</em></p>
-<ol>
-<li>Fill Secret key or use the auto generated one</li>
+        <div class="body"><p><em>Bitbucket is a web-based hosting service for projects that use either the Mercurial (since the origin) or Git (since October 2011) revision control systems.</em></p>
+<h3 id="what-currently-can-we-do?">What currently can we do?</h3><p>Right now you can connect a Bitbucket repository with one Taiga project and generate a one-way communication (from Bitbucket to Taiga) to:</p>
+<ul>
+<li><em>Change the status of an story, issue, or task in Taiga with the commit message</em>: you may want to read more about this feature in the article <a href="../../integrations/changing-elements-status-via-commit-message/" title="Changing elements status via commit message">"Changing elements status via commit message"</a>.</li>
+<li><em>Create issues</em> on Taiga when they are created on Bitbucket*.</li>
+<li><em>Add comment to the connected issues on Taiga when they are created on Bitbucket</em>.</li>
+</ul>
+<p>In Taiga an issue is connected with a Bitbucket issue if it was creted by the Bitbucket integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in Bitbucket.</p>
+<h3 id="and-what-can-t-we-do?">And what can't we do?</h3><ul>
+<li><em>Dual synchronization</em>: currently the integrastion functionality only allow to recive messages fromt Bitbucket and Taiga can't comunicate with Bitbucket, so any changes you make in Taiga will not be reflected in Bitbucket.</li>
+<li><em>Show commit links in Taiga issues</em>: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.</li>
+<li>"Sync current Bitbucket issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in Bitbucket.</li>
+</ul>
+<p>Currently Bitbucket offers some limitations in its webHooks system that must be considered. These limitations are not hardcore but it's good to know them to be aware of the limitations that exist.</p>
+<ul>
+<li>Bitbucket doesn't encrypt the messages so all the information is transferred in clear. Taiga only can confirm the origin checking the IPs in the request. Bitbucket can change their <a href="https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks" title="Bitbucket IP ranges">IP ranges</a> of their servers when they want so with every change you have to update your configuration in Taiga to prevent errors.</li>
+<li>Webhooks mesages can olnly contains a maximum of 5 commits (up to 5 of the most recent ommits pushed) according to the <a href="https://confluence.atlassian.com/bitbucket/event-payloads-740262817.html#EventPayloads-Push" title="iDocumentation: Event Payloads - Repository Events: Push">Bitbucket documentation</a>.</li>
+</ul>
+<blockquote><p>Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a> and our FAQs about <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement" title="How you can contribute?">how you can contribute to Taiga</a>.</p>
+<p>If you need help in a specific feature, you can always get in touch with the community and <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions" title="How you contact with us?">contact with us</a>.</p>
+</blockquote>
+<h3 id="first:-configure-the-integration-module-in-taiga">First: Configure the integration module in Taiga</h3><ol>
+<li>Go to <em>Admin &gt; Integrations &gt; Bitbucket</em></li>
+<li>Fill <em>secret key</em> or use the auto generated one</li>
 <li>Copy the Payload URL field.</li>
+<li>Optionaly you can define the valid emisor IPs or IP ranges to validate the origin of the requests. You can find the valid IP ranges for the Bitbucked Cloud service <a href="https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks" title="Bitbucket IP ranges">here</a></li>
 </ol>
-<h3 id="2.-configure-bitbucket">2. Configure Bitbucket</h3><p>Go to your repository</p>
-<ol>
+<p><img src="../../integrations/bitbucket-integration/bitbucket_in_taiga.png" alt="Admin &gt; Integrations &gt; Bitbucket Panel" title="Admin &gt; Integrations &gt; Bitbucket Panel"></p>
+<h3 id="second:-configure-webhooks-in-your-bitbucket-repository">Second: Configure Webhooks in your Bitbucket repository</h3><ol>
 <li>Click on <em>Settings &gt; Webhooks</em></li>
-<li>Click on "Add webhook" button</li>
-<li>On that form set the url with the payload url of this screen and choose some title (ex. "Taiga.io").</li>
+<li>Click on <em>"Add webhook"</em> button</li>
+<li>On that form set the url with the <em>payload url</em> of this screen and choose some title (ex. "Taiga.io").</li>
 <li>Taiga listen three triggers, you can select all or some of them:<ul>
 <li><em>Repository - Push</em>: Changing element status via commit message</li>
 <li><em>Issue - Created</em>: To clone new issues created in Bitbucket to Taiga</li>
 <li><em>Issue - Comment created</em>: To add new comments to related issues</li>
 </ul>
 </li>
-<li>Press <em>Save</em> button to create the new webhook.</li>
+<li>Press <em>Save</em> button to create the new webhook</li>
 </ol>
-<p><img src="../../integrations/bitbucket-integration/bitbucket-help.png" alt="Bitbucket Webhooks" title="Bitbucket Webhooks"></p>
-<h3 id="changing-elements-status-via-commit-message">Changing elements status via commit message</h3><p>The status of any issue, task or user story can be changed via commit message. You may want to read more <a href="https://taiga.io/support/changing-elements-status-via-commit-message/">about this feature</a></p>
+<p><img src="../../integrations/bitbucket-integration/bitbucket_webhook.png" alt="Bitbucket Webhooks" title="Bitbucket Webhook"></p>
 </div>
     </div>
 

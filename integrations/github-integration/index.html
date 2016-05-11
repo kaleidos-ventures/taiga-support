@@ -3,10 +3,13 @@
 <!doctype html>
 <meta charset="utf-8">
 
-<title>Github Integration — Taiga Support</title>
+<title>GitHub Integration — Taiga Support</title>
 <meta name="description" content="*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.*
 
-First things first, Github is a huge platform with a lot of features....">
+
+### What currently can we do?
+
+Right now you can connect a GitHub re...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -93,7 +96,7 @@ First things first, Github is a huge platform with a lot of features....">
             
             <li>
                 <a href="../../integrations/github-integration/"  class="active">
-                    Github Integration
+                    GitHub Integration
                 </a>
             </li>
             
@@ -123,23 +126,28 @@ First things first, Github is a huge platform with a lot of features....">
     
 
     <div class="article">
-        <h2>Github Integration</h2>
+        <h2>GitHub Integration</h2>
 
         
         <ul class="toc">
             
                 <li>
-                    <a href="#1.-configure-taiga">1. Configure Taiga</a>
+                    <a href="#what-currently-can-we-do?">What currently can we do?</a>
                     
                 </li>
             
                 <li>
-                    <a href="#2.-configure-github">2. Configure Github</a>
+                    <a href="#and-what-can-t-we-do?">And what can't we do?</a>
                     
                 </li>
             
                 <li>
-                    <a href="#changing-elements-status-via-commit-message">Changing elements status via commit message</a>
+                    <a href="#first:-configure-the-integration-module-in-taiga">First: Configure the integration module in Taiga</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#second:-configure-webhooks-in-your-github-repository">Second: Configure Webhooks in your GitHub repository</a>
                     
                 </li>
             
@@ -147,31 +155,43 @@ First things first, Github is a huge platform with a lot of features....">
         
 
         <div class="body"><p><em>GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.</em></p>
-<p>First things first, Github is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a>.</p>
-<p>If you need help in a specific feature, you can always get in touch with the community through our <a href="https://groups.google.com/forum/#!forum/taigaio">mailing list</a></p>
-<h3 id="1.-configure-taiga">1. Configure Taiga</h3><p>Go to <em>Admin &gt; Integrations &gt; Github</em></p>
-<ol>
-<li>Fill Secret key or use the auto generated one</li>
-<li>Copy the Payload URL field.</li>
+<h3 id="what-currently-can-we-do?">What currently can we do?</h3><p>Right now you can connect a GitHub repository with one Taiga project and generate a one-way communication (from GitHub to Taiga) to:</p>
+<ul>
+<li><em>Change the status of an story, issue, or task in Taiga with the commit message</em>: you may want to read more about this feature in the article <a href="../../integrations/changing-elements-status-via-commit-message/" title="Changing elements status via commit message">"Changing elements status via commit message"</a>.</li>
+<li><em>Create issues</em> on Taiga when they are created on GitHub*.</li>
+<li><em>Add comment to the connected issues on Taiga when they are created on GitHub</em>.</li>
+</ul>
+<p>In Taiga an issue is connected with a GitHub issue if it was creted by the GitHub integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in GitHub.</p>
+<h3 id="and-what-can-t-we-do?">And what can't we do?</h3><ul>
+<li><em>Dual synchronization</em>: currently the integrastion functionality only allow to recive messages fromt GitHub and Taiga can't comunicate with GitHub, so any changes you make in Taiga will not be reflected in GitHub.</li>
+<li><em>Show commit links in Taiga issues</em>: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.</li>
+<li>"Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in GitHub.</li>
+</ul>
+<blockquote><p>Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a> and our FAQs about <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement" title="How you can contribute?">how you can contribute to Taiga</a>.</p>
+<p>If you need help in a specific feature, you can always get in touch with the community and <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions" title="How you contact with us?">contact with us</a>.</p>
+</blockquote>
+<h3 id="first:-configure-the-integration-module-in-taiga">First: Configure the integration module in Taiga</h3><ol>
+<li>Go to <em>Admin &gt; Integrations &gt; GitHub</em></li>
+<li>Fill <em>secret key</em> or use the auto generated one</li>
+<li>Copy the <em>payload URL</em> input</li>
 </ol>
-<h3 id="2.-configure-github">2. Configure Github</h3><p>Go to your repository</p>
-<ol>
+<p><img src="../../integrations/github-integration/github_in_taiga.png" alt="Admin &gt; Integrations &gt; GitHub Panel" title="Admin &gt; Integrations &gt; GitHub Panel"></p>
+<h3 id="second:-configure-webhooks-in-your-github-repository">Second: Configure Webhooks in your GitHub repository</h3><ol>
 <li>Click on <em>Settings &gt; Webhooks &amp; Services &gt; Add webhook</em></li>
-<li>On that screen set the payload url with the payload url of this screen.</li>
-<li>Secret must be filled with the same content as the secret field of this screen.</li>
-<li>Content type must be application/json.</li>
-<li>Taiga currently listen for three different kind of events:<ol>
-<li>Push events: changing element status via commit message</li>
-<li>Issues: issues created in github appear automatically in Taiga</li>
-<li>Issue comment: issue comments created in github appear automatically in Taiga</li>
+<li>On that screen set the <em>payload url</em> with the <em>payload url</em> from Taiga</li>
+<li>The <em>secret key</em> must be filled with the same content as the <em>secret key</em> from Taiga</li>
+<li>Content type must be <em>application/json</em>.</li>
+<li>Taiga currently listen for three different kind of <em>events</em>. Just check <em>"send me everything"</em> or just the events you want Taiga to listen for.<ol>
+<li><em>Push events</em>: changing element status via commit message</li>
+<li><em>Issues</em>: issues created in GitHub appear automatically in Taiga</li>
+<li><em>Issue comment</em>: issue comments created in GitHub appear automatically in Taiga</li>
 </ol>
 </li>
+<li>Press <em>Add webhook</em> button to create the new webhook</li>
 </ol>
-<p>Just check "send me everything" or just the events you want Taiga to listen for.</p>
-<p><img src="../../integrations/github-integration/github-help.png" alt="Github Webhooks" title="Github Webhooks"></p>
-<p>Here you can find a youtube video describing the whole process:</p>
+<p><img src="../../integrations/github-integration/github_webhook.png" alt="GitHub Webhooks" title="GitHub Webhooks"></p>
+<p>Here you can find a video describing the whole process:</p>
 <p><iframe width="100%" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe></p>
-<h3 id="changing-elements-status-via-commit-message">Changing elements status via commit message</h3><p>The status of any issue, task or user story can be changed via commit message. You may want to read more <a href="https://taiga.io/support/changing-elements-status-via-commit-message/">about this feature</a></p>
 </div>
     </div>
 
