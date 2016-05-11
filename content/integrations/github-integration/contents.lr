@@ -1,47 +1,59 @@
-title: Github Integration
+title: GitHub Integration
 ---
 body:
 
 *GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.*
 
-First things first, Github is a huge platform with a lot of features. Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html).
 
-If you need help in a specific feature, you can always get in touch with the community through our [mailing list](https://groups.google.com/forum/#!forum/taigaio)
+### What currently can we do?
+
+Right now you can connect a GitHub repository with one Taiga project and generate a one-way communication (from GitHub to Taiga) to:
+
+- *Change the status of an story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
+- *Create issues* on Taiga when they are created on GitHub*.
+- *Add comment to the connected issues on Taiga when they are created on GitHub*.
+
+In Taiga an issue is connected with a GitHub issue if it was creted by the GitHub integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in GitHub.
 
 
-### 1. Configure Taiga
+### And what can't we do?
 
-Go to *Admin > Integrations > Github*
+- *Dual synchronization*: currently the integrastion functionality only allow to recive messages fromt GitHub and Taiga can't comunicate with GitHub, so any changes you make in Taiga will not be reflected in GitHub.
+- *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.
+- "Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in GitHub.
 
-1. Fill Secret key or use the auto generated one
-2. Copy the Payload URL field.
+
+> Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
+>
+> If you need help in a specific feature, you can always get in touch with the community and [contact with us](/frequently-asked-questions/how-can-i-contribute-to-taiga/#sent-us-your-feedback-or-questions "How you contact with us?").
 
 
-### 2. Configure Github
+### First: Configure the integration module in Taiga
 
-Go to your repository
+1. Go to *Admin > Integrations > GitHub*
+2. Fill *secret key* or use the auto generated one
+2. Copy the *payload URL* input
+
+![Admin > Integrations > GitHub Panel](github_in_taiga.png "Admin > Integrations > GitHub Panel")
+
+
+### Second: Configure Webhooks in your GitHub repository
 
 1. Click on *Settings > Webhooks & Services > Add webhook*
-2. On that screen set the payload url with the payload url of this screen.
-3. Secret must be filled with the same content as the secret field of this screen.
-4. Content type must be application/json.
-5. Taiga currently listen for three different kind of events:
-    1. Push events: changing element status via commit message
-    2. Issues: issues created in github appear automatically in Taiga
-    3. Issue comment: issue comments created in github appear automatically in Taiga
+2. On that screen set the *payload url* with the *payload url* from Taiga
+3. The *secret key* must be filled with the same content as the *secret key* from Taiga
+4. Content type must be *application/json*.
+5. Taiga currently listen for three different kind of *events*. Just check *"send me everything"* or just the events you want Taiga to listen for.
+      1. *Push events*: changing element status via commit message
+      2. *Issues*: issues created in GitHub appear automatically in Taiga
+      3. *Issue comment*: issue comments created in GitHub appear automatically in Taiga
+6. Press *Add webhook* button to create the new webhook
 
-Just check "send me everything" or just the events you want Taiga to listen for.
+![GitHub Webhooks](github_webhook.png "GitHub Webhooks")
 
-![Github Webhooks](github-help.png "Github Webhooks")
-
-Here you can find a youtube video describing the whole process:
+Here you can find a video describing the whole process:
 
 <iframe width="100%" height="480" src="https://www.youtube.com/embed/KwrwpDsGt78" frameborder="0" allowfullscreen></iframe>
-
-
-### Changing elements status via commit message
-
-The status of any issue, task or user story can be changed via commit message. You may want to read more [about this feature](https://taiga.io/support/changing-elements-status-via-commit-message/)
 
 ---
 order: 20
