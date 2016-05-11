@@ -94,6 +94,72 @@
         font-weight: bold;
         border: none;
     }
+    .admonition {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        color: #333;
+        margin: 10px 0 1em 0;
+        padding: 10px 10px 10px 36px;
+
+        &.admonition-info {
+			&:before{
+    		    color: #aab8c6;
+				content: "INFO |";
+			    display: block;
+                float: left;
+                padding-right: 1rem;
+                text-align: right;
+                width: 60px;
+			}
+			background-color: #fcfcfc;
+    		border-color: #aab8c6;
+        }
+        &.admonition-note {
+			&:before{
+		        color: #edb764;
+				content: "NOTE |";
+			    display: block;
+                float: left;
+                padding-right: 1rem;
+                text-align: right;
+                width: 60px;
+			}
+			background: #fefbf6;
+		    border-color: #edb764;
+        }
+        &.admonition-tip {
+			&:before{
+		        color: #91c89c;
+				content: "TIP |";
+			    display: block;
+                float: left;
+                padding-right: 1rem;
+                text-align: right;
+                width: 60px;
+			}
+		    background-color: #f3f9f4;
+		    border-color: #91c89c;
+        }
+        &.admonition-warning {
+			&:before{
+		        color: #d04437;
+				content: "WARN |";
+			    display: block;
+                float: left;
+                padding-right: 1rem;
+                text-align: right;
+                width: 60px;
+			}
+		    background: #fff8f7;
+		    border-color: #d04437;
+        }
+        p {
+            margin-bottom: 0;
+            padding-left: 75px;
+        }
+    }
     blockquote {
         background: $whitish;
         border-left: 1rem solid $gray-light;

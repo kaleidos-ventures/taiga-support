@@ -6,6 +6,7 @@ url = https://tree.taiga.io/support
 lektor-webpack-support = 0.1
 lektor-markdown-highlighter = 0.1
 lektor-markdown-header-anchors = 0.1
+lektor-markdown-admonition = 0.1
 
 [servers.ghpages]
 target = ghpages+https://taigaio/taiga-support

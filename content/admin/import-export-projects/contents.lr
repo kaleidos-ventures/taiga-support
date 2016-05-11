@@ -29,6 +29,9 @@ To export a project and download the "dump file" you have to:
 Importing a project
 -------------------
 
+!! The project import in taiga doesn't migrate users, only project data, if you want to keep the users relation with the project correctly, you have to create the users before you import the project. Important, the matching of users with the import data will be done through case-sensitive email addresses.
+
+!!! If the import fails, please contact with support@taiga.io or ask through the Taiga Google Group: https://groups.google.com/forum/#!forum/taigaio
 Once you have a dump of your project, you can import it in other taiga instance.
 
 - In your web browser, sign into the Taiga instance you wish to import the project into.
@@ -41,14 +44,6 @@ Once you have a dump of your project, you can import it in other taiga instance.
 - Most likely, the import process will succeed and you will see the project appear on the main projects screen:  
   ![Projects list](import-export-screenshot-9.png "Projects list")
 - Open the project and plan/develop/succeed as you did before!
-
-
-Notes on Project Importing
---------------------------
-
-- The project import in taiga doesn't migrate users, only project data, if you want to keep the users relation with the project correctly, you have to create the users before you import the project. Important, the matching of users with the import data will be done through case-sensitive email addresses.
-
-- If the import fails, please contact with support@taiga.io or ask through the Taiga Google Group: https://groups.google.com/forum/#!forum/taigaio
 
 ---
 order: 30
