@@ -23,7 +23,7 @@ In Taiga an issue is connected with a GitLab issue if it was creted by the GitLa
 
 Currently GitLab offers a limitation in its webhooks system that must be considered. It is not hardcore but it's good to know them to be aware of the limitation that exist.
 
-- GitLab doesn't encrypt the messages so all the information is transferred in clear. Taiga only can confirm the origin checking the IPs in the request.
+- GitLab doesn't sign the messages so all the information is transferred in clear. Taiga only can confirm the origin checking the IPs in the request.
 
 !! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
 <br /><br />
