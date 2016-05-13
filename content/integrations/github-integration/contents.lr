@@ -2,14 +2,14 @@ title: GitHub Integration
 ---
 body:
 
-*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.*
+*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private ones.*
 
 
-### What currently can we do?
+### What can we do currently?
 
-Right now you can connect a GitHub repository with one Taiga project and generate a one-way communication (from GitHub to Taiga) to:
+Right now you can connect to a GitHub repository with a Taiga project and generate a one-way communication (from GitHub to Taiga) to:
 
-- *Change the status of an story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
+- *Change the status of an user story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
 - *Create issues* on Taiga when they are created on GitHub*.
 - *Add comments to the connected issues on Taiga when they are created on GitHub*.
 
@@ -18,9 +18,9 @@ In Taiga an issue is connected with a GitHub issue if it was creted by the GitHu
 
 ### And what can't we do?
 
-- *Dual synchronization*: currently the integrastion functionality only allow to recive messages fromt GitHub and Taiga can't comunicate with GitHub, so any changes you make in Taiga will not be reflected in GitHub.
-- *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.
-- "Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in GitHub.
+- *Dual synchronization*: currently the integration functionality only allows receiving messages fromt GitHub. Taiga can't comunicate with GitHub (the one-way communication is from Github to Taiga), so changes made in Taiga won't be reflected in GitHub.
+- *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit won't appear in Taiga.
+- "Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the future issues and comments added in GitHub.
 
 !! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
 <br /><br />
@@ -41,7 +41,7 @@ If you need help in a specific feature, you can always get in touch with the com
 2. On that screen set the *payload url* with the *payload url* from Taiga
 3. The *secret key* must be filled with the same content as the *secret key* from Taiga
 4. Content type must be *application/json*.
-5. Taiga currently listen for three different kind of *events*. Just check *"send me everything"* or just the events you want Taiga to listen for.
+5. Taiga currently listens for three different kind of *events*. Just check *"send me everything"* or the events you want Taiga to listen for.
       1. *Push events*: changing element status via commit message
       2. *Issues*: issues created in GitHub appear automatically in Taiga
       3. *Issue comment*: issue comments created in GitHub appear automatically in Taiga
