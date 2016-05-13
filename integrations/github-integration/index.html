@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 
 <title>GitHub Integration — Taiga Support</title>
-<meta name="description" content="*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.*
+<meta name="description" content="*GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private ones.*
 
 
-### What currently can we do?
+### What can we do currently?
 
-Right now you can connect a GitHub re...">
+Right now you can connect to a GitHub rep...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -132,7 +132,7 @@ Right now you can connect a GitHub re...">
         <ul class="toc">
             
                 <li>
-                    <a href="#what-currently-can-we-do?">What currently can we do?</a>
+                    <a href="#what-can-we-do-currently?">What can we do currently?</a>
                     
                 </li>
             
@@ -154,18 +154,18 @@ Right now you can connect a GitHub re...">
         </ul>
         
 
-        <div class="body"><p><em>GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private projects.</em></p>
-<h3 id="what-currently-can-we-do?">What currently can we do?</h3><p>Right now you can connect a GitHub repository with one Taiga project and generate a one-way communication (from GitHub to Taiga) to:</p>
+        <div class="body"><p><em>GitHub is the largest code host on the planet with over 17.5 million repositories. These repositories are open to the community for public projects and secure for private ones.</em></p>
+<h3 id="what-can-we-do-currently?">What can we do currently?</h3><p>Right now you can connect to a GitHub repository with a Taiga project and generate a one-way communication (from GitHub to Taiga) to:</p>
 <ul>
-<li><em>Change the status of an story, issue, or task in Taiga with the commit message</em>: you may want to read more about this feature in the article <a href="../../integrations/changing-elements-status-via-commit-message/" title="Changing elements status via commit message">"Changing elements status via commit message"</a>.</li>
+<li><em>Change the status of an user story, issue, or task in Taiga with the commit message</em>: you may want to read more about this feature in the article <a href="../../integrations/changing-elements-status-via-commit-message/" title="Changing elements status via commit message">"Changing elements status via commit message"</a>.</li>
 <li><em>Create issues</em> on Taiga when they are created on GitHub*.</li>
 <li><em>Add comments to the connected issues on Taiga when they are created on GitHub</em>.</li>
 </ul>
 <p>In Taiga an issue is connected with a GitHub issue if it was creted by the GitHub integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in GitHub.</p>
 <h3 id="and-what-can-t-we-do?">And what can't we do?</h3><ul>
-<li><em>Dual synchronization</em>: currently the integrastion functionality only allow to recive messages fromt GitHub and Taiga can't comunicate with GitHub, so any changes you make in Taiga will not be reflected in GitHub.</li>
-<li><em>Show commit links in Taiga issues</em>: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.</li>
-<li>"Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in GitHub.</li>
+<li><em>Dual synchronization</em>: currently the integration functionality only allows receiving messages fromt GitHub. Taiga can't comunicate with GitHub (the one-way communication is from Github to Taiga), so changes made in Taiga won't be reflected in GitHub.</li>
+<li><em>Show commit links in Taiga issues</em>: If you name a story, task or issue in a commit message (by its reference number) a link to commit won't appear in Taiga.</li>
+<li>"Sync current GitHub issues and comment when the integration módule in Taiga is enabled*: the integration only works with the future issues and comments added in GitHub.</li>
 </ul>
 <div class="admonition admonition-info"><p>Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our <a href="http://taigaio.github.io/taiga-doc/dist/api.html">API Docs</a> and our FAQs about <a href="../../frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement" title="How you can contribute?">how you can contribute to Taiga</a>.
 <br /><br />
@@ -180,7 +180,7 @@ If you need help in a specific feature, you can always get in touch with the com
 <li>On that screen set the <em>payload url</em> with the <em>payload url</em> from Taiga</li>
 <li>The <em>secret key</em> must be filled with the same content as the <em>secret key</em> from Taiga</li>
 <li>Content type must be <em>application/json</em>.</li>
-<li>Taiga currently listen for three different kind of <em>events</em>. Just check <em>"send me everything"</em> or just the events you want Taiga to listen for.<ol>
+<li>Taiga currently listens for three different kind of <em>events</em>. Just check <em>"send me everything"</em> or the events you want Taiga to listen for.<ol>
 <li><em>Push events</em>: changing element status via commit message</li>
 <li><em>Issues</em>: issues created in GitHub appear automatically in Taiga</li>
 <li><em>Issue comment</em>: issue comments created in GitHub appear automatically in Taiga</li>
