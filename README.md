@@ -1,9 +1,19 @@
-# Taiga-support [![Build Status](https://travis-ci.org/taigaio/taiga-support.svg?branch=master)](https://travis-ci.org/taigaio/taiga-support)
+# Taiga-support
+
+![Kaleidos Project](http://kaleidos.net/static/img/badge.png "Kaleidos Project")
+[![Managed with Taiga.io](https://taiga.io/media/support/attachments/article-22/banner-gh.png)](https://taiga.io "Managed with Taiga.io")
+[![Build Status](https://travis-ci.org/taigaio/taiga-support.svg?branch=master)](https://travis-ci.org/taigaio/taiga-support)
 
 User suport pages for Taiga.
 
 
-## For Developers
+#### Envs
+
+- **Stable** (Production Env): [https://tree.taiga.io/support/](https://tree.taiga.io/support/)
+- **Dev** (Test Env): [https://taigaio.github.io/taiga-support/](https://taigaio.github.io/taiga-support/)
+
+
+#### Setup
 
 You need:
 
@@ -12,8 +22,6 @@ You need:
  - ruby
  - virtualenvwraper
 
-
-#### Setup
 
 - Install Lektor
 ```
@@ -33,10 +41,7 @@ sass -v             # should return something like 'Sass 3.4.11 (Selective Steve
 cd taiga-support/webpack
 npm install
 ```
-#### Envs
 
-- Test Env: [https://taigaio.github.io/taiga-support/](https://taigaio.github.io/taiga-support/)
-- Production Env: [https://tree.taiga.io/support/](https://tree.taiga.io/support/)
 
 #### Commands
 
@@ -51,3 +56,8 @@ npm install
 
 ```lektor clean```
 : Cleans the entire build folder.
+
+
+#### Code of Conduct
+
+Help us keep the Taiga Community open and inclusive. Please read and follow our [Code of Conduct](https://github.com/taigaio/code-of-conduct/blob/master/CODE_OF_CONDUCT.md).
