@@ -18,7 +18,7 @@ But, of course, agile methodologies are meant to be malleable, so even if we dec
 To accomodate these practices we came out with something that could fit in any team workflow and solve many different different problems: custom fields
 
 ### Solution 1: Set Up Custom fields
-You can create [custom fields](/support/custom-fields "How can I create custom fields?") in issues, tasks and user stories to track everything and make beautiful reports with your favourite spreadsheet and the [CSV reports](/support/csv-reports "Export data in csv format") functionality.
+You can create [custom fields](/admin/custom-fields/ "How can I create custom fields?") in issues, tasks and user stories to track everything and make beautiful reports with your favourite spreadsheet and the [CSV reports](/admin/csv-reports/ "Export data in csv format") functionality.
 
 ### Solution 2: Using Toggl
 [Toggl](https://www.toggl.com/ "Toggl home page") is a time tracking app operated by Toggl OÜ that is integrated with Taiga.io. You only need to sign in in Toggl.com and install the [Chrome extension](https://github.com/toggl/toggl-button "Toggl Button Chrome Extension") to use it over Taiga.io.
