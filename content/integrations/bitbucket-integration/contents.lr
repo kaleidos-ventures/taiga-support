@@ -13,19 +13,19 @@ Right now you can connect a Bitbucket repository with a Taiga project and genera
 - *Create issues* on Taiga when they are created on Bitbucket*.
 - *Add comments to the connected issues on Taiga when they are created on Bitbucket*.
 
-In Taiga an issue is connected with a Bitbucket issue if it was creted by the Bitbucket integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in Bitbucket.
+In Taiga an issue is connected with a Bitbucket issue if it was created by the Bitbucket integration. In the detail page of an issue on Taiga you can see a link under the subject to the original issue in Bitbucket.
 
 
 ### And what can't we do?
 
-- *Dual synchronization*: currently the integration functionality only allows receiving messages fromt Bitbucket. Taiga can't comunicate with GitLab (the one-way communication is from Bitbucket to Taiga), so changes made in Taiga won't be reflected in Bitbucket.
+- *Dual synchronization*: currently the integration functionality only allows receiving messages from Bitbucket. Taiga can't communicate with GitLab (the one-way communication is from Bitbucket to Taiga), so changes made in Taiga won't be reflected in Bitbucket.
 - *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.
-- "Sync current Bitbucket issues and comment when the integration módule in Taiga is enabled*: the integration only works with the futere issues and comments added in Bitbucket.
+- "Sync current Bitbucket issues and comment when the integration module in Taiga is enabled*: the integration only works with the future issues and comments added in Bitbucket.
 
 Currently Bitbucket offers some limitations on its webhooks system that must be considered. These limitations are not hardcore but it's good to know them to be aware of the limitations that exist.
 
 - Bitbucket doesn't sign the messages so Taiga only can confirm the origin checking the IPs in the request. Bitbucket can change their [IP ranges](https://confluence.atlassian.com/bitbucket/manage-webhooks-735643732.html#Managewebhooks-trigger_webhookTriggeringwebhooks "Bitbucket IP ranges") of their servers when they want so with every change you have to update your configuration in Taiga to prevent errors.
-- Webhooks mesages can only contains a maximum of 5 commits (up to 5 of the most recent commits pushed) according to the [Bitbucket documentation](https://confluence.atlassian.com/bitbucket/event-payloads-740262817.html#EventPayloads-Push "iDocumentation: Event Payloads - Repository Events: Push").
+- Webhooks messages can only contains a maximum of 5 commits (up to 5 of the most recent commits pushed) according to the [Bitbucket documentation](https://confluence.atlassian.com/bitbucket/event-payloads-740262817.html#EventPayloads-Push "iDocumentation: Event Payloads - Repository Events: Push").
 
 !! Integration will always take time so please be patient. If you need a specific integration and you feel ready to get a machete and get into the Taiga, please review our [API Docs](http://taigaio.github.io/taiga-doc/dist/api.html) and our FAQs about [how you can contribute to Taiga](/frequently-asked-questions/how-can-i-contribute-to-taiga/#propose-some-feature-or-enhancement "How you can contribute?").
 <br /><br />
