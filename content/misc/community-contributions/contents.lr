@@ -232,6 +232,6 @@ RESTful server that receives hooks from taiga.io
 * bedell [@bedell](https://github.com/bedell)
 
 ---
-order: 20
+order: 999
 ---
 is_featured: true
