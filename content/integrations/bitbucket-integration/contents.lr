@@ -18,7 +18,7 @@ In Taiga an issue is connected with a Bitbucket issue if it was created by the B
 
 ### And what can't we do?
 
-- *Dual synchronization*: currently the integration functionality only allows receiving messages from Bitbucket. Taiga can't communicate with GitLab (the one-way communication is from Bitbucket to Taiga), so changes made in Taiga won't be reflected in Bitbucket.
+- *Dual synchronization*: currently the integration functionality only allows receiving messages from Bitbucket. Taiga can't communicate with Bitbucket (the one-way communication is from Bitbucket to Taiga), so changes made in Taiga won't be reflected in Bitbucket.
 - *Show commit links in Taiga issues*: If you name a story, task or issue in a commit message (by its reference number) a link to commit not appear in Taiga.
 - "Sync current Bitbucket issues and comment when the integration module in Taiga is enabled*: the integration only works with the future issues and comments added in Bitbucket.
 
