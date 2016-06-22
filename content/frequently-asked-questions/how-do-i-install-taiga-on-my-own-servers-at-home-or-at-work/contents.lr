@@ -36,7 +36,7 @@ If you are a fan of Vagrant, you can use this method.  Check out [our documentat
 
 ## Upgrade Taiga
 
-You can keep you Taiga up to date like us in taiga.io, you only should follow the common instructions to upgrade and be caraful with the special steps according to a concrete version.
+You can keep your Taiga up to date like us in [taiga.io](https://tree.taiga.io "tree.taiga.io"), you only should follow the common instructions to upgrade and be caraful with the special steps according to a concrete version.
 
 Check out our documentation about [how to upgrade Taiga](http://taigaio.github.io/taiga-doc/dist/upgrades.html "See Taiga Documentation for Devs & SysAdmins > How to upgrade Taiga")
 
