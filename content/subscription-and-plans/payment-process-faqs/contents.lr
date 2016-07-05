@@ -34,7 +34,7 @@ If you would like to continue using the Taiga.io service in the free tier plan (
 - [Export projects](https://taiga.io/support/import-export-projects/)  that you do not use and then delete them. Please delete with care. Once a project is deleted it cannot be recovered! You can also use this option if you wish to downgrade plan. Taiga's pricing plans can be [found here](http://taiga.io#pricing).
 - A variant on the second option is to export a project, delete it in taiga.io and then import it to a different taiga instance (perhaps your own). Many people are using this as a way to archive projects but is also a way to keep working on them.
 
-Please note that our free tier plan does have a limit of 25 members per project.
+Please note that our free tier plan does have a limit of 4 members per private project.
 
 Note that users who have not selected a subscription plan or taken the actions detailed above will not be able to access their private projects starting May 3rd until a specific manual action is taken. Public projects remain unaffected.
 
