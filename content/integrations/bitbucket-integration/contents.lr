@@ -46,7 +46,7 @@ If you need help in a specific feature, you can always get in touch with the com
 1. Click on *Settings > Webhooks*
 2. Click on *"Add webhook"* button
 2. On that form set the url with the *payload url* of this screen and choose some title (ex. "Taiga.io").
-3. Taiga listenss for three different triggers, you can select all of them or just some:
+3. Taiga listens for three different triggers, you can select all of them or just some:
     - *Repository - Push*: Changing element status via commit message
     - *Issue - Created*: To clone new issues created in Bitbucket to Taiga
     - *Issue - Comment created*: To add new comments to related issues
