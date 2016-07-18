@@ -6,9 +6,9 @@ Taiga comes with an easy third party integration system based on webhooks. Some 
 
 ### What is a webhook:
 
-> A WebHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing WebHooks will POST a message to a URL when certain things happen.
+> A webHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing webHooks will POST a message to a URL when certain things happen.
 
-In other words a weebhoks is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.
+In other words a webhook is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.
 
 Taiga emit a webhook when
 
@@ -21,7 +21,7 @@ Taiga emit a webhook when
 
 ### First: Configure the third party service
 
-The first of all is to be sure that the service supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
+The first of all is to be sure that the service supports the Taiga webhooks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
 
 1. Go to your service and search support about how to enable Taiga webhooks and do it.
 2. After enabled it you need to Copy the *payload url* for the webhook and the *secret key*.
