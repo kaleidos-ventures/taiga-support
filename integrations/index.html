@@ -152,9 +152,9 @@
         
 
         <div class="body"><p>Taiga comes with an easy third party integration system based on webhooks. Some applications can be integrated with it, and you can configure each one in Taiga.</p>
-<h3 id="what-is-a-webhook:">What is a webhook:</h3><blockquote><p>A WebHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing WebHooks will POST a message to a URL when certain things happen.</p>
+<h3 id="what-is-a-webhook:">What is a webhook:</h3><blockquote><p>A webHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing webHooks will POST a message to a URL when certain things happen.</p>
 </blockquote>
-<p>In other words a weebhoks is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.</p>
+<p>In other words a webhook is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.</p>
 <p>Taiga emit a webhook when</p>
 <ul>
 <li>a sprint is created, updated or deleted.</li>
@@ -163,7 +163,7 @@
 <li>an issue is created, updated or deleted.</li>
 <li>a wiki page is created, updated or deleted.</li>
 </ul>
-<h3 id="first:-configure-the-third-party-service">First: Configure the third party service</h3><p>The first of all is to be sure that the service supports the Taiga weebhoks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:</p>
+<h3 id="first:-configure-the-third-party-service">First: Configure the third party service</h3><p>The first of all is to be sure that the service supports the Taiga webhooks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:</p>
 <ol>
 <li>Go to your service and search support about how to enable Taiga webhooks and do it.</li>
 <li>After enabled it you need to Copy the <em>payload url</em> for the webhook and the <em>secret key</em>.<ul>
