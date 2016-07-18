@@ -10,7 +10,7 @@ Taiga comes with an easy third party integration system based on webhooks. Some 
 
 In other words a webhook is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.
 
-Taiga emit a webhook when
+Taiga emits a webhook when
 
 - a sprint is created, updated or deleted.
 - a user story is created, updated or deleted.
@@ -57,7 +57,7 @@ And you can view the history of the calls done.
 
 ### Developing your own integration
 
-If you want to integrate your own system with the Taiga webhooks, you can see the technical documentation about [webhooks system](http://taigaio.github.io/taiga-doc/dist/webhooks.html)
+If you want to integrate your own system with the Taiga webhooks, you can see the technical documentation about [webhooks system](http://taigaio.github.io/taiga-doc/dist/webhooks.html).
 
 ---
 order: 10
