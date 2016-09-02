@@ -132,7 +132,7 @@ Migrator from Trello to Taiga
 - Victor Liu [@victorliun](https://github.com/victorliun)
 
 
-## Plugins
+## Auth Plugins
 
 ### taiga-contrib-google-auth
 Taiga plugin for Google login
@@ -148,6 +148,11 @@ FAS Openid Auth plugin for taiga
 Taiga plugin for LDAP authentication
 - https://github.com/ensky/taiga-contrib-ldap-auth
 - Ensky [@ensky](https://github.com/ensky)
+
+### taiga-contrib-kerberos-auth
+Taiga plugin for kerberos authentication
+- https://github.com/dpasqualin/taiga-contrib-kerberos-auth
+- Diego Giovane Pasqualin [@dpasqualin](https://github.com/dpasqualin)
 
 
 ## Dropbox
