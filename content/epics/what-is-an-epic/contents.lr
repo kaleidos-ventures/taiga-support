@@ -1,0 +1,26 @@
+title: What's an epic?
+---
+body:
+
+### Q. What is an Epic?
+A. If you work with agile methodologies, you’ve probably heard of Epics. There is no official definition of an Epic, although the research made by the Taiga team detected a common sense of what an Epic Story could look like.
+
+### Q. What is the difference between an Epic and a User Story
+A. **Essentially, an Epic is a larger object than a User Story and can contain several of them.** When defining your backlog, you will often recognize an Epic when:
+
+- The User Story is too complex and the definition is diffuse.
+- The User Story is so big that cannot be done in a considerable amount of time.
+- It is very useful for strategic planning.
+- An Epic usually has a diffuse definition, and can contain several features.
+- An Epic is a good information container for all the team instead of creating User Stories belonging to single roles.
+
+![Epic](epic_us.png "Epic")
+
+In this cases, it probably means that this object can be broken down to smaller stories that are features themselves.
+
+![Epic](epic_container_us.png "Epic")
+
+---
+order: 10
+---
+is_featured: true

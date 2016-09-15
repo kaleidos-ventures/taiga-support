@@ -1,0 +1,20 @@
+title: Epics dashboard
+---
+body:
+
+The Epics dashboard can be accessed from the left sidebar. Note that this module is not activated by default, so a project admin will have to activate it from the project administration.
+
+![Epics Dashboard](dashboard.jpg "Epics dashboard")
+
+The Epics dashboard is an overview of all the epic stories of a project and their status. From this modules, you will be able to manage your epics:
+
+- **Prioritize**: Drag and drop the Epics and set in the top of them the prioritized ones.
+- **Assign**: Click on the assigned picture and assign it to a team member.
+- **Status**: Click on the status to update the epic status.
+
+If you want to see the status of all the User Stories that are linked to an Epic, click on the epic. The Epic will unfold all the linked User Stories.
+
+---
+order: 20
+---
+is_featured: true
