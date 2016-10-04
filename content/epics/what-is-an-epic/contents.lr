@@ -24,3 +24,5 @@ In this cases, it probably means that this object can be broken down to smaller 
 order: 10
 ---
 is_featured: true
+---
+show_toc: false

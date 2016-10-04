@@ -18,3 +18,5 @@ If you want to see the status of all the User Stories that are linked to an Epic
 order: 20
 ---
 is_featured: true
+---
+show_toc: false

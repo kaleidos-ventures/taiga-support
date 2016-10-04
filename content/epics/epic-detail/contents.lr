@@ -2,7 +2,6 @@ title: Epics detail
 ---
 body:
 
-### The Epics detail
 To access the epic detail from the epic dashboard click on the epic name. Alternatively, the epic will be accessible from the child User Stories and tasks, in the header of their detail.
 
 In the epic detail you will be able to do everything of what you can already do in User Stories and tasks: assign it, update the description, attach files, comment… Note, that **you can also edit the epic color**, this color will be visible in all the child User Stories and tasks to identify that they pertain to this epic.
@@ -25,3 +24,5 @@ Your Epic can be composed of multiple User Stories across multiple projects.
 order: 40
 ---
 is_featured: true
+---
+show_toc: false
