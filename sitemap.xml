@@ -25,8 +25,8 @@
     <url><loc>https://tree.taiga.io/support/integrations/github-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/integrations/gitlab-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/integrations/bitbucket-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/gogs-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/integrations/changing-elements-status-via-commit-message/</loc></url>
-    <url><loc>https://tree.taiga.io/support/contrib-plugins/gogs-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/contrib-plugins/hipchat-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/contrib-plugins/slack-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/misc/taiga-markdown-syntax/</loc></url>
