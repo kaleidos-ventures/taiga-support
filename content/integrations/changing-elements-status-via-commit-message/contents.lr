@@ -29,6 +29,6 @@ If you are the project admin you can manage the statuses atribute in the admin p
 ![Admin > Attributes > Status](statuses_panel.png "Manage Statuses inn the project admin panel")
 
 ---
-order: 40
+order: 50
 ---
 show_toc: false
