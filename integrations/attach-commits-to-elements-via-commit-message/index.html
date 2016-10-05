@@ -3,18 +3,18 @@
 <!doctype html>
 <meta charset="utf-8">
 
-<title>Changing elements status via commit message — Taiga Support</title>
-<meta name="description" content="The status of any issue, task, user story or epic can be changed via commit message.
+<title>Attach commits to elements via commit message — Taiga Support</title>
+<meta name="description" content="You can mention any epic, user story, task or issue via commit message to show a commit link in the history panel.
+
 
 ### How?
 
 Just add to your commit message something like:
 
 ```
-TG-REF #STATUS-slug
+TG-REF
 ```
-- **REF**: US/Issue/Task reference of the element you want to modify
-- **STATUS*...">
+- **REF**: US/Issue/Task reference of the element you want to ...">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
@@ -131,23 +131,20 @@ TG-REF #STATUS-slug
     
 
     <div class="article">
-        <h2>Changing elements status via commit message</h2>
+        <h2>Attach commits to elements via commit message</h2>
 
         
 
-        <div class="body"><p>The status of any issue, task, user story or epic can be changed via commit message.</p>
+        <div class="body"><p>You can mention any epic, user story, task or issue via commit message to show a commit link in the history panel.</p>
 <h3 id="how?">How?</h3><p>Just add to your commit message something like:</p>
-<pre><code>TG-REF #STATUS-slug
+<pre><code>TG-REF
 </code></pre>
 <ul>
 <li><strong>REF</strong>: US/Issue/Task reference of the element you want to modify</li>
-<li><strong>STATUS</strong>: New status slug to set.</li>
 </ul>
-<h3 id="an-example-please">An example, please!</h3><pre><code>TG-123 #closed
+<h3 id="an-example-please">An example, please!</h3><pre><code>Fix Issue TG-123
 </code></pre>
-<p>In this example, <em>123</em> is an issue reference and with this command, the issue will change its status to <em>closed</em>.</p>
-<h3 id="and-where-re-the-available-statuses-defined?">And where're the available statuses defined?</h3><p>If you are the project admin you can manage the statuses atribute in the admin pane: <strong>Admin &gt; Attributes &gt; Status</strong>. You can find all of them for stories, tasks and issues</p>
-<p><img src="../../integrations/changing-elements-status-via-commit-message/statuses_panel.png" alt="Admin &gt; Attributes &gt; Status" title="Manage Statuses inn the project admin panel"></p>
+<p>In this example, <em>123</em> is an issue reference.</p>
 </div>
     </div>
 
