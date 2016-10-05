@@ -2,7 +2,7 @@ title: Changing elements status via commit message
 ---
 body:
 
-The status of any issue, task or user story can be changed via commit message.
+The status of any issue, task, user story or epic can be changed via commit message.
 
 ### How?
 
@@ -32,3 +32,6 @@ If you are the project admin you can manage the statuses atribute in the admin p
 order: 50
 ---
 show_toc: false
+---
+_discoverable: false
+---

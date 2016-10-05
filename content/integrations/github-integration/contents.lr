@@ -9,7 +9,8 @@ body:
 
 Right now you can connect to a GitHub repository with a Taiga project and generate a one-way communication (from GitHub to Taiga) to:
 
-- *Change the status of an user story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
+- *Change the status of an epic, user story, issue, or task in Taiga with the commit message*: you may want to read more about this feature in the article ["Changing elements status via commit message"](/integrations/changing-elements-status-via-commit-message/ "Changing elements status via commit message").
+- *Attach commits in an epic, user story, issue, or task of Taiga with the commit message*: you may want to read more about this feature in the article ["Attach commits to elements via commit message"](/integrations/attach-commits-to-elements-via-commit-message/ "Attach commits to elements via commit message").
 - *Create issues* on Taiga when they are created on GitHub*.
 - *Add comments to the connected issues on Taiga when they are created on GitHub*.
 
