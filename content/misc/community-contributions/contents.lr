@@ -154,6 +154,11 @@ Taiga plugin for kerberos authentication
 - https://github.com/dpasqualin/taiga-contrib-kerberos-auth
 - Diego Giovane Pasqualin [@dpasqualin](https://github.com/dpasqualin)
 
+### taiga-contrib-saml-auth
+Taiga plugin for SAML authentication
+- https://github.com/jgiannuzzi/taiga-contrib-saml-auth
+- Jonathan Giannuzzi [@jgiannuzzi](https://github.com/jgiannuzzi)
+
 
 ## Dropbox
 
