@@ -159,6 +159,11 @@ Taiga plugin for SAML authentication
 - https://github.com/jgiannuzzi/taiga-contrib-saml-auth
 - Jonathan Giannuzzi [@jgiannuzzi](https://github.com/jgiannuzzi)
 
+### taiga-contrib-ad-auth
+Taiga plugin for Active Directory authentication
+- https://github.com/stemid/taiga-contrib-ad-auth
+- Stefan Midjich [@stemid](https://github.com/stemid)
+
 
 ## Dropbox
 
