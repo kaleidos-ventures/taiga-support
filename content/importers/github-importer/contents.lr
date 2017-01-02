@@ -4,6 +4,57 @@ body:
 
 ### How I import a project from Github?
 
+To start the importation project, you have to got to your project menu, and
+click on "Create Project" button.
+
+![New project creation](step1.png "New project creation")
+
+After that, you can select how to create the project, in this case we want to
+"Import project".
+
+![Start import process](step2.png "Start import process")
+
+You can select which importer do you want to use, in this case, you have to
+select the "GitHub" importer.
+
+![Select importer](step3.png "Select importer")
+
+As soon as you select the github importer, you will be redirected to the GitHub
+authorization page, to allow Taiga to access to your repositories (during the next
+day). You have to click "Allow", to continue the process.
+
+![Authorize access to github](step4.png "Authorize access to GitHub")
+
+Then you have to select which github repository want to import.
+
+![Select GitHub repository](step5.png "Select GitHub repository")
+
+Once you have selected the repository you have to define how you want to import the project. This include:
+
+  * The title of the project.
+  * The description of the project.
+  * If the project is public or private
+  * If you want to import archived data from GitHub.
+  * If you want to keep a link from your taiga User Stories to the original github issues.
+
+![Fill new project information](step6.png "Fill new project information")
+
+Before finish the import process you have to match your GitHub users with your
+Taiga users, this allow us to keep assignation, creation and comments author
+information correctly.
+
+![Select users](step7.png "Select users")
+
+Finally, you only have to click "Import" button to start the import process,
+this can take a while, so be patient.
+
+![Confirm users selection](step8.png "Confirm users selection")
+
+After the import process, you can access to your new created project that will looks like this.
+
+![Imported project](step9.png "Imported project")
+
+
 ### Wich data is imported, and how?
 
   - Github Project as Taiga Project (Kanba, Scrum or Issues project).
