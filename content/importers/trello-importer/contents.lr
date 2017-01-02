@@ -1,0 +1,25 @@
+title: Trello importer
+---
+body:
+
+### How I import a project from Trello?
+
+### Wich data is imported, and how?
+
+  - Trello Board as Taiga Kanban Project.
+  - Board avatar as Project avatar.
+  - Board columns as Taiga Kanban columns (User story statuses).
+  - Cards as User Story (Optionally archived cards).
+  - Cards Checklists tasks as User story tasks.
+  - Board members as Project members.
+  - Tags and tags colors.
+  - Due Date field as Taiga custom field "Due date".
+  - Comments.
+  - Attachments.
+  - Changes in title, description, due date and state.
+  - Card assignations as User Story assignation for the first, and User Story watchers for the rest.
+
+---
+order: 30
+---
+is_featured: true

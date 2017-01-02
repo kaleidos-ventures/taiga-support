@@ -1,0 +1,20 @@
+title: Github importer
+---
+body:
+
+### How I import a project from Github?
+
+### Wich data is imported, and how?
+
+  - Github Project as Taiga Project (Kanba, Scrum or Issues project).
+  - Organization avatar as project avatar.
+  - Github Issues as Taiga User Stories or Issues.
+  - Collaborators as project members.
+  - Tags and tags colors.
+  - Comments.
+  - Changes in state, milestone, assignation and tags.
+  - Milestones as sprints.
+  - Issues assignations as User Story/Issue assignation for the first, and User Story/Issue watchers for the rest.
+
+---
+order: 40

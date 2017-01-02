@@ -1,0 +1,38 @@
+title: Jira importer
+---
+body:
+
+### What I need to import from Jira?
+
+You need to configure in your Jira the access from Taiga that allows you to give access with the rights of your users.
+
+### How I import a project from Jira?
+
+### Wich data is imported, and how?
+
+  - Jira Project or Jira Board as Taiga Scrum/Kanba/Issues Project.
+  - Statuses.
+  - Issues as User Story/Epics/Issues.
+  - Subtasks as User Story tasks or Epic User Stories.
+  - Jira Agile sprints as Taiga Sprints
+  - Jira members as Project members.
+  - Labels as tags.
+  - Due Date field as Taiga custom field "Due date".
+  - Priority field as Taiga custom field "Priority".
+  - Resolution field as Taiga custom field "Resolution".
+  - Resolution date field as Taiga custom field "Resolution date".
+  - Environment as Taiga custom field "Environment".
+  - Component field as Taiga custom field "Components".
+  - Affected versions field as Taiga custom field "Affected version/s".
+  - Fix versions field as Taiga custom field "Fix version/s".
+  - Links as Taiga custom field "Links".
+  - Custom fields.
+  - Comments.
+  - Attachments.
+  - Changes in title, description, attachments, labels, sprints, story points, custom fields and state.
+  - Issue assignations as User Story/Task/Issue assignation for the first, and User Story/Task/Issue watchers for the rest.
+
+---
+order: 20
+---
+is_featured: true
