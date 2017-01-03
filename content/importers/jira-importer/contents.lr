@@ -19,11 +19,11 @@ click on "Create Project" button.
     ![Start import process](step2.png "Start import process")
 
 3. You can select which importer do you want to use, in this case, you have to
-select the "Jira" importer.
+select the "Jira" importer and fill the URL field with your Jira URL and click accede.
 
     ![Select importer](step3.png "Select importer")
 
-4. As soon as you select the jira importer, you will be redirected to the Jira
+4. As soon as you click accede, you will be redirected to the Jira
 authorization page, to allow Taiga to access to your projects (during the next
 day). You have to click "Allow", to continue the process.
 
@@ -39,7 +39,7 @@ the project. This include:
   * The title of the project.
   * The description of the project.
   * If the project is public or private
-  * If you want to import archived data from Jira.
+  * Which kind of project do you want to create (If you are not importing Jira Agile Board, in this case, is automatically detected).
   * If you want to keep a link from your taiga User Stories to the original jira issues.
 
     ![Fill new project information](step6.png "Fill new project information")
