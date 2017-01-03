@@ -4,7 +4,53 @@ body:
 
 ### What I need to import from Jira?
 
-You need to configure in your Jira the access from Taiga that allows you to give access with the rights of your users.
+1. You need to configure in your Jira the access from Taiga that allows you to
+give access with the rights of your users. To do this, you have to go to the
+applications settings in your Jira server.
+
+    ![New project creation](cert-step1.png "New project creation")
+
+2. Then, select "Application links" configuration.
+
+    ![New project creation](cert-step2.png "New project creation")
+
+3. And create a new application link that points to "https://tree.taiga.io" (or
+your taiga instance url).
+
+    ![New project creation](cert-step3.png "New project creation")
+
+4. You may be asked to confirm the url in some cases, you simply have to
+confirm the url.
+
+    ![New project creation](cert-step4.png "New project creation")
+
+5. Then, you have to create the new application link called "Taiga" as a
+"Generic Application" type, and check the "Create incomming link".
+
+    ![New project creation](cert-step5.png "New project creation")
+
+6. In the incomming link configuration, you have to set the consumer key to
+"taiga", the consumer name to "Taiga", and the public key to (or to your own
+Taiga instance Jira public key):
+
+    ```
+    -----BEGIN PUBLIC KEY-----
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9f6O4w6VPhQAmyBrRIfR
+    52z1KKYqm/dOayoOvKGdKcMpJEcMEjOYApoVFtlmS4wuS8UbiC/9Zk3BqYgiKWZJ
+    Gi6CUGTmBpPPLllpeWHB+SJ1DKIlhHWh/0ta1+3U0KWrMcfijyBKT0xrPIwJXDtO
+    +MQnxitUD1LHtpP1SssFsOopet+X1CmO3RRfTx8hzcFG+73OGZ9eO/ulQG82K0vX
+    wS8KZhGvwLYIKYVZwJGYe0dXv5d9K4/zrN0H9SYu/M3h0sv1uWfiX8kvUpqdSseo
+    piAGLnoEUwUTDR8YfFsxQVUZn5EPE2AuXpO9NtatagoGPyxrWL+yKYvuRGIaRwbf
+    CQIDAQAB
+    -----END PUBLIC KEY-----
+    ```
+
+    ![New project creation](cert-step6.png "New project creation")
+
+7. Finally, you get the confirmation of your "Application link" creation. Now
+you can import projects from this Jira instance.
+
+    ![New project creation](cert-step7.png "New project creation")
 
 ### How I import a project from Jira?
 
