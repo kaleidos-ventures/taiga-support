@@ -8,32 +8,33 @@ You need to configure in your Jira the access from Taiga that allows you to give
 
 ### How I import a project from Jira?
 
-To start the importation project, you have to got to your project menu, and
+1. To start the importation project, you have to got to your project menu, and
 click on "Create Project" button.
 
-![New project creation](step1.png "New project creation")
+    ![New project creation](step1.png "New project creation")
 
-After that, you can select how to create the project, in this case we want to
+2. After that, you can select how to create the project, in this case we want to
 "Import project".
 
-![Start import process](step2.png "Start import process")
+    ![Start import process](step2.png "Start import process")
 
-You can select which importer do you want to use, in this case, you have to
+3. You can select which importer do you want to use, in this case, you have to
 select the "Jira" importer.
 
-![Select importer](step3.png "Select importer")
+    ![Select importer](step3.png "Select importer")
 
-As soon as you select the jira importer, you will be redirected to the Jira
+4. As soon as you select the jira importer, you will be redirected to the Jira
 authorization page, to allow Taiga to access to your projects (during the next
 day). You have to click "Allow", to continue the process.
 
-![Authorize access to jira](step4.png "Authorize access to Jira")
+    ![Authorize access to jira](step4.png "Authorize access to Jira")
 
-Then you have to select which jira project want to import.
+5. Then you have to select which jira project want to import.
 
-![Select Jira project](step5.png "Select Jira project")
+    ![Select Jira project](step5.png "Select Jira project")
 
-Once you have selected the project you have to define how you want to import the project. This include:
+6. Once you have selected the project you have to define how you want to import
+the project. This include:
 
   * The title of the project.
   * The description of the project.
@@ -41,22 +42,22 @@ Once you have selected the project you have to define how you want to import the
   * If you want to import archived data from Jira.
   * If you want to keep a link from your taiga User Stories to the original jira issues.
 
-![Fill new project information](step6.png "Fill new project information")
+    ![Fill new project information](step6.png "Fill new project information")
 
-Before finish the import process you have to match your Jira users with your
+7. Before finish the import process you have to match your Jira users with your
 Taiga users, this allow us to keep assignation, creation and comments author
 information correctly.
 
-![Select users](step7.png "Select users")
+    ![Select users](step7.png "Select users")
 
-Finally, you only have to click "Import" button to start the import process,
+8. Finally, you only have to click "Import" button to start the import process,
 this can take a while, so be patient.
 
-![Confirm users selection](step8.png "Confirm users selection")
+    ![Confirm users selection](step8.png "Confirm users selection")
 
-After the import process, you can access to your new created project that will looks like this.
+9. After the import process, you can access to your new created project that will looks like this.
 
-![Imported project](step9.png "Imported project")
+    ![Imported project](step9.png "Imported project")
 
 ### Wich data is imported, and how?
 
