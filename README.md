@@ -4,7 +4,7 @@
 [![Managed with Taiga.io](https://tree.taiga.io/support/images/taiga-badge-gh.png)](https://taiga.io "Managed with Taiga.io")
 [![Build Status](https://travis-ci.org/taigaio/taiga-support.svg?branch=master)](https://travis-ci.org/taigaio/taiga-support)
 
-User suport pages for Taiga.
+User support pages for Taiga.
 
 
 #### Envs
