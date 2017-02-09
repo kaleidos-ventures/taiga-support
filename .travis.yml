@@ -1,7 +1,11 @@
 language: python
 
 python: 2.7
-node_js: "4.1"
+node_js: "node"
+
+branches:
+    only:
+        - master
 
 install:
     - travis_retry pip install -r requirements.txt
@@ -12,4 +16,4 @@ install:
 
 script:
     - lektor build -f webpack
-    - test "$TRAVIS_PULL_REQUEST" == false && test "$TRAVIS_BRANCH" == master && lektor deploy ghpages
+    - lektor deploy ghpages
