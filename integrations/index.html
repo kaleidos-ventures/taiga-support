@@ -1,0 +1,239 @@
+
+
+<!doctype html>
+<meta charset="utf-8">
+
+<title>Integrations Category — Taiga Support</title>
+<meta name="description" content="">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Style -->
+<link rel="stylesheet" href="../static/styles.css?h=c11368af">
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- Pygment style -->
+<link rel="stylesheet" href="../static/pygments.css"> <!-- Pygment css-->
+<!-- Javascript -->
+<script type=text/javascript src="../static/app.js?h=56f85b4f" charset="utf-8"></script>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="header-inside">
+            <a class="main-logo" href="../">
+                <img class="taiga-logo" src="../images/icon-taiga-color.png?h=221ec64e" />
+                <h1>TAIGA <span>SUPPORT</span></h1>
+            </a>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </header>
+
+    <div class="main-search">
+        <form method="get" action="../search/">
+            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
+            <input class="search-button" type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="content-inside">
+            
+    
+    
+        
+    
+	<div class="category">
+        <div class="breadcrumb">
+            <a href=../>Home</a>
+            ›
+    		<a href="../integrations/webhooks/">Integrations</a>
+        </div>
+
+        
+        <ul class="articles-list">
+            
+            <li>
+                <a href="../integrations/webhooks/"  class="active">
+                    Webhooks
+                </a>
+            </li>
+            
+            <li>
+                <a href="../integrations/github-integration/" ">
+                    GitHub Integration
+                </a>
+            </li>
+            
+            <li>
+                <a href="../integrations/gitlab-integration/" ">
+                    Gitlab Integration
+                </a>
+            </li>
+            
+            <li>
+                <a href="../integrations/bitbucket-integration/" ">
+                    Bitbucket Integration
+                </a>
+            </li>
+            
+            <li>
+                <a href="../integrations/gogs-integration/" ">
+                    Gogs integration
+                </a>
+            </li>
+            
+        </ul>
+        
+	</div>
+    
+
+        
+
+    <div class="article">
+        <h2>Webhooks</h2>
+
+        
+        <ul class="toc">
+            
+                <li>
+                    <a href="#what-is-a-webhook:">What is a webhook:</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#first:-configure-the-third-party-service">First: Configure the third party service</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#second:-configure-webhooks-in-taiga">Second: Configure webhooks in Taiga</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#developing-your-own-integration">Developing your own integration</a>
+                    
+                </li>
+            
+        </ul>
+        
+
+        <div class="body"><p>Taiga comes with an easy third party integration system based on webhooks. Some applications can be integrated with it, and you can configure each one in Taiga.</p>
+<h3 id="what-is-a-webhook:">What is a webhook:</h3><blockquote><p>A webHook is an HTTP callback: an HTTP POST that occurs when something happens; a simple event-notification via HTTP POST. A web application implementing webHooks will POST a message to a URL when certain things happen.</p>
+</blockquote>
+<p>In other words a webhook is a way for an app to provide other applications with real-time information. A webhook delivers data to other applications as it happens, meaning you get data immediately.</p>
+<p>Taiga emits a webhook when</p>
+<ul>
+<li>a sprint is created, updated or deleted.</li>
+<li>a user story is created, updated or deleted.</li>
+<li>a task is created, updated or deleted.</li>
+<li>an issue is created, updated or deleted.</li>
+<li>a wiki page is created, updated or deleted.</li>
+</ul>
+<h3 id="first:-configure-the-third-party-service">First: Configure the third party service</h3><p>The first of all is to be sure that the service supports the Taiga webhooks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:</p>
+<ol>
+<li>Go to your service and search support about how to enable Taiga webhooks and do it.</li>
+<li>After enabled it you need to Copy the <em>payload url</em> for the webhook and the <em>secret key</em>.<ul>
+<li>The <em>payload url</em> is the service endpoint that will receive the information sent by Taiga.</li>
+<li>A <em>secret key</em> is a string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.</li>
+</ul>
+</li>
+</ol>
+<p><img src="../integrations/webhooks/webhooks-integration-getbadges.png" alt="Webhook integration for GetBadges" title="Webhook integration for GetBadges"></p>
+<h3 id="second:-configure-webhooks-in-taiga">Second: Configure webhooks in Taiga</h3><ol>
+<li><p>Go to <em>Admin &gt; Integrations &gt; Webhooks</em>.</p>
+<p><img src="../integrations/webhooks/webhooks-1.png" alt="Webhooks Menu" title="Webhooks Panel"></p>
+</li>
+<li><p>Fill the <em>name</em>, <em>secret key</em> and <em>payload url</em> based on the data provided by your service.</p>
+<p><img src="../integrations/webhooks/webhooks-2.png" alt="Add a new webhooks" title="Add a new webhooks"></p>
+</li>
+<li><p>Save the changes and the webhook will be created.</p>
+<p><img src="../integrations/webhooks/webhooks-3.png" alt="Webhook created" title="Webhook created"></p>
+</li>
+</ol>
+<p>After creating a webhook you'll be able to edit, delete, or test if it works properly.</p>
+<p><img src="../integrations/webhooks/webhooks-4.png" alt="Actions over a created webhook" title="Actions over a created webhook"></p>
+<p>And you can view the history of the calls done.</p>
+<p><img src="../integrations/webhooks/webhooks-5.png" alt="Webhook history entries list " title="Webhook history entries list"></p>
+<p><img src="../integrations/webhooks/webhooks-6.png" alt="Webhook history entry detail" title="Webhook history entry  details"></p>
+<h3 id="developing-your-own-integration">Developing your own integration</h3><p>If you want to integrate your own system with the Taiga webhooks, you can see the technical documentation about <a href="http://taigaio.github.io/taiga-doc/dist/webhooks.html">webhooks system</a>.</p>
+</div>
+    </div>
+
+    
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inside">
+            <span>&copy; Copyright 2014-2016 Taiga Agile LLC.</span>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </footer>
+
+    
+</body>

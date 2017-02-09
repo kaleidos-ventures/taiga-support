@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url><loc>https://tree.taiga.io/support/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/who-is-taiga-for/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/why-should-i-use-taigaio-and-not-insert-name-of-one-of-the-many-worthy-alternatives/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/how-do-i-get-in-in-touch-with-you-or-keep-up-with-the-latest-news/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/how-can-i-contribute-to-taiga/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/making-donations-to-taiga/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/how-do-i-install-taiga-on-my-own-servers-at-home-or-at-work/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/why-is-there-no-time-tracking/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/whats-the-difference-between-public-and-private-projects/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/important-information-about-our-code-of-conduct/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/important-information-about-the-taiga-license/</loc></url>
+    <url><loc>https://tree.taiga.io/support/frequently-asked-questions/can-i-use-taiga-in-my-language/</loc></url>
+    <url><loc>https://tree.taiga.io/support/subscription-and-plans/payment-process-faqs/</loc></url>
+    <url><loc>https://tree.taiga.io/support/epics/what-is-an-epic/</loc></url>
+    <url><loc>https://tree.taiga.io/support/epics/epics-dashboard/</loc></url>
+    <url><loc>https://tree.taiga.io/support/epics/epic-detail/</loc></url>
+    <url><loc>https://tree.taiga.io/support/backlog/how-does-the-backlog-module-works/</loc></url>
+    <url><loc>https://tree.taiga.io/support/backlog/what-is-the-doomline/</loc></url>
+    <url><loc>https://tree.taiga.io/support/admin/custom-fields/</loc></url>
+    <url><loc>https://tree.taiga.io/support/admin/csv-reports/</loc></url>
+    <url><loc>https://tree.taiga.io/support/admin/import-export-projects/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/webhooks/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/github-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/gitlab-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/bitbucket-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/integrations/gogs-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/contrib-plugins/hipchat-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/contrib-plugins/slack-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/misc/taiga-markdown-syntax/</loc></url>
+    <url><loc>https://tree.taiga.io/support/misc/what-is-the-iocaine/</loc></url>
+    <url><loc>https://tree.taiga.io/support/misc/community-contributions/</loc></url>
+</urlset>
