@@ -19,9 +19,9 @@ There will be a small subset of users, those who don't want their work to be vis
 
 ### What if I stop loving you? Can I take my stuff (data) and go?
 
-Sure you can. We are still working on the Taiga.io export feature. Soon you will be able to export your project, package it, and take it elsewhere, or import it to any other Taiga instance, managed by you or by another service provider.
+Sure you can!. You have the option of [export your project](/admin/import-export-projects/), package it, and take it elsewhere, or import it to any other Taiga instance, managed by you or by another service provider.
 
-Same is true for Project importing. As soon as we have that feature enabled, you will be able to import projects to our Taiga self-hosted instance.
+We are still working on the import feature. As soon as we have that feature enabled, you will be able to import projects from Jira, Trello or Github to our Taiga self-hosted instance.
 
 If you love something - set it free... That's what we believe!
 
