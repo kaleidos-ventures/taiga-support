@@ -253,7 +253,7 @@ Creates issues in Taiga from Sentry exceptions
 
 ## Hooks
 
-###i hooks
+### hooks
 RESTful server that receives hooks from taiga.io
 * https://github.com/bedell/hooks
 * bedell [@bedell](https://github.com/bedell)
