@@ -78,6 +78,10 @@ Docker container for Taiga
 - Benjamin Hutchins [@benhutchin](https://github.com/benhutchins)
 - https://hub.docker.com/r/benhutchins/taiga/
 
+### docker-taiga
+Another Docker / Docker Compose config for taiga. Every service is containerized using official images.
+- https://github.com/douglasmiranda/docker-taiga
+- Douglas Miranda [@douglasmiranda](https://github.com/douglasmiranda)
 
 ## Chef
 
