@@ -34,8 +34,8 @@ import the project. This include:
 
   * The title of the project.
   * The description of the project.
+  * How do you want to import the issues in Github.
   * If the project is public or private
-  * If you want to import archived data from GitHub.
   * If you want to keep a link from your taiga User Stories to the original github issues.
 
     ![Fill new project information](step6.png "Fill new project information")
