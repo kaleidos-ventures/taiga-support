@@ -74,4 +74,4 @@ will looks like this.
 ---
 order: 30
 ---
-is_featured: true
+is_featured: false
