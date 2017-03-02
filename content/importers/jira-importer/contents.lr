@@ -30,11 +30,10 @@ confirm the url.
     ![New project creation](cert-step5.png "New project creation")
 
 6. In the incomming link configuration, you have to set the consumer key to
-"taiga", the consumer name to "Taiga", and the public key to (or to your own
-Taiga instance Jira public key):
+"taiga", the consumer name to "Taiga", and in the public key you have to copy
+and paste the text below:
 
-    ```
-    -----BEGIN PUBLIC KEY-----
+    <pre class="white">-----BEGIN PUBLIC KEY-----
     MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9f6O4w6VPhQAmyBrRIfR
     52z1KKYqm/dOayoOvKGdKcMpJEcMEjOYApoVFtlmS4wuS8UbiC/9Zk3BqYgiKWZJ
     Gi6CUGTmBpPPLllpeWHB+SJ1DKIlhHWh/0ta1+3U0KWrMcfijyBKT0xrPIwJXDtO
@@ -42,8 +41,7 @@ Taiga instance Jira public key):
     wS8KZhGvwLYIKYVZwJGYe0dXv5d9K4/zrN0H9SYu/M3h0sv1uWfiX8kvUpqdSseo
     piAGLnoEUwUTDR8YfFsxQVUZn5EPE2AuXpO9NtatagoGPyxrWL+yKYvuRGIaRwbf
     CQIDAQAB
-    -----END PUBLIC KEY-----
-    ```
+    -----END PUBLIC KEY-----</pre>
 
     ![New project creation](cert-step6.png "New project creation")
 

@@ -57,4 +57,9 @@ pre {
     line-height: 120%;
     margin-bottom: 1rem;
     padding: 0.5em;
+
+    &.white {
+        background-color: #fff;
+        color: #444;
+    }
 }
