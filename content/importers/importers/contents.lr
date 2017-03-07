@@ -2,9 +2,18 @@ title: Importers
 ---
 body:
 
-Taiga allows you to import projects from other platforms, like Github, Trello or Jira.
+Taiga importers are designed for easy the migration of data from others
+platforms, and try to keep as much data as possible (including history and
+comments, when it is available), to ensure you don't miss anything when you
+bring your project into Taiga.
 
-### What are the importers:
+Currently we have 4 importers:
+
+  * [Trello](/importers/trello-importer)
+  * [Jira 7](/importers/jira-importer)
+  * [Github](/importers/github-importer)
+  * [Asana](/importers/asana-importer)
+
 
 ---
 order: 10
