@@ -34,13 +34,13 @@ confirm the url.
 and paste the text below:
 
     <pre class="white">-----BEGIN PUBLIC KEY-----
-    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9f6O4w6VPhQAmyBrRIfR
-    52z1KKYqm/dOayoOvKGdKcMpJEcMEjOYApoVFtlmS4wuS8UbiC/9Zk3BqYgiKWZJ
-    Gi6CUGTmBpPPLllpeWHB+SJ1DKIlhHWh/0ta1+3U0KWrMcfijyBKT0xrPIwJXDtO
-    +MQnxitUD1LHtpP1SssFsOopet+X1CmO3RRfTx8hzcFG+73OGZ9eO/ulQG82K0vX
-    wS8KZhGvwLYIKYVZwJGYe0dXv5d9K4/zrN0H9SYu/M3h0sv1uWfiX8kvUpqdSseo
-    piAGLnoEUwUTDR8YfFsxQVUZn5EPE2AuXpO9NtatagoGPyxrWL+yKYvuRGIaRwbf
-    CQIDAQAB
+    MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6HMNth/OevwEmvUJb2wP
+    TftjP2PBwiVqNGvrWnjypZHT6KixDd9av1NlG3ldQJDn7ZdZ0tJmZ/bfeUlV8LX2
+    QuL5StU6LAP1T3665HZTlzvfsfiC+52eIUi+eXWStZmQ7jhok4e6kIHgddKHSVgQ
+    rZ/xL5eBOprmCoQ2YoScpSt7p2dPuB3TRht2paF0ppd+w8zKkghojPK0H9yZfEIT
+    V/+H/bOllcf/1Qs42cUn4Im3bASoXy17fCtwF4IYGx2OAAy58T4GHnKuuqRukGdP
+    HYs8qDBl4Nq6bJaUOy7zwRFxpR4WQqsAL0v/RR5Eu6N8std2NPeK4dgj/SYoVXVC
+    zwIDAQAB
     -----END PUBLIC KEY-----</pre>
 
     ![New project creation](cert-step6.png "New project creation")
