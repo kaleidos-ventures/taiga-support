@@ -26,6 +26,11 @@
     <url><loc>https://tree.taiga.io/support/integrations/gitlab-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/integrations/bitbucket-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/integrations/gogs-integration/</loc></url>
+    <url><loc>https://tree.taiga.io/support/importers/importers/</loc></url>
+    <url><loc>https://tree.taiga.io/support/importers/jira-importer/</loc></url>
+    <url><loc>https://tree.taiga.io/support/importers/asana-importer/</loc></url>
+    <url><loc>https://tree.taiga.io/support/importers/trello-importer/</loc></url>
+    <url><loc>https://tree.taiga.io/support/importers/github-importer/</loc></url>
     <url><loc>https://tree.taiga.io/support/contrib-plugins/hipchat-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/contrib-plugins/slack-integration/</loc></url>
     <url><loc>https://tree.taiga.io/support/misc/taiga-markdown-syntax/</loc></url>
