@@ -21,7 +21,7 @@ Oh, thanks! We were looking for it but you found it first. Please, report it in 
 
 We are continuously delivering new features and improvements. There are two ways to stay current with the new features and bugfixes:
 
-- We post updates on our **[blog](htps://blog.taiga.io "Visit our blog")** on the [announcements section](https://blog.taiga.io/category/announcements.html "Blog > Announcements")
+- We post updates on our **[blog](https://blog.taiga.io "Visit our blog")** on the [announcements section](https://blog.taiga.io/category/announcements.html "Blog > Announcements")
 - We have a **Changelog** file in our repo with every version. In [front](https://github.com/taigaio/taiga-front/blob/master/CHANGELOG.md) and [back](https://github.com/taigaio/taiga-back/blob/master/CHANGELOG.md)
 - We tweet these changes as well in our **twitter account** [@taigaio](https://twitter.com/taigaio) Please Follow us!
 
