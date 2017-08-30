@@ -33,7 +33,7 @@ Remember that you can find some help in our [support pages][Taiga User documenta
 If you find an issue using the app (UX or UI bug) or reading our source code and it's not on our [Bug list][Taiga Bug list] at Taiga.io, please report it:
 
 - in our [mailing list][Taiga Mailing List]
-- in the issue section of the appropriate repository at [GitHub](Taiga in GitHub).
+- in the issue section of the appropriate repository at [GitHub][Taiga in GitHub].
 - send us a mail to [support@taiga.io][Support email] if is a bug related to [tree.taiga.io][Taiga.io].
 - send a mail to [security@taiga.io][Security email] if is a **security bug**.
 
@@ -112,7 +112,7 @@ Currently, we have authored three main documentation hubs:
 
 [Taiga Dev/Setup documentation]: http://taigaio.github.io/taiga-doc/dist/
 [Taiga Dev/Setup documentation repo]: https://github.com/taigaio/taiga-doc
-[Taiga User documentation]: https://taiga.io/support/
+[Taiga User documentation]: https://tree.taiga.io/support/
 [Taiga User documentation repo]: https://github.com/taigaio/taiga-support
 
 ---
