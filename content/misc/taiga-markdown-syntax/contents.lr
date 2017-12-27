@@ -52,10 +52,10 @@ Go to http://example.com
 Use ```@<username>```, for example
 
 ```markdown
-Hello, my name is @imontoya. You killed me father.
+Hello, my name is @imontoya. You killed my father.
 ```
 
-Hello, my name is [@imontoya](https://tree.taiga.io/profile/imontoya "íñigo Montoya"). You killed me father.
+Hello, my name is [@imontoya](https://tree.taiga.io/profile/imontoya "íñigo Montoya"). You killed my father.
 
 
 ### Taiga USs, Tasks and Issues references
@@ -67,9 +67,9 @@ The task #13.
 The issue #42.
 ```
 
-The user story [#9](https://tree.taiga.io/example-project/us/9 "Example user story 9").  
-The task [#13](https://tree.taiga.io/example-project/tasks/13 "Example task 13").  
-The issue [#42](https://tree.taiga.io/example-project/issue/42 "Example issue 42").  
+The user story [#9](https://tree.taiga.io/example-project/us/9 "Example user story 9").
+The task [#13](https://tree.taiga.io/example-project/tasks/13 "Example task 13").
+The issue [#42](https://tree.taiga.io/example-project/issue/42 "Example issue 42").
 
 ### Taiga Wiki links
 ```markdown
@@ -337,4 +337,3 @@ Three or more dashes or asterisks:
 order: 10
 ---
 is_featured: true
-
