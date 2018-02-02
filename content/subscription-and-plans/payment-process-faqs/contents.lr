@@ -43,8 +43,8 @@ A. Transferring the project ownership of a blocked project might be an unexpecte
 
 We have a Plan B that will take much longer, which is that both you and the transferee send an email to support@taiga.io explicitly requesting the project ownership transfer for one or more projects where both of you are already members. That will trigger a manual action on our side but you might have to wait a day or two.
 
-### Q. Are there any restrictions to upgrading and downgrading plans?
-A. No. You can upgrade and downgrade at any time. When you are ready to make a change, just select the new plan to which you want to subscribe. We will ensure that you qualify for the new plan (i.e. that if you select the 2-5 private project plan, you don't have 6 projects) and we will process the change. You will see the change reflected in the next billing cycle.
+### Q. Are there any restrictions in changing the member configuration of my projects?
+A. No. You can change the number of members on your projects anytime. In case you delete one member and add two, you will see the change reflected on your next bill and you would only be charged for the one new user. If on the other hand, you were to add one user and delete two, only one seat will be removed from your bill. Again, you would see that change reflected in the next billing cycle.
 
 ### Q. What is my billing cycle?
 A. You will be billed in monthly cycles depending on when you first sign up. So if you are on a monthly plan and start say on May 12th, you will be billed again June 12th.
@@ -53,10 +53,7 @@ A. You will be billed in monthly cycles depending on when you first sign up. So 
 A. For a private plan to count, you have to have created it yourself, or ownership of the project has to have been transferred to you. The first private project is always free. After the first project, all new private projects you create will count towards your plan.
 
 ### Q. What happens if I create more private projects than allowed by my plan?
-A. You will be prompted to subscribe to an upgraded plan if you outgrow the private projects allowed by your current plan.
-
-### Q. Can I downgrade to a lower plan?
-A. Yes! You can delete projects or make them public to fit in a lower plan. We recommend you export the project and save it locally before deleting them on Taiga in case you ever need to access it again.
+A. You will be prompted to subscribe to a paid plan if you outgrow the one private project allowed by the Free plan.
 
 ### Q. Do imported projects count towards my plan?
 A. Yes. Any imported projects counts towards your plan as would a newly created project. Please be aware that we do not guarantee that a project created with a previous version of Taiga will be importable to the most current version of Taiga. You may have to install it to your own instance running the version of Taiga last used by the exported project, and then upgrade that instance to the latest version of Taiga.
@@ -67,108 +64,13 @@ A. For now, we only accept US$ Dollars.
 ### Q. Is it possible to cancel my subscription whenever I want?
 A. Yes, you can cancel at any time. Plans are paid monthly or yearly, so if you cancel, once you do so, the plan will run to the end of the period and not renew.
 
-### Q. What's about custom plans (private projects with more than 25 members)?
-A. Our basic pricing allows for up to 25 members per project. Once you go over 25 you get into our custom pricing tier.
-If there´s a specific plan that would work, all we would need is for you to indicate:
+### Q.  What's about Enterprise Plan?
+A. If you need to have more than 25 members in any one project, please reach out to us for custom pricing.
 
-* The email address of the project owner (who will be responsible for paying). We then set up the plan.
-* The billing information including a tax ID number
+If your company does not allow the use of SaaS services, you can still consider using Taiga under one of these two scenarios:
 
-Once you provide us that, we enable the account, and notify you so that the payment information can be entered.
-
-The custom pricing table:
-
-<table>
-    <thead>
-        <tr>
-            <th style="text-align:center" colspan="9">
-                Basic and Custom pricing per month in Taiga.io<br>
-                <em>(yearly accounts have 20% discount)</em>
-            </th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr style="background: #f2fbe0">
-            <td style="text-align:center; border-bottom: 0"></td>
-            <td style="text-align:center; border-bottom: 0"><strong>25 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>50 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>75 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>100 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>125 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>150 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>175 mem.</strong></td>
-            <td style="text-align:center; border-bottom: 0"><strong>200 mem.</strong></td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>5 projects</strong></td>
-            <td style="text-align:right; border-bottom: 0">$19</td>
-            <td style="text-align:right; border-bottom: 0">$35</td>
-            <td style="text-align:right; border-bottom: 0">$45</td>
-            <td style="text-align:right; border-bottom: 0">$55</td>
-            <td style="text-align:right; border-bottom: 0">$65</td>
-            <td style="text-align:right; border-bottom: 0">$75</td>
-            <td style="text-align:right; border-bottom: 0">$85</td>
-            <td style="text-align:right; border-bottom: 0">$95</td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>10 projects</strong></td>
-            <td style="text-align:right; border-bottom: 0">$29</td>
-            <td style="text-align:right; border-bottom: 0">$50</td>
-            <td style="text-align:right; border-bottom: 0">$60</td>
-            <td style="text-align:right; border-bottom: 0">$70</td>
-            <td style="text-align:right; border-bottom: 0">$80</td>
-            <td style="text-align:right; border-bottom: 0">$90</td>
-            <td style="text-align:right; border-bottom: 0">$100</td>
-            <td style="text-align:right; border-bottom: 0">$110</td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>20 project.</strong></td>
-            <td style="text-align:right; border-bottom: 0">$69</td>
-            <td style="text-align:right; border-bottom: 0">$80</td>
-            <td style="text-align:right; border-bottom: 0">$90</td>
-            <td style="text-align:right; border-bottom: 0">$100</td>
-            <td style="text-align:right; border-bottom: 0">$120</td>
-            <td style="text-align:right; border-bottom: 0">$130</td>
-            <td style="text-align:right; border-bottom: 0">$140</td>
-            <td style="text-align:right; border-bottom: 0">$150</td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>50 project.</strong></td>
-            <td style="text-align:right; border-bottom: 0">$99</td>
-            <td style="text-align:right; border-bottom: 0">$120</td>
-            <td style="text-align:right; border-bottom: 0">$130</td>
-            <td style="text-align:right; border-bottom: 0">$140</td>
-            <td style="text-align:right; border-bottom: 0">$150</td>
-            <td style="text-align:right; border-bottom: 0">$160</td>
-            <td style="text-align:right; border-bottom: 0">$170</td>
-            <td style="text-align:right; border-bottom: 0">$180</td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>75 project.</strong></td>
-            <td style="text-align:right; border-bottom: 0">$139</td>
-            <td style="text-align:right; border-bottom: 0">$160</td>
-            <td style="text-align:right; border-bottom: 0">$170</td>
-            <td style="text-align:right; border-bottom: 0">$180</td>
-            <td style="text-align:right; border-bottom: 0">$190</td>
-            <td style="text-align:right; border-bottom: 0">$200</td>
-            <td style="text-align:right; border-bottom: 0">$210</td>
-            <td style="text-align:right; border-bottom: 0">$220</td>
-        </tr>
-        <tr>
-            <td style="text-align:center; border-bottom: 0; background: #f2fbe0"><strong>100 project.</strong></td>
-            <td style="text-align:right; border-bottom: 0">$169</td>
-            <td style="text-align:right; border-bottom: 0">$189</td>
-            <td style="text-align:right; border-bottom: 0">$199</td>
-            <td style="text-align:right; border-bottom: 0">$210</td>
-            <td style="text-align:right; border-bottom: 0">$220</td>
-            <td style="text-align:right; border-bottom: 0">$230</td>
-            <td style="text-align:right; border-bottom: 0">$240</td>
-            <td style="text-align:right; border-bottom: 0">$250</td>
-        </tr>
-    </tbody>
-</table>
-
-If it's still not enough for you, please [contact us](mailto:support@taiga.io "Send mail to support@taiga.io").
+* Taiga is an open source software which you can [download](https://github.com/taigaio) and install on your own servers. See [here](https://tree.taiga.io/support/frequently-asked-questions/how-do-i-install-taiga-on-my-own-servers-at-home-or-at-work/) for more information.
+* Alternatively, you can [contact us](mailto:support@taiga.io) for a more personalized solution or extended support.
 
 ---
 order: 10
