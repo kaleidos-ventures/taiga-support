@@ -20,6 +20,10 @@ In this cases, it probably means that this object can be broken down to smaller 
 
 ![Epic](epic_container_us.png "Epic")
 
+### Q. Can Epic Stories reference other projects' User Stories?
+
+In Taiga Epics Stories can contain User Stories from the same project or from other projects. This allows teams to set-up a project with a number of Epic Stories that actually monitor the progress of User Stories belonging to other projects. Please note that the same rules of visbility and permissions still apply. Users will not be allowed to see or access assets that they would not have been able to do so regardless of the use of Epics. 
+
 ---
 order: 10
 ---
