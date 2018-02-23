@@ -150,8 +150,8 @@ FAS Openid Auth plugin for taiga
 
 ### taiga-contrib-ldap-auth-ext
 Taiga plugin for LDAP authentication
-- https://github.com/madmath03/taiga-contrib-ldap-auth-ext (https://github.com/ensky/taiga-contrib-ldap-auth is unmaintained)
-- Ensky [@Monogramm](https://github.com/Monogramm)
+- https://github.com/madmath03/taiga-contrib-ldap-auth-ext
+- Monogramm [@Monogramm](https://github.com/Monogramm)
 
 ### taiga-contrib-kerberos-auth
 Taiga plugin for kerberos authentication
