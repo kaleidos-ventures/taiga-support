@@ -97,7 +97,7 @@ Currently, we have authored three main documentation hubs:
 
 [CoC]: https://github.com/taigaio/code-of-conduct/blob/master/CODE_OF_CONDUCT.md
 [AGPL v3.0]: http://www.gnu.org/licenses/agpl-3.0.html
-[Taiga license]: https://github.com/taigaio/taiga-back/blob/master/LICENSiE
+[Taiga license]: https://github.com/taigaio/taiga-back/blob/master/LICENSE
 
 [Taiga Mailing List]: http://groups.google.co.uk/d/forum/taigaio
 [Support email]: mailto:support@taiga.io
