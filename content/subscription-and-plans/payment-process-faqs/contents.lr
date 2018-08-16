@@ -9,43 +9,83 @@ A. Project owners are responsible for payment. Payment depends on:
 - If you have just one private project with 3 members or less, including yourself, you also pay nothing. To find out more about the difference between private and public projects, please click here (https://tree.taiga.io/support/frequently-asked-questions/whats-the-difference-between-public-and-private-projects/)
 - Paid plans begin to apply once you are the owner of more than one private project no matter how many members they have or if you are the owner of one project with more than 3 members, including you. Our pricing system allows you to pay as your organization grows as we charge per seat. Moreover, once you start paying, you won't have to worry about any pay wall, you can create as many projects as you want!
 
-### Q. I am a member of more than 2 private projects. Do I have to pay anything?
-A. No. Only the project administrator who created more 2 or more private projects has to subscribe to a paid plan. You will not have to pay regardless of the number of private projects to which you are invited.
+### Q. What is Taiga charging for exactly?
+
+A. On tree.taiga.io, once a project owner has gone beyond the free plan (unlimited public projects, 1 private project up to 3 members) he or she has to enter valid debit/credit card information under their [paid plans section](https://tree.taiga.io/user-settings/contrib/subscriptions). Taiga will start charging for every Taiga user that belongs to their owned private projects regardless of the number of owned private projects. For example, if you own 5 private projects and across all 5 private projects there is a total of 7 different people, including yourself, Taiga will charge you for those 7 people. This won't change even if your owned private projects go from 5 to 500 as long as it's still 7 people.
+
+Taiga regularly keeps track of the number of different people belonging to all your owned private projects. If the number goes down, so does the next invoice, if the number goes up, it is also reflected in the next invoice.
+
+There is one degree of freedom, though. You can choose annual or monthly payments. If you gor for annual, you benefit from a 20% discount over the monthly cost. It is not uncommon to see project members change over the course of a year, so we regularly apply compensation payments if the number goes up. If the number of Taiga users go down during that year, we will accumulate credit for any new future invoice. If the number of Taiga users go up during that year, we charge the remaining time for that year for those users using the annual fee.
+
+We try to make this freemium model as fair as we can. We make sure that daily drops in the number of Taiga members are always taken into account and never charged for. This has a side effect, though, as it might make some Taiga invoices very verbose and difficult to follow.
+
+Taiga doesn't charge for public projects, no matter the number of those or the number of members. Taiga won't charge you depending on the number of private projects you own, they are unlimited once you enjoy the paid plan.
+
+There are two exceptions to this general rule:
+
+- **Exception #1 Grandfathering old plans until 31st of March 2019**: old paid plans activated before February 2018 can request not to be changed to the new pricing model and enjoy it until 31st of March 2019.
+- **Exception #2 Custom needs**: some use cases like big organisations, NGOs, Academic institutions, etc, might benefit from custom plans. These plans might behave differently and they are normally less flexible because we agree on a certain Taiga use. Example #1: Organisation A wants a custom plan for up to 200 members across a maximum of 100 private projects. Example #2: NGO B wants a custom plan for up to 50 members across a maximum of 25 private projects.
+
+### Q.  What's about Enterprise Plan?
+A. There are two ways to approach this question, depending on what you mean by Enterprise Plan.
+
+If by Enterprise Plan you mean "I would like to use Taiga's own hosted platform but since I am a company/organisation this size I would like to explore special custom plans", then the Enterprise Plan is basically the same standard Taiga paid plan and you can follow the same instructions to set it up. We do offer special discounts for medium to big organisations depending on the use case. Feel free to [contact us](mailto:support@taiga.io) and tell us more about your needs.
+
+If by Enterprise Plan you mean "I would need to enjoy my own Taiga private instance, not tree.taiga.io, and I would like ask for a supported Taiga instance that meets my needs", then please read the following information.
+
+Some organisations prefer to ask for a supported Taiga instance instead, whether it is self-hosted or using our private instance cloud (AWS-powered). We still do not charge for the software but we do charge for the support and other related work, which is a standard business practice in many commercially-ready open source projects.
+
+**[Important note]:** tree.taiga.io service is not a cloud service, it is a traditional hosted platform where we make sure we have dedicated resources. You can learn more [here](https://taiga.io/security.html). If the reason to go for a self-hosted instance is the perception that tree.taiga.io runs on top of cloud infrastructure, please reconsider that decision since that is not the case. Our private cloud taiga instances do use AWS, though, but not our core tree.taiga.io service.
+
+We have various options that need to be taken into account so we can give a quote. 
+
+- Self-hosted vs private cloud: whether you need to run Taiga behind your firewall or you can use dedicated resources run by us on AWS.
+- 24x7 vs 8x5: Both service level agreements are valid but the choice is yours.
+- High availability vs Normal availability: whether you need twice the number of servers to cope with unforeseen downtimes or not.
+
+In all cases, we ensure you always have an up-to-date Taiga release, no known security vulnerabilities (Taiga or system-wide) and a proper user experience (speed, reliability, etc). Also, please take into account that we do not welcome additional administrators on those private instances as it renders the whole SLA useless.
+
+The fastest, most cost-effective option is private cloud + 8x5 + normal availability whereas the other end of the spectrum belongs to self-hosted + 24x7 + high availability. Monthly support fees range between $1000 and $4000 and there is a minimum contract period of 6 months. 
+
+These figures make sense cost-wise when you go beyond the 150+ user mark. It can be a way to outsmart the taiga.io SaaS pricing model, which is normally much more cost-effective under normal circumstances. Of course, you can still apply even if you are a 50-people team but prices do not scale down.
+
+If you would be interested in discussing your particular scenario (we are open to custom needs), we would love to meet your needs and have you and your organisation enjoy Taiga. Plase [contact us](mailto:support@taiga.io) to discuss your specific scenario.
+
+Finally, please do remember that Taiga is an open source software which you can [download](https://github.com/taigaio) and install on your own servers. See [here](https://tree.taiga.io/support/frequently-asked-questions/how-do-i-install-taiga-on-my-own-servers-at-home-or-at-work/) for more information. It is absolutely free of charge but there is also no official support.
+
+
+### Q. I am a member of more than 1 private projects. Do I have to pay anything?
+A. No. Only the project owner might be requested to subscribe to a paid plan if their intended use exceeds the free plan. You will not have to pay regardless of the number of private projects to which you are invited or belong to.
 
 ### Q. Why is my project blocked?
 A. We are sorry to hear that. The reason any project would be blocked is because the owner of that project did not subscribe in time to an appropriate paid plan. The project hasn’t been deleted at all, it is simply not accessible for the time being.
 
-If you happen to be the project’s owner, Taiga would already suggest how to proceed or you can simply go to your [subscription settings page](https://tree.taiga.io/user-settings/contrib/subscriptions "subscription settings page"). If you encounter any problem simply contact [support@taiga.io](mailto:support@taiga.io) and we will give you instructions to follow so you can subscribe to a paid plan.
+Taiga does not immediately block projects upon unsuccessful payment, it will continue to attempt the payment three more times during the subsequent 5 days after the first failed attempt. Taiga will also send an email for every unsuccessful payment attempt but the only recipient of those emails is the project owner.
 
 If you are not the project’s owner, we suggest you contact him or her. Please tell him or her to follow the instructions on Taiga to subscribe to a paid plan. Your project will immediately be available again.
+
+If you are the project owner and you receive one of such emails, proceed to change the debit/credit card details as an invalid or expired debit/credit card is number #1 reason for a failed payment. Updating the debit/credit card details with a valid one before the projects get blocked should automatically stop the blocking process. If the projects are already blocked, entering valid debit/credit card details normally restores the account status and allow projects to be accessible again. Taiga would already suggest how to proceed or you can simply go to your [subscription settings page](https://tree.taiga.io/user-settings/contrib/subscriptions "subscription settings page"). If you encounter any problem simply contact [support@taiga.io](mailto:support@taiga.io) and we will give you instructions to follow so you can subscribe to a paid plan. 
 
 ### Q. Can I keep using taiga for free?
 A. The team behind Taiga wanted to prove that they could build a sustainable business model based on pure Open Source development where data belonged to the users and you could choose to use either our fully supported cloud version on taiga.io or your private instance behind your firewall.
 
-For over two years, Taiga has been designed, developed, supported and marketed by a full-time team of more than 10 people. And it has been free all this time but the moment has come where we must put in place a sustained freemium model.
-
-Openness and transparency are key differentiators for Taiga. Our intention to introduce paid and the pricing scheme have been featured on our website and on our regular newsletters for more than a year now. We take the “Don’t do to others what you would not do to yourself” motto quite seriously and so we always made sure that people would know that the freemium model would be a reality at some point.
-
-However, despite all our efforts, we might have missed some people and since there won’t be an easy workaround to that, we will have to go to a case per case analysis.
+During the first two years, Taiga was designed, developed, supported and marketed by a full-time team of more than 10 people. For close to two more years, we made our cloud Taiga instance available at no cost but since 2016, we started charging for certain use cases so we can enjoy a sustainable freemium model.
 
 Taiga has been open source since its inception and will continue to be so. We’ve been asked this question many times and we have a consistent answer: Anyone can run their own private Taiga instance and import or export projects to or from other Taiga instances, including the taiga.io instance. Moving in and out of the taiga.io cloud is a trivial matter.
 
 You can read how to do this on our documentation [here](https://tree.taiga.io/support/frequently-asked-questions/how-do-i-install-taiga-on-my-own-servers-at-home-or-at-work/)
 
-If you would like to continue using the Taiga.io service in the free tier plan (1 private project and an infinite number of public projects) there are two easy ways that can be combined to achieve that goal:
+If you would like to continue using the Taiga.io service in the free tier plan (1 private project up to 3 members and an infinite number of public projects) you have to either make all but one projects public or delete them. 
 
-- Making some private projects public. Public projects never count towards the paid plans and sometimes a private project is not really that private and can go public with no harm to the owner and members (it won’t allow other people to change a thing, only see the project’s content). If you like this idea, simply go to admin > Project Details for each project, and designate your projects as "public". Note that Public projects are listed in Taiga.io's [discover section](https://tree.taiga.io/discover), can be accessed (read only) by anyone with access to the URL and are indexed by search engines.
-- [Export projects](https://tree.taiga.io/support/admin/import-export-projects/)  that you do not use and then delete them. Please delete with care. Once a project is deleted it cannot be recovered! You can also use this option if you wish to downgrade plan. Taiga's pricing plans can be [found here](http://taiga.io#pricing).
+- Sometimes a private project is not really that private and can go public with no harm to the owner and members (it won’t allow other people to change a thing, only see the project’s content). If you like this idea, simply go to admin > Project Details for each project, and designate your projects as "public". Note that Public projects are listed in Taiga.io's [discover section](https://tree.taiga.io/discover), can be accessed (read only) by anyone with access to the URL and are indexed by search engines.
+- [Export projects](https://tree.taiga.io/support/admin/import-export-projects/)  that you do not use (so you have a backup) and then delete them on tree.taiga.io. 
 - A variant on the second option is to export a project, delete it in taiga.io and then import it to a different taiga instance (perhaps your own). Many people are using this as a way to archive projects but is also a way to keep working on them.
 
-Please note that our free tier plan does have a limit of 4 members per private project.
-
-Note that users who have not selected a subscription plan or taken the actions detailed above will not be able to access their private projects starting May 3rd until a specific manual action is taken. Public projects remain unaffected.
 
 ### Q. Can I transfer the ownership of my blocked project?
 A. Transferring the project ownership of a blocked project might be an unexpected burden to the transferee so we would like to avoid that at all costs. The simplest and fastest solution is to simply subscribe to the minimum paid plan on a monthly basis and then do the project ownership transfer normally (the other person would still have to accept clicking on an link sent to him or her via email).
 
-We have a Plan B that will take much longer, which is that both you and the transferee send an email to support@taiga.io explicitly requesting the project ownership transfer for one or more projects where both of you are already members. That will trigger a manual action on our side but you might have to wait a day or two.
+We have a Plan B that will take much longer, which is that both you and the transferee send an email to support@taiga.io explicitly requesting the project ownership transfer for one or more projects where both of you are already members. That will trigger a manual action on our side but you might have to wait a several days.
 
 ### Q. Are there any restrictions in changing the member configuration of my projects?
 A. No. You can change the number of members on your projects anytime. In case you delete one member and add two, you will see the change reflected on your next bill and you would only be charged for the one new user. If on the other hand, you were to add one user and delete two, only one seat will be removed from your bill. Again, you would see that change reflected in the next billing cycle.
@@ -53,13 +93,17 @@ A. No. You can change the number of members on your projects anytime. In case yo
 ### Q. What is my billing cycle?
 A. You will be billed in monthly cycles depending on when you first sign up. So if you are on a monthly plan and start say on May 12th, you will be billed again June 12th.
 
-### Q. What private projects count towards my plan?
+### Q. What private projects count towards my plan [ONLY FOR OLD PRICING PLAN PRIOR TO Feb 2018]?
 A. For a private plan to count, you have to have created it yourself, or ownership of the project has to have been transferred to you. The first private project is always free. After the first project, all new private projects you create will count towards your plan.
 
-### Q. What happens if I create more private projects than allowed by my plan?
+### Q. What happens if I create more private projects than allowed by my plan [ONLY FOR OLD PRICING PLAN PRIOR TO Feb 2018]?
 A. You will be prompted to subscribe to a paid plan if you outgrow the one private project allowed by the Free plan.
 
 ### Q. Do imported projects count towards my plan?
+A. Yes and no. They only count if the imported project adds more Taiga users not previously found at your other owned projects. If the imported project includes members already found at other owned private projects, there won't affect your current plan status. Please be aware that we do not guarantee that a project created with a previous version of Taiga will be importable to the most current version of Taiga. You may have to install it to your own instance running the version of Taiga last used by the exported project, and then upgrade that instance to the latest version of Taiga.
+
+
+### Q. Do imported projects count towards my plan [ONLY FOR OLD PRICING PLAN PRIOR TO Feb 2018]?
 A. Yes. Any imported projects counts towards your plan as would a newly created project. Please be aware that we do not guarantee that a project created with a previous version of Taiga will be importable to the most current version of Taiga. You may have to install it to your own instance running the version of Taiga last used by the exported project, and then upgrade that instance to the latest version of Taiga.
 
 ### Q. Can I chose a currency different from the USD?
@@ -68,13 +112,6 @@ A. For now, we only accept US$ Dollars.
 ### Q. Is it possible to cancel my subscription whenever I want?
 A. Yes, you can cancel at any time. Plans are paid monthly or yearly, so if you cancel, once you do so, the plan will run to the end of the period and not renew.
 
-### Q.  What's about Enterprise Plan?
-A. If you need to have more than 25 members in any one project, please reach out to us for custom pricing.
-
-If your company does not allow the use of SaaS services, you can still consider using Taiga under one of these two scenarios:
-
-* Taiga is an open source software which you can [download](https://github.com/taigaio) and install on your own servers. See [here](https://tree.taiga.io/support/frequently-asked-questions/how-do-i-install-taiga-on-my-own-servers-at-home-or-at-work/) for more information.
-* Alternatively, you can [contact us](mailto:support@taiga.io) for a more personalized solution or extended support.
 
 ---
 order: 10
