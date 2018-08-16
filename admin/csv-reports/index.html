@@ -1,0 +1,215 @@
+
+
+<!doctype html>
+<meta charset="utf-8">
+
+<title>CSV Reports — Taiga Support</title>
+<meta name="description" content="In Taiga you can make reports with some data and graph about your projects. To do that you can use your favorite spreadsheet app and the information about your user stories, tasks and issues in csv (*comma-separated values*) format.
+
+You can obtain the ...">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Style -->
+<link rel="stylesheet" href="">
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- Pygment style -->
+<link rel="stylesheet" href="../../static/pygments.css"> <!-- Pygment css-->
+<!-- Javascript -->
+<script type=text/javascript src="" charset="utf-8"></script>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="header-inside">
+            <a class="main-logo" href="../../">
+                <img class="taiga-logo" src="../../images/icon-taiga-color.png?h=221ec64e" />
+                <h1>TAIGA <span>SUPPORT</span></h1>
+            </a>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </header>
+
+    <div class="main-search">
+        <form method="get" action="../../search/">
+            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
+            <input class="search-button" type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="content-inside">
+            
+    
+    
+	<div class="category">
+        <div class="breadcrumb">
+            <a href=../../>Home</a>
+            ›
+    		<a href="../../admin/custom-fields/">Admin</a>
+        </div>
+
+        
+        <ul class="articles-list">
+            
+            <li>
+                <a href="../../admin/custom-fields/" ">
+                    Custom Fields
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../admin/csv-reports/"  class="active">
+                    CSV Reports
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../admin/import-export-projects/" ">
+                    Import/Export projects
+                </a>
+            </li>
+            
+        </ul>
+        
+	</div>
+    
+
+    
+
+    <div class="article">
+        <h2>CSV Reports</h2>
+
+        
+        <ul class="toc">
+            
+                <li>
+                    <a href="#get-a-csv-file:">Get a csv file:</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#...in-libreoffice">...in LibreOffice</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#use-csv-data-url...">Use csv data url...</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#...in-google-docs">...in Google Docs</a>
+                    
+                </li>
+            
+        </ul>
+        
+
+        <div class="body"><p>In Taiga you can make reports with some data and graph about your projects. To do that you can use your favorite spreadsheet app and the information about your user stories, tasks and issues in csv (<em>comma-separated values</em>) format.</p>
+<p>You can obtain the information like a csv file or like a csv data url, one for user stories, other for tasks and other for issues.</p>
+<h3 id="get-a-csv-file:">Get a csv file:</h3><ol>
+<li>Go to <em>Admin &gt; Project &gt; Reports</em>.<br>
+<img src="../../admin/csv-reports/csv_reports_step1.png" alt="CSV Reports - Step 1" title="CSV Reports - Step 1"></li>
+<li>Click <em>Generate URL</em> link if url doesn't exist yet.<br>
+<img src="../../admin/csv-reports/csv_reports_step2.png" alt="CSV Reports - Step 2" title="CSV Reports - Step 2"></li>
+<li>Click <em>Download CSV</em> buttton to start the download of the csv file.</li>
+</ol>
+<h3 id="...in-libreoffice">...in LibreOffice</h3><ol>
+<li>Use the "Download csv" button and get a local copy of the file</li>
+<li>Click <em>Insert &gt; Sheet from file</em></li>
+<li>Enable the link option and click browse for selecting the downloaded file<br>
+<img src="../../admin/csv-reports/libreoffice_csv.png" alt="CSV reports in LibreOffice" title="CSV reports in LibreOffice"></li>
+</ol>
+<h3 id="use-csv-data-url...">Use csv data url...</h3><ol>
+<li>Go to <em>Admin &gt; Project &gt; Reports</em>.</li>
+<li>Click <em>Generate URL</em> link if url doesn't exist yet.</li>
+<li>Copy the url (the icon on the right of the input is useful to select all text before press Ctrl+C).</li>
+</ol>
+<h3 id="...in-google-docs">...in Google Docs</h3><ol>
+<li>Create a new spreadsheet document.</li>
+<li>Use the function <a href="https://support.google.com/docs/answer/3093335">IMPORTDATA(<URL>)</a> with the generated URL and press <em>ENTER</em>.<br>
+<img src="../../admin/csv-reports/csv_export_1.png" alt="CSV Reports - Google Drive - Step 1" title="CSV Reports - Google Drive - Step 1"></li>
+<li>The information will appear automatically.<br>
+<img src="../../admin/csv-reports/csv_export_2.png" alt="CSV Reports - Google Drive - Step 2" title="CSV Reports - Google Drive - Step 2"></li>
+</ol>
+<p>Remember that you can share the url and regenerate every time you want. And a very important thing: <strong>only the last generated url will be valid for each type</strong>.</p>
+</div>
+    </div>
+
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inside">
+            <span>&copy; Copyright 2014-2016 Taiga Agile LLC.</span>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </footer>
+
+    
+</body>

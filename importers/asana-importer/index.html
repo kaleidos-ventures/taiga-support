@@ -1,0 +1,255 @@
+
+
+<!doctype html>
+<meta charset="utf-8">
+
+<title>Asana importer — Taiga Support</title>
+<meta name="description" content="### How I import a project from Asana?
+
+1. To start the importation project, you have to got to your project menu, and
+click on &#34;Create Project&#34; button.
+
+    ![New project creation](step1.png &#34;New project creation&#34;)
+
+2. After that, you can select how to...">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+<!-- Style -->
+<link rel="stylesheet" href="">
+<!-- Google fonts -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic' rel='stylesheet' type='text/css'>
+<!-- Pygment style -->
+<link rel="stylesheet" href="../../static/pygments.css"> <!-- Pygment css-->
+<!-- Javascript -->
+<script type=text/javascript src="" charset="utf-8"></script>
+
+
+
+<body>
+
+    <header class="header">
+        <div class="header-inside">
+            <a class="main-logo" href="../../">
+                <img class="taiga-logo" src="../../images/icon-taiga-color.png?h=221ec64e" />
+                <h1>TAIGA <span>SUPPORT</span></h1>
+            </a>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </header>
+
+    <div class="main-search">
+        <form method="get" action="../../search/">
+            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
+            <input class="search-button" type="submit" value="Search">
+        </form>
+    </div>
+
+    <div class="content">
+        <div class="content-inside">
+            
+    
+    
+	<div class="category">
+        <div class="breadcrumb">
+            <a href=../../>Home</a>
+            ›
+    		<a href="../../importers/importers/">Importers</a>
+        </div>
+
+        
+        <ul class="articles-list">
+            
+            <li>
+                <a href="../../importers/importers/" ">
+                    Importers
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../importers/jira-importer/" ">
+                    Jira importer
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../importers/asana-importer/"  class="active">
+                    Asana importer
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../importers/trello-importer/" ">
+                    Trello importer
+                </a>
+            </li>
+            
+            <li>
+                <a href="../../importers/github-importer/" ">
+                    Github importer
+                </a>
+            </li>
+            
+        </ul>
+        
+	</div>
+    
+
+    
+
+    <div class="article">
+        <h2>Asana importer</h2>
+
+        
+        <ul class="toc">
+            
+                <li>
+                    <a href="#how-i-import-a-project-from-asana?">How I import a project from Asana?</a>
+                    
+                </li>
+            
+                <li>
+                    <a href="#wich-data-is-imported-and-how?">Wich data is imported, and how?</a>
+                    
+                </li>
+            
+        </ul>
+        
+
+        <div class="body"><h3 id="how-i-import-a-project-from-asana?">How I import a project from Asana?</h3><ol>
+<li><p>To start the importation project, you have to got to your project menu, and
+click on "Create Project" button.</p>
+<p><img src="../../importers/asana-importer/step1.png" alt="New project creation" title="New project creation"></p>
+</li>
+<li><p>After that, you can select how to create the project, in this case we want
+to "Import project".</p>
+<p><img src="../../importers/asana-importer/step2.png" alt="Start import process" title="Start import process"></p>
+</li>
+<li><p>You can select which importer do you want to use, in this case, you have to
+select the "Asana" importer.</p>
+<p><img src="../../importers/asana-importer/step3.png" alt="Select importer" title="Select importer"></p>
+</li>
+<li><p>As soon as you select the asana importer, you will be redirected to the Asana
+authorization page, to allow Taiga to access to your boards (during the next
+day). You have to click "Allow", to continue the process.</p>
+<p><img src="../../importers/asana-importer/step4.png" alt="Authorize access to asana" title="Authorize access to Asana"></p>
+</li>
+<li><p>Then you have to select which asana board want to import.</p>
+<p><img src="../../importers/asana-importer/step5.png" alt="Select Asana board" title="Select Asana board"></p>
+</li>
+<li><p>Once you have selected the board you have to define how you want to import
+the project. This include:</p>
+<ul>
+<li>The title of the project.</li>
+<li>The description of the project.</li>
+<li>If the project is public or private</li>
+<li>If you want to import archived data from Asana.</li>
+<li><p>If you want to keep a link from your taiga User Stories to the original asana cards.</p>
+<p><img src="../../importers/asana-importer/step6.png" alt="Fill new project information" title="Fill new project information"></p>
+</li>
+</ul>
+</li>
+<li><p>Before finish the import process you have to match your Asana users with your
+Taiga users, this allow us to keep assignation, creation and comments author
+information correctly.</p>
+<p><img src="../../importers/asana-importer/step7.png" alt="Select users" title="Select users"></p>
+</li>
+<li><p>Finally, you only have to click "Import" button to start the import process,
+this can take a while, so be patient.</p>
+<p><img src="../../importers/asana-importer/step8.png" alt="Confirm users selection" title="Confirm users selection"></p>
+</li>
+<li><p>After the import process, you can access to your new created project that
+will looks like this.</p>
+<p><img src="../../importers/asana-importer/step9.png" alt="Imported project" title="Imported project"></p>
+</li>
+</ol>
+<h3 id="wich-data-is-imported-and-how?">Wich data is imported, and how?</h3><ul>
+<li>Asana Board as Taiga Kanban Project.</li>
+<li>Board avatar as Project avatar.</li>
+<li>Board columns as Taiga Kanban columns (User story statuses).</li>
+<li>Cards as User Story (Optionally archived cards).</li>
+<li>Cards Checklists tasks as User story tasks.</li>
+<li>Board members as Project members.</li>
+<li>Tags and tags colors.</li>
+<li>Due Date field as Taiga custom field "Due date".</li>
+<li>Comments.</li>
+<li>Attachments.</li>
+<li>Changes in title, description, due date and state.</li>
+<li>Card assignations as User Story assignation for the first, and User Story watchers for the rest.</li>
+</ul>
+</div>
+    </div>
+
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inside">
+            <span>&copy; Copyright 2014-2016 Taiga Agile LLC.</span>
+
+            
+    <nav class="main-nav">
+        <ul>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/" target="_blank"
+                   alt="Go to Taiga docs for admin and developers">
+                    DOCS
+                </a>
+            </li>
+            <li>
+                <a href="https://taigaio.github.io/taiga-doc/dist/api.html" target="_blank"
+                   alt="Go to the Taiga API documentation">
+                    API
+                </a>
+            </li>
+            <li>
+                <a href="https://groups.google.com/d/forum/taigaio" target="_blank"
+                   alt="Go to the Taiga mailing list at Google Groups">
+                    GOOGLE GROUP
+                </a>
+            </li>
+            <li>
+                <a href="https://tree.taiga.io" target="_blank"
+                   alt="Go to Taiga Tree">
+                    TAIGA
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+        </div>
+    </footer>
+
+    
+</body>
