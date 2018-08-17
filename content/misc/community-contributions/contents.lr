@@ -168,6 +168,11 @@ Taiga plugin for Active Directory authentication
 - https://github.com/stemid/taiga-contrib-ad-auth
 - Stefan Midjich [@stemid](https://github.com/stemid)
 
+### taiga-contrib-openid-auth
+Taiga plugin for Openid/Keycloak authentication
+- https://github.com/robrotheram/taiga-contrib-openid-auth
+- Rob Rotheram [@robrotheran](https://github.com/robrotheram)
+
 
 ## Dropbox
 
