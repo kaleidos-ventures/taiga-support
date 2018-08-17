@@ -1,0 +1,30 @@
+title: Project ownership transfer
+---
+body:
+
+### Q. How can I ask for a project to be transferred to me?
+A. The most straightforward way is to first become an admin of that same project. You then simply go to the admin section for that project and alongside the current project owner there is a "Request onwership" link. Follow its instructions and wait for email confirmation.
+
+If you are not an admin of that project, you can ask the project owner to make you one first. 
+
+Please be aware that Taiga won't allow you to inherit the project ownership if by doing so, it would exceed your current plan limit.
+
+### Q. How can I transfer a project to a different Taiga user?
+A. First, make sure the other user belongs to your project. Then go to the project admin section and next to your name and avatar there will be a "Change owner" link. Follow its instructions and wait for email confirmation.
+
+Please be aware that Taiga won't allow you to tranfer the project ownership if by doing so, the other user would exceed their current plan limit.
+
+### Q. Can I transfer the ownership of my blocked project?
+A. Transferring the project ownership of a blocked project might be an unexpected burden to the transferee so we would like to avoid that at all costs. The simplest and fastest solution is to simply subscribe to the minimum paid plan on a monthly basis and then do the project ownership transfer normally (the other person would still have to accept clicking on an link sent to him or her via email).
+
+We have a Plan B that will take much longer, which is that both you and the transferee send an email to support@taiga.io explicitly requesting the project ownership transfer for one or more projects where both of you are already members. That will trigger a manual action on our side but you might have to wait a several days.
+
+### Q. Help! How can I request project ownership from a user that doesn't exist anymore or whom I don't have any contact?
+A. It is not uncommon to find yourself belonging to a project whose owner left your organisation or is out of reach for whatever reason. If you think you're stuck in this situation, you will need to contact us directly and provide as much proof as possible that you should be transferred the project ownership. If there are other project members that can support your claim, ask them to write to us too. Changing project ownership is a serious matter and we have to deal with these particular scenarios with great care and responsibility.
+
+Also, please note that it is very often the case that you might not have a valid subscription plan to inherit the project ownership. To speed things up, make sure you already have activated the premium plan so that once we approve the project ownership change, it is a trivial matter to us to assign it to you.
+
+---
+order: 15
+---
+is_featured: true

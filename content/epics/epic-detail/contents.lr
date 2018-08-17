@@ -20,6 +20,8 @@ Your Epic can be composed of multiple User Stories across multiple projects.
 
 ![Epics link](epic_link.jpg "Link Epics to user Stories")
 
+You can also create a relationship between the User Story and an Epic from the User Story detail page. You will find the button to do just below the User Story's title.
+
 ---
 order: 40
 ---
