@@ -35,7 +35,9 @@ You can obtain the information like a csv file or like a csv data url, one for e
 3. The information will appear automatically.
    ![CSV Reports - Google Drive - Step 2](csv_export_2.png "CSV Reports - Google Drive - Step 2")
 
-Remember that you can share the url and regenerate every time you want. And a very important thing: **only the last generated url will be valid for each type**.
+Remember that you can share the url but you should note that **anyone who knows it can download a report with no further authentication**.
+
+You can expire an url by regenerating it because **only the last generated url will be valid for each type**. You can also delete it if you prefer.
 
 ---
 order: 30
