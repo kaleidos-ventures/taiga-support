@@ -4,7 +4,7 @@ body:
 
 In Taiga you can make reports with some data and graph about your projects. To do that you can use your favorite spreadsheet app and the information about your user stories, tasks and issues in csv (*comma-separated values*) format.
 
-You can obtain the information like a csv file or like a csv data url, one for user stories, other for tasks and other for issues.
+You can obtain the information like a csv file or like a csv data url, one for epics, one for user stories, other for tasks and other for issues.
 
 ### Get a csv file:
 
