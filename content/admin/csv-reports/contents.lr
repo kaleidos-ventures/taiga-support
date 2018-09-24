@@ -4,13 +4,13 @@ body:
 
 In Taiga you can make reports with some data and graph about your projects. To do that you can use your favorite spreadsheet app and the information about your user stories, tasks and issues in csv (*comma-separated values*) format.
 
-You can obtain the information like a csv file or like a csv data url, one for user stories, other for tasks and other for issues.
+You can obtain the information like a csv file or like a csv data url, one for epics, one for user stories, other for tasks and other for issues.
 
 ### Get a csv file:
 
-1. Go to *Admin > Project > Reports*.  
+1. Go to *Admin > Project > Reports*.
    ![CSV Reports - Step 1](csv_reports_step1.png "CSV Reports - Step 1")
-2. Click *Generate URL* link if url doesn't exist yet.  
+2. Click *Generate URL* link if url doesn't exist yet.
    ![CSV Reports - Step 2](csv_reports_step2.png "CSV Reports - Step 2")
 3. Click *Download CSV* buttton to start the download of the csv file.
 
@@ -18,7 +18,7 @@ You can obtain the information like a csv file or like a csv data url, one for u
 
 1. Use the "Download csv" button and get a local copy of the file
 2. Click *Insert > Sheet from file*
-3. Enable the link option and click browse for selecting the downloaded file  
+3. Enable the link option and click browse for selecting the downloaded file
    ![CSV reports in LibreOffice](libreoffice_csv.png "CSV reports in LibreOffice")
 
 ### Use csv data url...
@@ -30,12 +30,14 @@ You can obtain the information like a csv file or like a csv data url, one for u
 ### ...in Google Docs
 
 1. Create a new spreadsheet document.
-2. Use the function [IMPORTDATA(<URL>)](https://support.google.com/docs/answer/3093335) with the generated URL and press *ENTER*.  
+2. Use the function [IMPORTDATA(<URL>)](https://support.google.com/docs/answer/3093335) with the generated URL and press *ENTER*.
    ![CSV Reports - Google Drive - Step 1](csv_export_1.png "CSV Reports - Google Drive - Step 1")
-3. The information will appear automatically.  
+3. The information will appear automatically.
    ![CSV Reports - Google Drive - Step 2](csv_export_2.png "CSV Reports - Google Drive - Step 2")
 
-Remember that you can share the url and regenerate every time you want. And a very important thing: **only the last generated url will be valid for each type**.
+Remember that you can share the url but you should note that **anyone who knows it can download a report with no further authentication**.
+
+You can expire an url by regenerating it because **only the last generated url will be valid for each type**. You can also delete it if you prefer.
 
 ---
 order: 30
