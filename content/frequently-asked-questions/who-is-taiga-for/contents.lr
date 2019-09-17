@@ -14,7 +14,7 @@ Taiga is an alternative for users who are unhappy with their project management 
 
 Fortunately, there are many tools to chose from, some of them pretty terrific. But many are just _another me-too project management tool_ lacking purpose. We're obsessed with usability, speed, beauty, simplicity and power. We want to offer these features in an Open Source environment so that together we can continue to build a best-in-class tool.
 
-Initially we built Taiga for ourselves, to manage our own projects. But the more we improved the tool, the more we realized we had to share it with others. When building it we knew we would provide a useful tool that people would love if:
+Initially we built Taiga for ourselves, to manage our own projects. The more we improved the tool, the more we realized we had to share it with others. When building it we knew we would provide a useful tool that people would love if:
 
 - it's fun to use.
 - it's intuitive.
