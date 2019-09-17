@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[pygments.lexers]
+markdown = pygments_markdown_lexer.lexer:MarkdownLexer
+

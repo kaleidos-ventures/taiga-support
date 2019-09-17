@@ -1,0 +1,31 @@
+Metadata-Version: 2.0
+Name: Lektor
+Version: 2.2
+Summary: A static content management system.
+Home-page: http://github.com/lektor/lektor/
+Author: Armin Ronacher
+Author-email: armin.ronacher@active-4.com
+License: BSD
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Jinja2 (>=2.4)
+Requires-Dist: click (>=6.0)
+Requires-Dist: watchdog
+Requires-Dist: mistune
+Requires-Dist: Flask
+Requires-Dist: EXIFRead
+Requires-Dist: inifile
+Requires-Dist: Babel
+Requires-Dist: setuptools
+Requires-Dist: pip
+Requires-Dist: requests[security]
+
+UNKNOWN
+
+
