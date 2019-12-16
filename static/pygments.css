@@ -15,6 +15,8 @@
 .gd { color: #f92672 } /* Generic.Deleted */
 .ge { font-style: italic } /* Generic.Emph */
 .gi { color: #a6e22e } /* Generic.Inserted */
+.go { color: #66d9ef } /* Generic.Output */
+.gp { color: #f92672; font-weight: bold } /* Generic.Prompt */
 .gs { font-weight: bold } /* Generic.Strong */
 .gu { color: #75715e } /* Generic.Subheading */
 .kc { color: #66d9ef } /* Keyword.Constant */
