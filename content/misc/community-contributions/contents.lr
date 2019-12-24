@@ -83,6 +83,11 @@ Another Docker / Docker Compose config for taiga. Every service is containerized
 - https://github.com/douglasmiranda/docker-taiga
 - Douglas Miranda [@douglasmiranda](https://github.com/douglasmiranda)
 
+### taiga-containers
+A docker container that combines all Taiga services in one container that can be ran multiple times. Also includes the OpenID authentication plugins and an LDAP synchronization service. 
+- https://github.com/PrehensileTales/taiga-containers
+- Hein-Pieter van Braam [@hpvb](https://github.com/hpvb)
+
 ## Chef
 
 ### taiga-cookbook
