@@ -8,7 +8,7 @@ body:
 
 ### Developer Mode
 
-It's a manual process. You configure some services and it's fast a simple. This is ideal for those who want to play with Taiga in their own local environment.
+It's a manual process. You configure some services and it's fast and simple. This is ideal for those who want to play with Taiga in their own local environment.
 
 Check out [our documentation](http://taigaio.github.io/taiga-doc/dist/#_setup_development_environment "See Taiga Documentation for Devs & SysAdmins > Setup development environment")
 
