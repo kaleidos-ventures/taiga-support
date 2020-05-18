@@ -14,12 +14,12 @@ By making your project “public”, you enjoy the following advantages:
 - Projects that are public are listed in the “discover” directory of Taiga.io, providing you with great exposure. You can also share the project URL with your own networks to build awareness of your project.
 - Projects that are public can be used to showcase your work and expose your project plan, project backlog and current development status.
 - Projects that are public allow anyone, not just project members to follow development on your project by becoming “observers” of specific user stories or tasks. Non members can provide feedback and interest level by favoriting or upvoting specific user stories. Non members will gain a deeper understanding of the scope of your project and dive into the details of what you are doing (on a read only basis).
-- Projects that are public can be set up as an issue trackers, allowing non members to provide feedback. As an example see: https://tree.taiga.io/project/openswitch/issues
+- Projects that are public can be set up as issue trackers, allowing non members to provide feedback. As an example see: https://tree.taiga.io/project/openswitch/issues
 - Projects that are public allow you to meet and follow the members involved in those projects.
 
 Of course there are many projects that are sensitive in nature and require privacy. Taiga.io offers privacy in two ways. You can freely access the Taiga source code under an Open Source license and operate your own server, or alternatively you can access Taiga.io's cloud-based platform and maintain complete privacy by subscribing to one of our (very affordable) paid plans.
 
-Finally, "private" projects do allow for certain modules to be made public. For example, you may wish for all modules of a given project to be private except for your wiki section. To make that (or any other) module public, you must have project admin privileges. Go to the project admin section by enabling the appropriate permissions of the "external user" setting. If you enable any visibility permission for "external users", you should be aware that your project will appear in our discover section and  Google or other search engines will be able to index it too.
+Finally, "private" projects do allow for certain modules to be made public. For example, you may wish for all modules of a given project to be private except for your wiki section. To make that (or any other) module public, you must have project admin privileges. Go to the project admin section and enable the appropriate permissions of the "external user" setting. If you enable any visibility permission for "external users", you should be aware that your project will appear in our discover section and  Google or other search engines will be able to index it too.
 
 ![Admin > Roles > External users](admin-roles-external_users-public_project.png "'Admin > Roles > External ussers' permissions panel")
 
