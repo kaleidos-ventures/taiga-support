@@ -72,21 +72,30 @@ A minimalistic and easily configurable taiga.io Docker image.
 - https://github.com/tubia/accollo
 - Tubia [@tubia](https://github.com/tubia/)
 
-### docker-taiga
+### docker-taiga (benhutchins)
 Docker container for Taiga
 - https://github.com/benhutchins/docker-taiga
 - Benjamin Hutchins [@benhutchin](https://github.com/benhutchins)
 - https://hub.docker.com/r/benhutchins/taiga/
 
-### docker-taiga
+### docker-taiga (douglasmiranda)
 Another Docker / Docker Compose config for taiga. Every service is containerized using official images.
 - https://github.com/douglasmiranda/docker-taiga
 - Douglas Miranda [@douglasmiranda](https://github.com/douglasmiranda)
+
+### docker-taiga (Monogramm)
+A complete Docker / Docker Compose config for taiga. Adds several contribution plugins with easy configuration properties. Every service is containerized using alpine images. Base images without any plugins are also available.
+- https://github.com/Monogramm/docker-taiga
+- https://github.com/Monogramm/docker-taiga-front-base
+- https://github.com/Monogramm/docker-taiga-back-base
+- https://github.com/Monogramm/docker-taiga-events
+- Monogramm [@Monogramm](https://github.com/Monogramm)
 
 ### taiga-containers
 A docker container that combines all Taiga services in one container that can be ran multiple times. Also includes the OpenID authentication plugins and an LDAP synchronization service. 
 - https://github.com/PrehensileTales/taiga-containers
 - Hein-Pieter van Braam [@hpvb](https://github.com/hpvb)
+
 
 ## Chef
 
@@ -155,7 +164,7 @@ FAS Openid Auth plugin for taiga
 
 ### taiga-contrib-ldap-auth-ext
 Taiga plugin for LDAP authentication
-- https://github.com/madmath03/taiga-contrib-ldap-auth-ext
+- https://github.com/Monogramm/taiga-contrib-ldap-auth-ext
 - Monogramm [@Monogramm](https://github.com/Monogramm)
 
 ### taiga-contrib-kerberos-auth
