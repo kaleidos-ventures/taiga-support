@@ -5,9 +5,9 @@ body:
 ### Q. What is the Doomline?
 A. The Doomline (AKA Project Scope) is the estimated set of User Story points that will be delivered at the end of the project.
 
-Typically, when the User Stories of the backlog are estimated, the Doomline will show all the User Stories that, according to our current estimation, backlog priorization and project scope configuration, will become the expected product.
+Typically, when the User Stories of the backlog are estimated, the Doomline will show all the User Stories that, according to our current estimation, backlog prioritization and project scope configuration, will become the expected product.
 
-The Doomline is visible in our interface in the backlog module. If we configured it in the admin area, as a red bar amongst our User Stories. That is your project scope.
+The Doomline is visible in our interface in the backlog module, if we configured it in the admin area, as a red bar amongst our User Stories. That is your project scope.
 
 ![Doomline](doomline.jpg "Doomline")
 
