@@ -10,7 +10,7 @@ Users with administration permissions will be able to create new custom fields f
 ### 1. Configure Custom Fields
 
 1. Go to one of your Taiga projects.
-2. Click on *admin* button. _In this example we will focus on User Stories, but this feature is also available on tasks and issues, and the same steps should be followed to edit them._
+2. Click on the *admin* button. _In this example we will focus on User Stories, but this feature is also available on tasks and issues, and the same steps should be followed to edit them._
 3. Go to *Attributes > US* and scroll down to the custom fields configuration.
 4. Fill in the name and description of your custom field. Remember your custom field needs a context for other users to understand it correctly.  
    ![Custom Fields Configuration](customfields01.png "Custom Fields Configuration")
