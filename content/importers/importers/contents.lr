@@ -2,7 +2,7 @@ title: Importers
 ---
 body:
 
-Taiga importers are designed for easy the migration of data from others
+Taiga importers are designed to ease the migration of data from others
 platforms, and try to keep as much data as possible (including history and
 comments, when it is available), to ensure you don't miss anything when you
 bring your project into Taiga.
