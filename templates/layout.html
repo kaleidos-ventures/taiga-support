@@ -32,13 +32,6 @@
         </div>
     </header>
 
-    <div class="main-search">
-        <form method="get" action="{{ '/search'|url }}">
-            <input class="input-text" type="text" name="q" placeholder="Search in Taiga Support pages">
-            <input class="search-button" type="submit" value="Search">
-        </form>
-    </div>
-
     <div class="content">
         <div class="content-inside">
             {% block body %}{% endblock %}
@@ -47,7 +40,7 @@
 
     <footer class="footer">
         <div class="footer-inside">
-            <span>&copy; Copyright 2014-2016 Taiga Agile LLC.</span>
+            <span>&copy; Copyright 2014-2019 Taiga Agile LLC.</span>
 
             {{ render_main_nav_menu() }}
         </div>

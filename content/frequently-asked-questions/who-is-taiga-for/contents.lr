@@ -12,9 +12,9 @@ Taiga was built with an Open Source philosophy. We wish to empower a global comm
 
 Taiga is an alternative for users who are unhappy with their project management tool, or for students and others who are adopting a tool for the first time.
 
-Fortunately, there are many tools to chose from, some of them pretty terrific. But many are just _another me-too project management tool_ lacking purpose. We re obsessed with usability, speed, beauty, simplicity and power. We want to offer these features in an Open Source environment so that together we can continue to build a best-in-class tool.
+Fortunately, there are many tools to chose from, some of them pretty terrific. But many are just _another me-too project management tool_ lacking purpose. We're obsessed with usability, speed, beauty, simplicity and power. We want to offer these features in an Open Source environment so that together we can continue to build a best-in-class tool.
 
-Initially we built Taiga for ourselves, to manage our own projects. But the more we improved the tool, the more we realized we had to share it with others. When building it we knew we would provide a useful tool that people would love if:
+Initially we built Taiga for ourselves, to manage our own projects. The more we improved the tool, the more we realized we had to share it with others. When building it we knew we would provide a useful tool that people would love if:
 
 - it's fun to use.
 - it's intuitive.
@@ -31,7 +31,7 @@ We think we're getting there. And with your help. We know we will have the tool 
 
 If you are familiar with agile methodologies, you can jump right in. No need to see videos, read manuals or get trained. Just dig around our documentation and this support page for a quick overview.
 
-When you first create a project you'll be asked if you want to use the Kanban template, or the Scrum template. If you're unsure, select either. You can later enable them both. You can decide which to keep later, and you can switch back and forth between using either or both at any time.
+When you first create a project you'll be asked if you want to use the Kanban template or the Scrum template. If you're unsure, select either. You can later enable them both. You can decide which to keep later, and you can switch back and forth between using either or both at any time.
 
 If you need something and you don't find an answer here, please contact us and we will help you.
 

@@ -4,7 +4,7 @@ body:
 
 *There are important considerations governing the Affero GPL license in use by Taiga. Please be sure you are familiar with your rights and obligations before starting to work on the Taiga code.*
 
-Since the open source license covering Taiga is AGPL, you can freely clone/fork the repo and make any modifications you want. Just remember the basic condition that the Affero GPL brings to the table; any Taiga instance must easily provide to all users,  a link to the source code that is running that particular Taiga service.
+Since the open source license covering Taiga is AGPL, you can freely clone/fork the repo and make any modifications you want. Just remember the basic condition that the Affero GPL brings to the table: any Taiga instance must easily provide to all users a link to the source code that is running that particular Taiga service.
 
 If you don't make any changes to the code, the link is pretty simple, it's just a link to Taiga's github repo. But if you intend to make adaptations or changes, you must provide a (de-facto) zero-cost way to obtain the complete modified source code. The easiest way would be to fork the repo on github and point your users to that forked repo (you can place that link in the documentation somewhere).
 
