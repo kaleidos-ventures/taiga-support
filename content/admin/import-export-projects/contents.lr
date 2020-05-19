@@ -2,7 +2,7 @@ title: Import/Export projects
 ---
 body:
 
-Taiga import/export feature allow you to extract all your data from one Taiga instance and move it to another one keeping.
+Taiga import/export feature allows you to extract all your data from one Taiga instance and move it to another one.
 
 
 Exporting a project
@@ -32,6 +32,7 @@ Importing a project
 !! The project import in taiga doesn't migrate users, only project data, if you want to keep the users relation with the project correctly, you have to create the users before you import the project. Important, the matching of users with the import data will be done through case-sensitive email addresses.
 
 !!! If the import fails, please contact with support@taiga.io or ask through the Taiga Google Group: https://groups.google.com/forum/#!forum/taigaio
+
 Once you have a dump of your project, you can import it in other taiga instance.
 
 - In your web browser, sign into the Taiga instance you wish to import the project into.

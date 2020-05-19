@@ -21,10 +21,10 @@ Taiga emits a webhook when
 
 ### First: Configure the third party service
 
-The first of all is to be sure that the service supports the Taiga webhooks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
+First of all, be sure that the service supports the Taiga webhooks and it's able to understand and process the messages Taiga sends. If we are sure that it's possible we can start:
 
-1. Go to your service and search support about how to enable Taiga webhooks and do it.
-2. After enabled it you need to Copy the *payload url* for the webhook and the *secret key*.
+1. Go to your service and search for support about how to enable Taiga webhooks, and do it.
+2. After enabling it, you need to Copy the *payload url* for the webhook and the *secret key*.
    - The *payload url* is the service endpoint that will receive the information sent by Taiga.
    - A *secret key* is a string (long is better) that is used to encrypt and decrypt a message so that only those who know the key can decrypt and read it.
 
