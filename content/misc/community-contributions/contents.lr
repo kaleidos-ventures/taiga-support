@@ -96,6 +96,11 @@ A docker container that combines all Taiga services in one container that can be
 - https://github.com/PrehensileTales/taiga-containers
 - Hein-Pieter van Braam [@hpvb](https://github.com/hpvb)
 
+### docker-taiga (m0wer)
+A small Docker Image for the open-source project management software Taiga.io.
+- https://github.com/m0wer/docker-taiga
+- https://hub.docker.com/r/m0wer/docker-taiga/
+- m0wer [@m0wer](https://github.com/m0wer)
 
 ## Chef
 
