@@ -2,6 +2,15 @@ title: Jira importer
 ---
 body:
 
+### Important notice about Jira releases and Taiga compatibility
+
+  * Taiga support Jira releases up to 8.3.5. It has been tested and should work out of the box.
+  * Taiga might support Jira releases from 8.3.5 to 8.5.x. Most probably it works.
+  * Taiga does not support Jira releases from 8.6.
+
+If you encounter any issues with the Jira to Taiga importer please write to support@taiga.io. We are always happy to find challenging Jira projects to polish our importer.
+It is important that you always use the latest Taiga release to perform Jira projects imports so we can more easily reproduce the issue you might be facing.
+
 ### What I need to import from Jira?
 
 1. You need to configure in your Jira the access from Taiga that allows you to
