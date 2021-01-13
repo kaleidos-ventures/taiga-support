@@ -1,22 +1,29 @@
-title: How does the backlog module works?
+title: How does the Backlog module work?
 ---
 body:
 
-### Q. What is the backlog?
-A. A backlog is a prioritized collection of user stories and tasks that the team needs to work upon in the future. A Product backlog is related to the tasks to be done for the overall product, including those that fit in the project scope and those that will not fit in the current project but could be done in the future.
+### Q. What is the Product Backlog?
 
-Typically, the backlog will be estimated and prioritized so the team can start working on the User Stories that sit on the top of the collection.
+A. Product Backlog is an agile team's primary tool for scope management on a given project. The Product Backlog should give the team's Product Owner a real-time view into the current state of all known work. This includes work already done in the past, work currently in flight, as well as work planned for the future. A good Product Backlog allows an agile team to move swiftly with both speed and predictability.
 
-In the following picture, User Stories that sit on the top of the pile should be ready to go into the next sprint and start being worked on.
+A Product Backlog is a list of user stories, ranked in priority order of importance. Stories near the top of the backlog are considered the most important items for the team to work on next. Prioritization of stories is a collaborative activity performed by the Product Owner and Product Manager working in partnership. The Product Owner knows the business value of the work while the Product Manager understands relative size and complexity. The Product Manager knows the relative size and complexity of stories through continuous communication with the development team.
+
+In the picture below, User Stories sitting at the top of the backlog are ready to be added into the next sprint. Once the User Stories are added to the sprint, the development team can begin picking up the work.
 
 ![Backlog](backlog.jpg "Backlog")
 
 ### Q. What is a sprint?
-A. Sprint is the scrum term for an iteration. An iteration is a period when the team works to produce the next increment of the finished product.
+A. Sprint is the scrum term for an iteration. An iteration is a fixed period of time in which the team works together to produce the next increment of the product.
 
-In order to work on a focused subset of User Stories that will not change while the team is working on them, we create a separate area, named Sprint. The team is committed to produce and deliver this subset on a specific period. When all User Stories of a Sprint are done, that Sprint will be closed and a new iteration could start.
+Once a sprint is started, scope is traditionally considered fixed. This means that new stories may not be added to the current sprint unless a story of equal weight (in points) is removed to compensate. This is how the team can ensure that there is no "scope creep" - attempting to pack in more work after the sprint commitments have been made.
 
-A common workflow would be to create a new sprint and drag the top User Stories from the backlog into the new sprint to ensure that the team, with its fullest dedication, can afford to deliver into an specific date. When there is consensus on what the team will be focused on during the sprint, the sprint starts.
+Once all of the User Stories in a sprint are done, there are multiple options for how to proceed. If the sprint is not yet finished in terms of calendar time, additional User Stories may be added so that the team may continue executing until the end of the sprint. Figuring out which stories to add should be a collaborative activity for the entire team. It is also acceptable to simply close the sprint and plan a new one.
+
+If the sprint ends and all work is not yet completed, the Product Owner and Product Manager may decide whether to "roll over" unfinished stories into the next Sprint. The Product Owner and Product Manager may also decide to deprioritize the unfinished stories for a later sprint.
+
+Additionally, the team should attempt to learn why they were not able to complete all the work for the sprint during a retrospective session.
+
+A common workflow is to create a new Sprint and drag the User Stories at the top of the backlog into the new sprint to ensure that the team, with its fullest dedication, are able to deliver all the work by a mutually agreed-upon date. When there is consensus on what the team will be focused on during the sprint, the sprint starts.
 
 ![Sprint](sprint.jpg "Sprint")
 
